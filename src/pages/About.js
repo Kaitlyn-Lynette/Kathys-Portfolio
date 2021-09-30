@@ -10,6 +10,7 @@ const About = () => {
           <Col><Image src="../images/KathySplash1472x595.png" width="100%" fluid /></Col>
         </Row>
       </Container>
+      
     </div>
   );
 };
