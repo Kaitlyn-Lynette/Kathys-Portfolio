@@ -1,7 +1,6 @@
 import NavExample from "./components/NavExample";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import Other from "./pages/Other";
 import Services from "./pages/Services";
 import Testimonials from "./pages/Testimonials";
 import Work from "./pages/Work";
@@ -15,7 +14,6 @@ function App() {
         <Row>
           <About />
           <Contact />
-          {/* <Other /> */}
           <Services />
           <Testimonials />
           <Work />
