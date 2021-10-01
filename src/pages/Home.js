@@ -1,12 +1,12 @@
 import React from 'react'
-import NavExample from "../components/NavExample";
+import Navigation from "../components/Navigation";
 import SplashImage from "../components/SplashImage";
 
 
 const Home = () => {
     return (
         <div>
-            <NavExample />
+            <Navigation />
             <SplashImage />
         </div>
     )

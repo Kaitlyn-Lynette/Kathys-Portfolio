@@ -18,7 +18,7 @@
 
 .nav-brand {
     color: gray;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 40px;
     padding-left: 22px;
 }
@@ -27,6 +27,7 @@
     color: #808080;
 }
 
+/* div that houses all navigation items */
 .nav-links {
     font-size: 14px;
     padding-right: 22px;
@@ -34,6 +35,16 @@
     -webkit-transition: all ease-in-out 0.4s;
     transition: all ease-in-out 0.4s;
 }
+
+/* vertical line between navigation items  */
+.nav-item {
+    border-right: 0.5px solid #808080 !important;
+    line-height: 0.5px
+}
+/* removed the line from the last navigation item */
+.nav-item:last-child {
+    border-right: none !important;
+ }
 
 .navbar-collapse {
     flex-basis: 100%;
