@@ -1,9 +1,9 @@
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
+import Image from "react-bootstrap/Image";
 import "./Navigation.css";
 
 const Navigation = () => {
-  const name = "Katherine Perez";
   const navOne = "About";
   const navTwo = "Work";
   const navThree = "Services";
@@ -13,7 +13,7 @@ const Navigation = () => {
   return (
   
     <Navbar  collapseOnSelect expand="lg" sticky="top">
-      <Navbar.Brand className="nav-brand"> {name}</Navbar.Brand>
+      <Image src="/images/Kathy_Logo_500x100px-transparent.png" className="nav-brand" />
       <Nav className="nav-links">
         <Nav.Link className="nav-item" href="#about">{navOne}</Nav.Link>
         <Nav.Link className="nav-item" href="#work">{navTwo}</Nav.Link>
