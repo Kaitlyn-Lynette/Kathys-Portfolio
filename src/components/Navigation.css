@@ -41,7 +41,7 @@
 /* vertical line between navigation items  */
 .nav-item {
     border-right: 0.5px solid #808080 !important;
-    line-height: 1px;
+    line-height: 0.5px;
 }
 
 .nav-item a:hover {
@@ -70,5 +70,9 @@
         text-decoration: none;
         white-space: nowrap;
         background-color: transparent;
-        border: 0;
-    }
+        border: 0;}
+
+        .dropdown-toggle nav-link {
+            padding-bottom: 8px;
+            padding-top: 5px;
+        }
