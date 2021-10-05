@@ -6,10 +6,10 @@ import Row from "react-bootstrap/Row";
 const SplashImage = () => {
   return (
     <div>
-      <Container fluid ="lg">
+      <Container fluid="lg"> 
         <Row>
           <Col>
-            <Image src="../images/KathySplash1472x595.png" width="100%" fluid />
+            <Image src="../images/KathySplash1472x595.png" width="100%"/>
           </Col>
         </Row>
       </Container>
