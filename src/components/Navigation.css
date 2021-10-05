@@ -1,5 +1,11 @@
 /* styling that moves the navigation to the right */
-.navbar {
+.navbar-collapse {
+    flex-basis: 100%;
+    /* flex-grow: 1; */
+    align-items: center;
+}
+
+.navbar-nav {
     display: flex;
     justify-content: space-between;
     align-items: center; 
@@ -19,7 +25,7 @@
 
 /* css for the name */
 .nav-brand {
-    font-size: 25px;
+    font-size: 20px;
     line-height: 40px;
     padding-left: 22px;
 }
@@ -72,7 +78,7 @@
         background-color: transparent;
         border: 0;}
 
-        .dropdown-toggle nav-link {
-            padding-bottom: 8px;
-            padding-top: 5px;
-        }
+    .dropdown-toggle nav-link {
+        padding-top: 5px
+    }
+        
