@@ -1,5 +1,7 @@
-import NavExample from "./components/NavExample";
-import About from "./pages/About";
+// import NavExample from "./components/NavExample";
+// import About from "./pages/About";
+// import SplashImage from "./components/SplashImage";
+import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Services from "./pages/Services";
 import Testimonials from "./pages/Testimonials";
@@ -12,10 +14,11 @@ import "./index.css";
 function App() {
   return (
     <div>   
-      <NavExample />
+      {/* <NavExample /> */}
+      <Home/>
       <Container>
         <Row>
-          <About />
+          {/* <About /> */}
           <Contact />
           <Services />
           <Testimonials />
