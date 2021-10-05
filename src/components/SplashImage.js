@@ -1,12 +1,20 @@
 import Image from "react-bootstrap/Image";
-
+import Container from "react-bootstrap/Container";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
 
 const SplashImage = () => {
-    return (
-        <div>
+  return (
+    <div>
+      <Container fluid ="lg">
+        <Row>
+          <Col>
             <Image src="../images/KathySplash1472x595.png" width="100%" fluid />
-        </div>
-    )
-}
+          </Col>
+        </Row>
+      </Container>
+    </div>
+  );
+};
 
-export default SplashImage
+export default SplashImage;

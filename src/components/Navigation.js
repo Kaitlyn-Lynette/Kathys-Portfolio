@@ -16,7 +16,7 @@ const Navigation = () => {
     <Navbar collapseOnSelect expand="lg" sticky="top">
       <Container fluid>
       <Navbar.Brand>
-      <Image
+      <Image 
         src="/images/Kathy_Logo_500x100px-transparent.png"
         className="nav-brand"
       /></Navbar.Brand>
