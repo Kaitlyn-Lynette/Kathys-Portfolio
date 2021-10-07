@@ -27,7 +27,7 @@ const Navigation = () => {
           <NavDropdown title={navTwo} id="basic-nav-dropdown">
             <NavDropdown.Item href="#work">Book Edits</NavDropdown.Item>
             <NavDropdown.Item href="#work">
-              Writing Projects
+              Copywriting
             </NavDropdown.Item>
             <NavDropdown.Item href="#work">Personal Writing</NavDropdown.Item>
             <NavDropdown.Divider />
