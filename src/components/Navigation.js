@@ -13,7 +13,7 @@ const Navigation = () => {
   const navFive = "Contact";
 
   return (
-    <Navbar collapseOnSelect expand="lg" sticky="top">
+    <Navbar collapseOnSelect expand="lg" sticky="top" variant="light" bg="light" >
       <Container fluid>
       <Navbar.Brand>
       <Image 

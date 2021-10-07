@@ -1,13 +1,13 @@
 import React from 'react'
-import Navigation from "../components/Navigation";
 import SplashImage from "../components/SplashImage";
+import "../App.css"
 
 
 const Home = () => {
     return (
-        <div>
-            <Navigation />
-            <SplashImage />
+        <div id="home">
+        {/* <Navigation /> */}
+        <SplashImage />
         </div>
     )
 }
