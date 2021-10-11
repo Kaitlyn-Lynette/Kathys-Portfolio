@@ -16,11 +16,10 @@ function App() {
       <Navigation />
       <Home/>
       <About />
+      <Work />
       <Contact />
       <Services />
       <Testimonials />
-      <Work />
-    
     </div>
   );
 }
