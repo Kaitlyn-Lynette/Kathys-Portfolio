@@ -17,9 +17,11 @@ function App() {
       <Home/>
       <About />
       <Work />
-      <Contact />
-      <Services />
       <Testimonials />
+      <Services />
+      <Contact />
+     
+      
     </div>
   );
 }

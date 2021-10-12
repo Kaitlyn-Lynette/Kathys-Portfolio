@@ -14,7 +14,7 @@ const Work = () => {
   return (
     <div id="work">
       <Container>
-        <Row style={{paddingTop: "22px", paddingBottom: "22px"}}>
+        <Row style={{paddingBottom: "22px"}}>
           <Col xs={6}>
             <h5
               style={{
