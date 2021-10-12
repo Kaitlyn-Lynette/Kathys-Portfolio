@@ -7,7 +7,7 @@ import Card from "react-bootstrap/Card";
 const Work = () => {
   const projects = [
     "Books Edits",
-    "Copywriting & Social Media",
+    "Copywriting",
     "Personal Pieces",
     "Read with Coffee",
   ];
@@ -32,8 +32,8 @@ const Work = () => {
         </Row>
         <Row>
           {projects.map((project, idx) => (
-            <Col xs={6}>
-              <Card key={idx} text={projects} style={{ marginBottom: "20px" }}>
+            <Col md={3} sm={6}>
+              <Card key={idx} text={projects} style={{ marginBottom: "20px", backgroundColor: '#EAC493', width: "252px"}}>
                 <Card.Body>
                   <Card.Title>{project}</Card.Title>
                   <Card.Text>
