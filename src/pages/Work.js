@@ -5,38 +5,49 @@ import Row from "react-bootstrap/Row";
 import Card from "react-bootstrap/Card";
 
 const Work = () => {
-    const projects = 
-  [
+  const projects = [
     "Books Edits",
     "Copywriting & Social Media",
     "Personal Pieces",
     "Read with Coffee",
   ];
   return (
-  <div id="work">
-      {projects.map((project,idx)=> (
-          <Container>
-          <Row xs={2} md={4} lg={6}className="g-4">
-          <Col>
-            <Card
-            key={idx}
-            text={projects}
-            style={{ width: '18rem' }}
+    <div id="work">
+      <Container>
+        <Row style={{paddingTop: "22px", paddingBottom: "22px"}}>
+          <Col xs={6}>
+            <h5
+              style={{
+                fontSize: "14px",
+                letterSpacing: "0.5px",
+              }}
             >
-            <Card.Body>
-                <Card.Title>{project} Card Title </Card.Title>
-                <Card.Text>
-                Some quick example text to build on the card title and make up the bulk
-                of the card's content.
-                </Card.Text>
-            </Card.Body>
-            </Card>
-        </Col>
+              Featured Work
+            </h5>
+            <h4 style={{ fontSize: "18px",  lineHeight: "25px"}}>
+              I design creative stuffs & build online digital products related
+              business passionate about simple user experience and designs.
+            </h4>
+          </Col>
         </Row>
-        </Container>
-            ))}
-  </div>
-  )
+        <Row>
+          {projects.map((project, idx) => (
+            <Col xs={6}>
+              <Card key={idx} text={projects} style={{ marginBottom: "20px" }}>
+                <Card.Body>
+                  <Card.Title>{project}</Card.Title>
+                  <Card.Text>
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+          ))}
+        </Row>
+      </Container>
+    </div>
+  );
 };
 
 export default Work;

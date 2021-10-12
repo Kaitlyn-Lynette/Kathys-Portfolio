@@ -10,12 +10,17 @@ const About = () => {
       <Container>
         <Row>
           <Col md={4}>
-            <p>About my story</p>
-            <h4>
+            <h5 style={{
+                fontSize: "14px",
+                letterSpacing: "0.5px",
+              }}>About my story</h5>
+            <h2 style={{ fontSize: "25px" }}>
               Katherine is an editor, writer, and mentor based in
               Brooklyn, NY
-            </h4>
-            <p>
+            </h2>
+            <p style={{
+              fontSize: "16px",
+              lineHeight: "25px"}}>
               Katherine graduated from xxx University, with a Bachelor in X, Y,
               Z. She has edited books for social leaders in Sunset Park.
             </p>
