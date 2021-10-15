@@ -27,7 +27,7 @@ const About = () => {
           </Col>
           <Col md={4}><Image src="/images/AboutProfile345x400.png" width="100%"></Image></Col>
           <Col md={4}>
-            <h3>Note to my readers</h3>
+            <h2 style={{fontSize:"25px"}}>Note to my readers</h2>
             <p>
               My dear reader, website peruser, or potential partner in work,
             </p>
