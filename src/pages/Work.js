@@ -33,7 +33,7 @@ const Work = () => {
         <Row>
           {projects.map((project, idx) => (
             <Col md={3} sm={6}>
-              <Card key={idx} text={projects} style={{ marginBottom: "20px", backgroundColor: '#EAC493', width: "252px"}}>
+              <Card key={idx} text={projects} style={{ marginBottom: "20px", backgroundColor: '#EAC493'}}>
                 <Card.Body>
                   <Card.Title>{project}</Card.Title>
                   <Card.Text>
