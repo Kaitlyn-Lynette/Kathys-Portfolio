@@ -52,10 +52,10 @@ const Work = () => {
         </Row>
         <Row>
           {contents.map((content) => (
-            <Col md={3} sm={6}>
+            <Col md={3} sm={6} >
               <Card
                 key={content.id}
-                // text={projects}
+                class="h-100"
                 style={{ marginBottom: "20px", backgroundColor: "#EAC493" }}
               >
                 <Card.Body>
