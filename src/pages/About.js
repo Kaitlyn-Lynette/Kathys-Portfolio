@@ -45,7 +45,7 @@ const About = () => {
             </p>
           </Col>
           <Col md={{ span: 4, offset: 2}}>
-            <Image src="/images/AboutProfile345x400.png" width="100%"></Image>
+            <Image src="/images/KathyAbout345x400.png" width="100%"></Image>
           </Col>
         </Row>
         {/* <Row>
