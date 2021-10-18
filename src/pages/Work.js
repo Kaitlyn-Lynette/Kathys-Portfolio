@@ -5,16 +5,36 @@ import Row from "react-bootstrap/Row";
 import Card from "react-bootstrap/Card";
 
 const Work = () => {
-  const projects = [
-    "Books Edits",
-    "Copywriting",
-    "Personal Pieces",
-    "Read with Coffee",
+  const contents = [
+    {
+      id: 1,
+      title: "Books Edits",
+      text:
+        "I have worked one-on-one with authors copyediting and proofreading their manuscripts in theology, memoir, and poetry. Here are their published works.",
+    },
+    {
+      id: 2,
+      title: "Copywriting",
+      text:
+        "I have created and followed the brand voice for businesses and helped share their stories on their websites. Here are their websites.",
+    },
+    {
+      id: 3,
+      title: "Personal Pieces",
+      text:
+        "From blog posts to featured pieces, links to my personal writing can be found here",
+    },
+    {
+      id: 4,
+      title: "Read with Coffee",
+      text:
+        "Here you can settle in and read about books and drink in my newsletter where I round up monthly updates and discuss culture, life, and art.",
+    },
   ];
   return (
     <div id="work">
       <Container>
-        <Row style={{paddingBottom: "22px"}}>
+        <Row style={{ paddingBottom: "22px" }}>
           <Col xs={6}>
             <h5
               style={{
@@ -24,23 +44,23 @@ const Work = () => {
             >
               Featured Work
             </h5>
-            <h4 style={{ fontSize: "18px",  lineHeight: "25px"}}>
+            <h4 style={{ fontSize: "18px", lineHeight: "25px" }}>
               I design creative stuffs & build online digital products related
               business passionate about simple user experience and designs.
             </h4>
           </Col>
         </Row>
         <Row>
-          {projects.map((project, idx) => (
+          {contents.map((content) => (
             <Col md={3} sm={6}>
-              <Card key={idx} text={projects} style={{ marginBottom: "20px", backgroundColor: '#EAC493'}}>
+              <Card
+                key={content.id}
+                // text={projects}
+                style={{ marginBottom: "20px", backgroundColor: "#EAC493" }}
+              >
                 <Card.Body>
-                  <Card.Title>{project}</Card.Title>
-                  
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
+                  <Card.Title>{content.title}</Card.Title>
+                  <Card.Text>{content.text}</Card.Text>
                 </Card.Body>
               </Card>
             </Col>

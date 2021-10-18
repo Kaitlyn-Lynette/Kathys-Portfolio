@@ -9,7 +9,7 @@ const About = () => {
     <div id="about">
       <Container>
         <Row>
-          <Col md={4}>
+          <Col md={6}>
             <h5
               style={{
                 fontSize: "14px",
@@ -44,10 +44,12 @@ const About = () => {
               binge-listening to the Gilmore Guys podcast.
             </p>
           </Col>
-          <Col md={4}>
+          <Col md={{ span: 4, offset: 2}}>
             <Image src="/images/AboutProfile345x400.png" width="100%"></Image>
           </Col>
-          <Col md={4}>
+        </Row>
+        {/* <Row>
+          <Col md={{ span: 6, offset: 3 }}>
             <h2 style={{ fontSize: "25px", paddingTop: "20px" }}>
               Note to my readers
             </h2>
@@ -72,7 +74,7 @@ const About = () => {
               discovered.
               </p>
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </div>
   );
