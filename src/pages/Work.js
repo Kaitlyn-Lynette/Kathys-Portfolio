@@ -36,6 +36,7 @@ const Work = () => {
               <Card key={idx} text={projects} style={{ marginBottom: "20px", backgroundColor: '#EAC493'}}>
                 <Card.Body>
                   <Card.Title>{project}</Card.Title>
+                  
                   <Card.Text>
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
