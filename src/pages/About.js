@@ -27,21 +27,15 @@ const About = () => {
                 lineHeight: "25px",
               }}
             >
-              Katherine is an editor, writer, and mentor living in New York.
-              Eager to start writing, she launched her blog, To My
-              Understanding, in 2014 after graduating from Quinnipiac University
-              with a Bachelor in Print Journalism. Since then her writing has
+              She launched her blog, To My Understanding, in 2014 after graduating 
+              from Quinnipiac University with a Bachelor in Print Journalism. Since then her writing has
               been published in Just Between Us magazine and Dearly Magazine.
               Her writing style focuses on coming of age, self-development, and
               lifestyle. She has edited non-fiction books for social leaders and
               overcomers in local communities. When she is not writing or
               editing, Katherine spends her time mentoring young women in
               different walks of life on reaching their life goals and
-              self-improvement. She is gifted in empowering others to reach
-              their greatest potential, whether it’s with their online presence
-              or holding them accountable to reaching their work deadlines. She
-              loves hearing people’s stories over coffee, winter, and
-              binge-listening to the Gilmore Guys podcast.
+              self-improvement. 
             </p>
           </Col>
           <Col md={{ span: 4, offset: 2}}>

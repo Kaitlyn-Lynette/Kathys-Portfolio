@@ -3,8 +3,18 @@ import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Card from "react-bootstrap/Card";
+import {useHistory} from "react-router-dom"
 
 const Work = () => {
+
+
+  const history = useHistory();
+
+  const routeChange = () => {
+    // let path = './FeaturedWork.js'
+    history.push('./FeaturedWork.js')
+  }
+
   const contents = [
     {
       id: 1,
@@ -51,6 +61,7 @@ const Work = () => {
           </Col>
         </Row>
         <Row>
+          <div onClick={routeChange}>
           {contents.map((content) => (
             <Col md={3} sm={6}>
               <Card
@@ -64,6 +75,7 @@ const Work = () => {
               </Card>
             </Col>
           ))}
+          </div>
         </Row>
       </Container>
     </div>
