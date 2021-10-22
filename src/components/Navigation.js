@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Image from "react-bootstrap/Image";
 import { Link } from "react-router-dom";
-import {LinkContainer} from "react-router-bootstrap";
+import { LinkContainer } from "react-router-bootstrap";
 import "./Navigation.css";
 
 const Navigation = () => {
@@ -32,18 +32,16 @@ const Navigation = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto nav-item">
-
-            
             <Nav.Link href="#about">{navOne}</Nav.Link>
-            <Nav.Link as={Link} to="/featuredwork">{navTwo}</Nav.Link>
-              {/* <NavDropdown title={navTwo} id="basic-nav-dropdown"> 
-              <NavDropdown.Item href="#work">Book Edits</NavDropdown.Item>
-              <NavDropdown.Item href="#work">Copywriting</NavDropdown.Item>
-              <NavDropdown.Item href="#work">Personal Writing</NavDropdown.Item>
-
+            <NavDropdown title={navTwo} id="basic-nav-dropdown">
+              <NavDropdown.Item>
+                <Nav.Link as={Link} to="/featuredwork">
+                  Featured Work
+                </Nav.Link>
+              </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#work">Read with Coffee</NavDropdown.Item>
-              </NavDropdown> */}
+            </NavDropdown>
             <Nav.Link href="#services">{navThree}</Nav.Link>
             <Nav.Link href="#testimonials">{navFour}</Nav.Link>
             <Nav.Link href="#contact">{navFive}</Nav.Link>

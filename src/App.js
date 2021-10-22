@@ -1,4 +1,4 @@
-import Navigation from "../src/components/Navigation";
+
 import About from "./pages/About";
 import Home from "./pages/Home";
 // import Contact from "./pages/Contact";
@@ -9,7 +9,6 @@ import Work from "./pages/Work";
 function App() {
   return (
     <div>
-      <Navigation />
       <Home />
       <About />
       <Work />
