@@ -6,12 +6,9 @@ import Image from "react-bootstrap/Image";
 
 const FeaturedWork = () => {
   return (
-    <div id="featuredwork">
-      <Container>
-        <div
-          classname="noteHeader"
-          style={{ backgroundColor: "#e4b2b1", padding: "20px" }}
-        >
+    <div id="featuredwork" classname="noteHeader"
+    style={{ backgroundColor: "#e4b2b1", padding: "20px" }}>
+      <Container style={{paddingTop: "20px"}}>
           <Row>
             <Col md={6}>
               <p>Note to My readers</p>
@@ -38,7 +35,6 @@ const FeaturedWork = () => {
               <Image src="/images/KathySplashBench895x595.png" width="100%" />
             </Col>
           </Row>
-        </div>
       </Container>
     </div>
   );

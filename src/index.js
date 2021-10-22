@@ -5,12 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import FeaturedWork from './pages/FeaturedWork';
-import Navigation from "../src/components/Navigation";
+// import Navigation from "../src/components/Navigation";
 
 const Routing = () => {
   return(
     <Router>
-      <Navigation />
       <Switch>
         <Route exact path="/" component={App} />
         <Route path="/featuredwork" component={FeaturedWork} />
