@@ -7,7 +7,7 @@ import SideBarNav from "../components/SideBarNav";
 
 const FeaturedWork = () => {
   return (
-    <div id="featuredwork" classname="noteHeader">
+    <div id="featuredwork" classname="noteHeader" style={{display:"flex"}}>
       {/* <div classstyle={{float:"left"}}> */}
       <SideBarNav></SideBarNav>
       {/* </div> */}
