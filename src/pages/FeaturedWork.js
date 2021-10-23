@@ -15,10 +15,10 @@ const FeaturedWork = () => {
         id="notetoreader"
         style={{ backgroundColor: "#e4b2b1", padding: "20px", float: "right" }}
       >
-        <Container style={{ paddingTop: "20px" }}>
+        <Container style={{paddingTop: "10px"}}>
           <Row>
-            <Col md={4}>
-              <Image src="/images/KathySplashBench895x595.png" width="100%" style={{paddingLeft: "20px", paddingTop: "20px"}}/>
+            <Col md={4} sm={12}>
+              <Image src="/images/Note_To_Readers.jpg" width="100%" style={{paddingLeft: "20px"}}/>
             </Col>
             <Col md={{ span: 6, offset: 1 }}>
               <p>Note to My readers</p>
