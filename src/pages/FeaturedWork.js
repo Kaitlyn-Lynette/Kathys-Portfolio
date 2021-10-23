@@ -7,17 +7,20 @@ import SideBarNav from "../components/SideBarNav";
 
 const FeaturedWork = () => {
   return (
-    <div id="featuredwork" classname="noteHeader" style={{display:"flex"}}>
+    <div id="featuredwork" classname="noteHeader" style={{ display: "flex" }}>
       {/* <div classstyle={{float:"left"}}> */}
       <SideBarNav></SideBarNav>
       {/* </div> */}
       <div
         id="notetoreader"
-        style={{backgroundColor: "#e4b2b1", padding: "20px", float: "right"}}
+        style={{ backgroundColor: "#e4b2b1", padding: "20px", float: "right" }}
       >
-        <Container style={{paddingTop: "20px"}}>
+        <Container style={{ paddingTop: "20px" }}>
           <Row>
-            <Col md={6}>
+            <Col md={4}>
+              <Image src="/images/KathySplashBench895x595.png" width="100%" style={{paddingLeft: "20px", paddingTop: "20px"}}/>
+            </Col>
+            <Col md={{ span: 6, offset: 1 }}>
               <p>Note to My readers</p>
               <p>
                 My dear reader, website peruser, or potential partner in work, I
@@ -37,9 +40,6 @@ const FeaturedWork = () => {
                 to reach me with any questions or to start a work partnership,
                 or even just to share a book or podcast you discovered.
               </p>
-            </Col>
-            <Col md={{ span: 4, offset: 2 }}>
-              <Image src="/images/KathySplashBench895x595.png" width="100%" />
             </Col>
           </Row>
         </Container>
