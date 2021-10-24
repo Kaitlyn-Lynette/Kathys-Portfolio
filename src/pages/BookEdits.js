@@ -11,17 +11,23 @@ const BookEdits = () => {
         <div id="bookedits" style={{display: "flex"}} >
             <Container >
             <Row>
-                <Col style={{paddingTop: "80px"}} md={{ span: 6, offset: 6 }}>
+                <Col style={{paddingTop: "50px"}} md={{ span: 6, offset: 6 }}>
                 <h1>Book Edits</h1>
                 </Col>
             </Row>
-            <Row>
-                <Col>
-                <Image></Image>
-                <Image></Image>
-                <Image></Image>
-                <Image></Image>
-                </Col>  
+            <Row style={{paddingTop: "50px"}}>
+                <Col md={{ span: 3, offset: 3 }} > 
+                <Image src="/images/DividedGospel211x320.png"></Image>
+                <p>2017</p>
+                </Col>
+                <Col> 
+                <Image src="/images/JesusPrinciple.png"></Image>
+                <p>2018</p>
+                </Col>
+                <Col> 
+                <Image src="/images/PoisonousPower.png"></Image>
+                <p>2020</p>
+                </Col>
             </Row>
             </Container>
             
