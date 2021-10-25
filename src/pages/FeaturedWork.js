@@ -3,6 +3,7 @@ import SideBarNav from "../components/SideBarNav";
 import BookEdits from "../pages/BookEdits";
 import FeaturedHeader from "../components/FeaturedHeader";
 import CopyWriting from "../pages/CopyWriting"
+import PersonalWriting from "../pages/PersonalWriting"
 
 const FeaturedWork = () => {
   return (
@@ -11,6 +12,7 @@ const FeaturedWork = () => {
       <FeaturedHeader></FeaturedHeader>
       <BookEdits></BookEdits>
       <CopyWriting></CopyWriting>
+      <PersonalWriting></PersonalWriting>
     </div>
   );
 };
