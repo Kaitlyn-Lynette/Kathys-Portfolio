@@ -30,3 +30,20 @@ body {
   font-family: 'Karla', sans-serif;
   color: #808080
 }
+
+/* PersonalWriting CSS */
+
+.blogHeader {
+  font-size: 50px;
+  font-weight: 400px;
+  line-Height: 300px;
+  text-align: center;
+  color: white;
+}
+
+
+
+.card:hover {
+  filter: grayscale(50%) brightness(40%) sepia(50%) hue-rotate(-50deg) saturate(600%) contrast(0.8)
+}
+
