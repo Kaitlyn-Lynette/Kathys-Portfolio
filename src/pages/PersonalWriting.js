@@ -47,8 +47,8 @@ const PersonalWriting = () => {
         <Row style={{ paddingTop: "20px" }}>
           <Col md={{ span: 6, offset: 4 }}>
             <Card className="text-white rounded-0" style={{ border: "none" }}>
-              <Image src="/images/blog_2.png" alt="Card image" />
-              <Card.ImgOverlay style={{ lineHeight: "300px" }}>
+              <Image className="img-port" src="/images/blog_2.png" alt="Card image" />
+              <Card.ImgOverlay style={{ lineHeight: "300px"}}>
                 <Card.Title className="blogHeader">
                   Creativity & Passion
                 </Card.Title>

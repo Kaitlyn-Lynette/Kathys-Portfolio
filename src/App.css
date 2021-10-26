@@ -41,9 +41,12 @@ body {
   color: white;
 }
 
-
+.card-img-overlay {
+  box-shadow: rgba(0, 0, 0, .2) 0 0 0 1000000px inset;
+}
 
 .card:hover {
-  filter: grayscale(50%) brightness(40%) sepia(50%) hue-rotate(-50deg) saturate(600%) contrast(0.8)
+  filter: grayscale(30%) brightness(70%) sepia(30%) hue-rotate(-20deg) saturate(300%) contrast(0.9);
+  transition:  ease-in-out .20s;
 }
 
