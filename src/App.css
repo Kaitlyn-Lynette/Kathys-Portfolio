@@ -46,7 +46,7 @@ body {
 }
 
 .card:hover {
-  filter: grayscale(30%) brightness(70%) sepia(30%) hue-rotate(-20deg) saturate(300%) contrast(0.9);
+  filter: grayscale(30%) brightness(70%) sepia(30%) hue-rotate(-30deg) saturate(300%) contrast(0.9);
   transition:  ease-in-out .20s;
 }
 

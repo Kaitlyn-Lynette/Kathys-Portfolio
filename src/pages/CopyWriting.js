@@ -7,8 +7,7 @@ import Image from "react-bootstrap/Image";
 const CopyWriting = () => {
     return (
         <div id="copywriting">
-            <Container>
-         
+            <Container style={{backgroundColor: "#E5B87D"}}>
             <Row>
                 <Col style={{paddingTop: "100px"}} md={{ span: 6, offset: 6 }}>
                 <h1>Copy Writing</h1>
