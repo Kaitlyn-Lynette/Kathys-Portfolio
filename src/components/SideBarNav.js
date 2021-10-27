@@ -6,7 +6,7 @@ const SideBarNav = () => {
   return (
     <div id="sidebar" style={{float:"left", padding: "20px", position: "sticky", top: "0"}}>
       <Nav className="flex-column" sticky="top"    >
-        <Nav.Link href="/home" style={{fontSize: "18px"}}>Katherine Perez</Nav.Link>
+        <Nav.Link href="/home" style={{fontSize: "20px"}}>Katherine Perez</Nav.Link>
         <Nav.Link eventKey="link-1">About</Nav.Link>
         <Nav.Link eventKey="link-2">Services</Nav.Link>
         <Nav.Link eventKey="link-3">Contact</Nav.Link>

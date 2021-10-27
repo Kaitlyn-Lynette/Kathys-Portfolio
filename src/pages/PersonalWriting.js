@@ -57,13 +57,14 @@ const PersonalWriting = () => {
           </Col>
 
           <Col md={4}>
-            <Card className="text-white rounded-0" style={{ border: "none" }}>
+            <Card className="text-white rounded-0" style={{ border: "none"}}>
               <Image src="/images/blog_3.png" alt="Card image" />
               <Card.ImgOverlay className="blogImgCards">
-                <Card.Title className="blogHeader">
+              <Card.Title className="blogHeader">
                   Wisdom & Womanhood
                 </Card.Title>
               </Card.ImgOverlay>
+              
             </Card>
             <div className="blog-list">
               <ul>

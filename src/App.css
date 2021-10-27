@@ -48,7 +48,7 @@ body {
 }
 
 .card-img-overlay {
-  box-shadow: rgba(0, 0, 0, .2) 0 0 0 1000000px inset;
+  box-shadow: rgba(0, 0, 0, .3) 0 0 0 1000000px inset;
 }
 
 .card:hover {
