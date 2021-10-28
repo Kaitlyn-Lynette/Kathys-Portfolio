@@ -16,16 +16,16 @@ const BookEdits = () => {
                 </Col>
             </Row>
             <Row style={{paddingTop: "80px"}}>
-                <Col md={{ span: 3, offset: 3 }} > 
-                <Image src="/images/DividedGospel211x320.png"></Image>
+                <Col xs={6} md={{ span: 3, offset: 3 }} > 
+                <Image src="/images/DividedGospel211x320.png" fluid></Image>
                 <p>2017</p>
                 </Col>
-                <Col> 
-                <Image src="/images/JesusPrinciple.png"></Image>
+                <Col xs={6} md={3}> 
+                <Image src="/images/JesusPrinciple.png" fluid></Image>
                 <p>2018</p>
                 </Col>
-                <Col> 
-                <Image src="/images/PoisonousPower.png"></Image>
+                <Col xs={6} md={3}> 
+                <Image src="/images/PoisonousPower.png" fluid></Image>
                 <p>2020</p>
                 </Col>
             </Row>

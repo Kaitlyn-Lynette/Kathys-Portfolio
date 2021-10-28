@@ -35,18 +35,18 @@ const CopyWriting = () => {
           </Col>
         </Row>
         <Row>
-          <Col xs={12} md={{ span: 3, offset: 3 }}>
+          <Col xs={12} md={{ span: 4, offset: 3 }}>
             <Image src="/images/CopyWritingExample.png" fluid></Image>
           </Col>
-          <Col xs={12} md={{ span: 3, offset: 2 }} id="copy-project">
+          <Col xs={12} md={3} id="copy-project">
             <h5>Blend: Coffee + CoWork</h5>
           </Col>
         </Row>
         <Row style={{ paddingTop: "80px" }}>
-          <Col md={{ span: 3, offset: 3 }}>
+          <Col md={{ span: 4, offset: 3 }}>
             <Image src="/images/CopyWritingExample.png" fluid></Image>
           </Col>
-          <Col md={{ span: 3, offset: 2 }} id="copy-project">
+          <Col xs={12} md={3} id="copy-project">
             <h5>Example #2</h5>
           </Col>
         </Row>

@@ -21,7 +21,7 @@ const PersonalWriting = () => {
         <Row style={{ paddingTop: "80px" }}>
           <Col md={4}>
             <Card style={{ border: "none" }} onMouseEnter={() => setIsShown(!isShown)}>
-              <Image src="/images/blog_home.png" alt="homeblogfeature" />
+              <Image src="/images/blog_home.png" alt="homeblogfeature" fluid/>
               <Card.ImgOverlay>
                 <Card.Title className="blogHeader">Home</Card.Title>
               </Card.ImgOverlay>
@@ -41,6 +41,7 @@ const PersonalWriting = () => {
                 className="img-port"
                 src="/images/blog_2.png"
                 alt="Card image"
+                fluid
               />
               <Card.ImgOverlay>
                 <Card.Title className="blogHeader">
@@ -58,7 +59,7 @@ const PersonalWriting = () => {
 
           <Col md={4}>
             <Card className="text-white rounded-0" style={{ border: "none"}}>
-              <Image src="/images/blog_3.png" alt="Card image" />
+              <Image src="/images/blog_3.png" alt="Card image" fluid/>
               <Card.ImgOverlay className="blogImgCards">
               <Card.Title className="blogHeader">
                   Wisdom & Womanhood
