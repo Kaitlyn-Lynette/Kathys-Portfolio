@@ -60,3 +60,10 @@ body {
   padding-top: 20px;
 }
 
+/* CopyWriting CSS */
+
+@media (max-width: 600px) {
+  #copy-project {
+    padding-top: 20px;
+  }
+}
