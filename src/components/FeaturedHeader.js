@@ -20,8 +20,8 @@ const FeaturedHeader = () => {
                 style={{ paddingLeft: "20px" }}
               />
             </Col>
-            <Col md={{ span: 6, offset: 1 }}>
-              <p>Note to My readers</p>
+            <Col md={{ span: 6, offset: 1 }} sm={12}>
+              <p>Note to My readers</p> 
               <p>
                 My dear reader, website peruser, or potential partner in work, I
                 am honored to have you spend your time here to show interest in

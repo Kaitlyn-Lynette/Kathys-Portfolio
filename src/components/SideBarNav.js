@@ -4,6 +4,7 @@ import Nav from "react-bootstrap/Nav";
 
 const SideBarNav = () => {
   return (
+
     <div id="sidebar" style={{float:"left", padding: "20px", position: "sticky", top: "0"}}>
       <Nav className="flex-column" sticky="top"    >
         <Nav.Link href="/home" style={{fontSize: "20px"}}>Katherine Perez</Nav.Link>

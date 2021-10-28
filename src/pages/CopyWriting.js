@@ -26,7 +26,7 @@ const CopyWriting = () => {
           <Col md={{ span: 6, offset: 6 }} style={{ paddingBottom: "40px" }}>
             <h1>Copy Writing </h1>
           </Col>
-          <Col md={{span: 6, offset: 4}} style={{ paddingBottom: "40px" }}>
+          <Col md={{span: 6, offset: 4}} style={{ paddingBottom: "40px", textAlign: "center"}}>
             <p>
               I have created and followed the brand voice for businesses and
               helped share their stories on their websites. Here are their
@@ -35,10 +35,10 @@ const CopyWriting = () => {
           </Col>
         </Row>
         <Row>
-          <Col md={{ span: 3, offset: 3 }}>
+          <Col xs={12} md={{ span: 3, offset: 3 }}>
             <Image src="/images/CopyWritingExample.png"></Image>
           </Col>
-          <Col md={{ span: 3, offset: 2 }}>
+          <Col xs={12} md={{ span: 3, offset: 2 }}>
             <h4>Blend: Coffee + CoWork</h4>
           </Col>
         </Row>
