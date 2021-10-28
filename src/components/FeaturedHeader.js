@@ -6,10 +6,10 @@ import Image from "react-bootstrap/Image";
 
 const FeaturedHeader = () => {
   return (
-    <div id="featuredHeader" style={{display: "flex"}}>
+    <div id="featuredHeader">
       <div
         id="notetoreader"
-        style={{ padding: "20px", float: "right", backgroundColor: "#e4b2b1" }}
+        style={{ padding: "20px", backgroundColor: "#e4b2b1" }}
       >
         <Container fluid style={{ paddingTop: "10px" }}>
           <Row>
@@ -20,7 +20,7 @@ const FeaturedHeader = () => {
                 style={{ paddingLeft: "20px" }}
               />
             </Col>
-            <Col md={{ span: 6, offset: 1 }} sm={12}>
+            <Col md={{ span: 6, offset: 1 }} sm={12} id="note">
               <p>Note to My readers</p> 
               <p>
                 My dear reader, website peruser, or potential partner in work, I

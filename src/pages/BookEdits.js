@@ -30,6 +30,7 @@ const BookEdits = () => {
                 </Col>
             </Row>
             </Container>
+           
         </div>
     )
 }

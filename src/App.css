@@ -31,11 +31,33 @@ body {
   color: #808080
 }
 
+
+/* Featured Header */
+
+@media (min-width: 800px) {
+
+  #featureHeader {
+    display: "flex";
+  }
+
+  #notetoreader {
+    float: "right"
+  }
+}
+
+@media (max-width: 600px) {
+  #note {
+    padding-top: 20px
+  }
+}
+
+
+
 /* Book Edits */
 
-#bookedits {
+/* #bookedits {
   background-color: #e0e0e0
-}
+} */
 
 /* PersonalWriting CSS */
 
@@ -53,12 +75,12 @@ body {
   color: white;
 }
 
-.card-img-overlay {
+/* .card-img-overlay {
   box-shadow: rgba(0, 0, 0, .3) 0 0 0 1000000px inset;
-}
+} */
 
 .card:hover {
-  filter: grayscale(30%) brightness(70%) sepia(30%) hue-rotate(-30deg) saturate(300%) contrast(0.9);
+  /* filter: grayscale(30%) brightness(70%) sepia(30%) hue-rotate(-30deg) saturate(300%) contrast(0.9); */
   transition:  ease-in-out .20s;
 }
 
