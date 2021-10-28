@@ -36,7 +36,7 @@ const CopyWriting = () => {
         </Row>
         <Row>
           <Col xs={12} md={{ span: 3, offset: 3 }}>
-            <Image src="/images/CopyWritingExample.png"></Image>
+            <Image class="img-fluid" src="/images/CopyWritingExample.png"></Image>
           </Col>
           <Col xs={12} md={{ span: 3, offset: 2 }}>
             <h4>Blend: Coffee + CoWork</h4>
@@ -44,7 +44,7 @@ const CopyWriting = () => {
         </Row>
         <Row style={{ paddingTop: "80px" }}>
           <Col md={{ span: 3, offset: 3 }}>
-            <Image src="/images/CopyWritingExample.png"></Image>
+            <Image class="img-fluid" src="/images/CopyWritingExample.png"></Image>
           </Col>
           <Col md={{ span: 3, offset: 2 }}>
             <h4>Example #2</h4>
