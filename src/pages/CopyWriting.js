@@ -23,23 +23,30 @@ const CopyWriting = () => {
       </div> */}
       <Container>
         <Row>
-          <Col md={4} style={{paddingBottom: "70px" }}>
+          <Col md={{ span: 6, offset: 6 }} style={{ paddingBottom: "40px" }}>
             <h1>Copy Writing </h1>
+          </Col>
+          <Col md={{span: 6, offset: 4}} style={{ paddingBottom: "40px" }}>
+            <p>
+              I have created and followed the brand voice for businesses and
+              helped share their stories on their websites. Here are their
+              websites.
+            </p>
           </Col>
         </Row>
         <Row>
-          <Col md={2}>
+          <Col md={{ span: 3, offset: 3 }}>
             <Image src="/images/CopyWritingExample.png"></Image>
           </Col>
-          <Col md={{ span: 3, offset: 3 }}>
+          <Col md={{ span: 3, offset: 2 }}>
             <h4>Blend: Coffee + CoWork</h4>
           </Col>
         </Row>
         <Row style={{ paddingTop: "80px" }}>
-          <Col md={2}>
+          <Col md={{ span: 3, offset: 3 }}>
             <Image src="/images/CopyWritingExample.png"></Image>
           </Col>
-          <Col md={{ span: 3, offset: 3 }}>
+          <Col md={{ span: 3, offset: 2 }}>
             <h4>Example #2</h4>
           </Col>
         </Row>
