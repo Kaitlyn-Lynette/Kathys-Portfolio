@@ -24,7 +24,7 @@ const PersonalWriting = () => {
             </p>
           </Col>
         </Row>
-        <Row style={{ paddingTop: "80px" }}>
+        <Row style={{ paddingTop: "40px" }}>
           <Col xs={12} md={{span: 4, offset: 3}}>
             <Card
               style={{ border: "none" }}
@@ -67,8 +67,8 @@ const PersonalWriting = () => {
           </Col>
         </Row>
         <Row>
-        <Col xs={12} md={{span: 4, offset: 3}}>
-          <Card className="text-white rounded-0" style={{ border: "none" }}>
+        <Col xs={12} md={{span: 4, offset: 3}} style={{paddingTop: "20px"}}>
+          <Card className="text-white rounded-0" style={{ border: "none"}}>
             <Image src="/images/blog_3.png" alt="Card image" fluid />
             <Card.ImgOverlay className="blogImgCards">
               <Card.Title className="blogHeader">Wisdom & Womanhood</Card.Title>
