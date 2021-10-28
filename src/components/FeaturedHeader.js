@@ -11,6 +11,12 @@ const FeaturedHeader = () => {
         id="notetoreader"
         style={{ padding: "20px", backgroundColor: "#e4b2b1" }}
       >
+        <Row>
+            <Col md={12} sm={12} style={{textAlign: "center", paddingBottom: "40px"}}>
+            <h1 style={{fontSize: "50px"}}>Portfolio</h1> 
+            <h4> Writer | Editor | Novelist </h4>
+            </Col>
+        </Row>
         <Container fluid style={{ paddingTop: "10px" }}>
           <Row>
             <Col md={4} sm={12}>

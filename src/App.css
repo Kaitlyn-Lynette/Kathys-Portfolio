@@ -43,6 +43,11 @@ body {
   #notetoreader {
     float: "right"
   }
+  
+  #note {
+    padding-top: 45px 
+  }
+
 }
 
 @media (max-width: 600px) {
