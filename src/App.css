@@ -31,6 +31,12 @@ body {
   color: #808080
 }
 
+/* Book Edits */
+
+#bookedits {
+  background-color: #e0e0e0
+}
+
 /* PersonalWriting CSS */
 
 #personal {
