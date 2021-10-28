@@ -11,12 +11,12 @@ const BookEdits = () => {
         <div id="bookedits" style={{display: "flex"}} >
             <Container >
             <Row>
-                <Col style={{paddingTop: "80px"}} md={{ span: 6, offset: 6 }}>
+                <Col style={{paddingTop: "80px"}} md={3}>
                 <h1>Book Edits</h1>
                 </Col>
             </Row>
             <Row style={{paddingTop: "80px", paddingBottom: "80px"}}>
-                <Col xs={6} md={{ span: 3, offset: 3 }} > 
+                <Col xs={6} md={3} > 
                 <Image src="/images/DividedGospel211x320.png" fluid></Image>
                 <p>2017</p>
                 </Col>
@@ -26,6 +26,10 @@ const BookEdits = () => {
                 </Col>
                 <Col xs={6} md={3}> 
                 <Image src="/images/PoisonousPower.png" fluid></Image>
+                <p>2020</p>
+                </Col>
+                <Col xs={6} md={3}> 
+                <Image src="/images/DarknesstoDestiny211x320.png" fluid></Image>
                 <p>2020</p>
                 </Col>
             </Row>
