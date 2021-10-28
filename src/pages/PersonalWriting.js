@@ -14,13 +14,20 @@ const PersonalWriting = () => {
     paddingBottom: "100px"}}>
       <Container>
         <Row>
-          <Col md={{ span: 4, offset: 5 }}>
+          <Col md={{ span: 4, offset: 6}}  style={{ paddingBottom: "40px" }}>
             <h1>Personal Writing</h1>
+          </Col>
+          </Row>
+          <Row>
+          <Col md={{ span: 4, offset: 6}} style={{textAlign: "center"}}>
+            <p>
+            From blog posts to featured pieces, links to my personal writing can be found here.
+            </p>
           </Col>
         </Row>
         <Row style={{ paddingTop: "80px" }}>
           <Col md={4}>
-            <Card style={{ border: "none" }} onMouseEnter={() => setIsShown(!isShown)}>
+            <Card style={{ border: "none"}} onMouseEnter={() => setIsShown(!isShown)}>
               <Image src="/images/blog_home.png" alt="homeblogfeature" fluid/>
               <Card.ImgOverlay>
                 <Card.Title className="blogHeader">Home</Card.Title>

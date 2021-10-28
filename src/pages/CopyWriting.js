@@ -46,7 +46,7 @@ const CopyWriting = () => {
           <Col md={{ span: 4, offset: 3 }}>
             <Image src="/images/CopyWritingExample.png" fluid></Image>
           </Col>
-          <Col xs={12} md={3} id="copy-project">
+          <Col md={3} id="copy-project">
             <h5>Example #2</h5>
           </Col>
         </Row>
