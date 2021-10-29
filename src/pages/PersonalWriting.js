@@ -25,7 +25,7 @@ const PersonalWriting = () => {
           </Col>
         </Row>
         <Row style={{ paddingTop: "40px" }}>
-          <Col xs={12} md={{span: 4, offset: 3}}>
+          <Col xs={12} md={4}>
             <Card
               style={{ border: "none" }}
               onMouseEnter={() => setIsShown(!isShown)}
@@ -65,9 +65,7 @@ const PersonalWriting = () => {
               </ul>
             </div>
           </Col>
-        </Row>
-        <Row>
-        <Col xs={12} md={{span: 4, offset: 3}} style={{paddingTop: "20px"}}>
+          <Col xs={12} md={4}>
           <Card className="text-white rounded-0" style={{ border: "none"}}>
             <Image src="/images/blog_3.png" alt="Card image" fluid />
             <Card.ImgOverlay className="blogImgCards">
@@ -83,6 +81,19 @@ const PersonalWriting = () => {
             </ul>
           </div>
         </Col>
+        </Row>
+        <Row>
+          <Col>
+          <div id="special-feature">
+            <h3>Inspire Woman Series</h3>
+            
+          </div>
+          </Col>
+          <Col>
+          <div id="published work">
+            <h3>Published Personal Writing</h3>
+          </div>
+          </Col>
         </Row>
       </Container>
     </div>
