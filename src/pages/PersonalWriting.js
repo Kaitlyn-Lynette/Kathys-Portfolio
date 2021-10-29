@@ -96,8 +96,8 @@ const PersonalWriting = () => {
             </div>
           </Col> */}
        
-            <Col md={6}>
-              <Card style={{ width: "30rem" }}>
+            <Col xs={12}  md={6} >
+              <Card style={{ width: "30rem", textAlign:"center"}}>
                 <Card.Img variant="top" src="/images/InspireSeries.png" />
                 <Card.Body>
                   <Card.Title>
@@ -108,20 +108,12 @@ const PersonalWriting = () => {
                     is something I follow every day. To celebrate my blog's, To
                     My Understanding, 7th birthday, I will be featuring some
                     inspiring women and have them share what inspires them. I am
-                    proud to share this new series to my blog: the Inspire
-                    Series. ✨💫 For the past seven years I have poured out my
-                    heart to you all. I have shared my thoughts, my likes, my
-                    inspiration, my impressions, art that moves me, songs,
-                    books, and more. While I hope you have felt comfortable to
-                    share what moves you, I’m excited to begin new
-                    collaborations together to encourage more of an interaction.
-                    I have been prayerfully planning, and this year is a marking
-                    of growth to TMU’s space.
+                    proud to share this new series, the Inspire  Women Series. 
                   </Card.Text>
                 </Card.Body>
               </Card>
             </Col>
-            <Col md={6}>
+            <Col xs={12} md={6}>
               <Card style={{ width: "30rem", textAlign:"center" }}>
                 <Card.Img variant="top" src="/images/JustBetweenUs.png" />
                 <Card.Body>
