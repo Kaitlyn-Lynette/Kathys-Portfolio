@@ -32,6 +32,18 @@ body {
 }
 
 
+/* Navigation */
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0,0,0,.80)
+}
+
+/* Carousel */
+.tst-author-info img {
+  border-radius: 100%;
+}
+
+
 /* Featured Header */
 
 @media (min-width: 800px) {

@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Image from "react-bootstrap/Image";
 import { Link } from "react-router-dom";
-import "./Navigation.css";
+import "../App.css"
 
 const Navigation = () => {
   const navOne = "About";
@@ -35,7 +35,7 @@ const Navigation = () => {
             <NavDropdown title={navTwo} id="basic-nav-dropdown">
               <NavDropdown.Item>
                 <Nav.Link as={Link} to="/featuredwork">
-                  Featured Work
+                  Portfolio
                 </Nav.Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
