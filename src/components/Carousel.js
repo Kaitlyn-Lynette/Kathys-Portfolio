@@ -63,15 +63,15 @@ const Carousel = () => {
       <SwiperSlide>
         <div className="tst">
           <Row>
-            <Col md={12} style={{textAlign: "center"}}>
+            <Col md={12} style={{ textAlign: "center" }}>
               <p>
                 “I’ve been working with Katherine Perez for over a year. She has
                 taken my online presence to a new level. She is great at
                 navigating social media and the apps needed to create
                 eye-catching flyers and announcements. Katherine is a pleasure
                 to work with, positive, supportive and timely, always able to
-                accommodate my projects as they arise. Already recommended her to many in
-                my circle.”
+                accommodate my projects as they arise. Already recommended her
+                to many in my circle.”
               </p>
             </Col>
           </Row>
@@ -87,7 +87,7 @@ const Carousel = () => {
             <Col
               md={4}
               style={{
-                paddingTop: "20px"
+                paddingTop: "20px",
               }}
             >
               <p>Regina Stafford, Rewards Coaching</p>
@@ -96,11 +96,43 @@ const Carousel = () => {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        “Katherine Perez is an excellent writer who is not only precise when it
-        comes to the nuances of editing, but is creative, articulate and well
-        versed in culture. She recently edited one of my books and did an
-        amazing job! I highly recommend her!"
+        <div className="tst">
+          <Row>
+            <Col md={12} style={{textAlign: "center"}}>
+              <p>
+                “Katherine Perez is an excellent writer who is not only precise
+                when it comes to the nuances of editing, but is creative,
+                articulate and well versed in culture. She recently edited one
+                of my books and did an amazing job! I highly recommend her!"
+              </p>
+            </Col>
+          </Row>
+        </div>
+        <div className="tst-author-info" style={{ textAlign: "center" }}>
+          <Row>
+            <Col md={{ span: 3, offset: 2 }}>
+              <Image
+                style={{ paddingBottom: "20px" }}
+                src="/images/MMI_Logo_100x100.png"
+              />
+            </Col>
+            <Col
+              md={6}
+              style={{
+                paddingTop: "20px",
+              }}
+            >
+              <p>Bishop Joseph Mattera, Mattera Ministries Internaional</p>
+            </Col>
+          </Row>
+        </div>
+
+
+         
+         
+       
       </SwiperSlide>
+
       <SwiperSlide>
         "After reaching out to Katherine our team felt like she was a perfect
         fit for what we needed. Several of our clients needed blogs written
