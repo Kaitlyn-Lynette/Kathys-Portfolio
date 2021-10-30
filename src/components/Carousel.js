@@ -28,32 +28,72 @@ const Carousel = () => {
     >
       <SwiperSlide>
         <div className="tst">
-          <p>
-            “Katherine was a pivotal member of the writing team. She dedicated
-            herself to understanding each client's distinct needs, researching
-            new and existing resources to identify and hone in on the brand's
-            voices. Never shying away from asking questions she made each story
-            her own, leveraging every moment to build up client's brands.”
-          </p>
+          <Row>
+            <Col md={12}>
+              <p>
+                “Katherine was a pivotal member of the writing team. She
+                dedicated herself to understanding each client's distinct needs,
+                researching new and existing resources to identify and hone in
+                on the brand's voices. Never shying away from asking questions
+                she made each story her own, leveraging every moment to build up
+                client's brands.”
+              </p>
+            </Col>
+          </Row>
         </div>
 
-        <div className="tst-author-info" style={{textAlign:"center"}}>
+        <div className="tst-author-info" style={{ textAlign: "center" }}>
           <Row>
-            <Col md={{span: 3, offset: 2}}>
+            <Col md={{ span: 3, offset: 2 }}>
               <Image src="/images/MM_Logo100x100.png" />
             </Col>
-            <Col md={4} style={{marginTop: "25px", paddingLeft: "0px", paddingRight: "12px"}}><p>Cindy Burgos, Managing Director</p></Col>
+            <Col
+              md={4}
+              style={{
+                marginTop: "25px",
+                paddingLeft: "0px",
+                paddingRight: "12px",
+              }}
+            >
+              <p>Cindy Burgos, Managing Director</p>
+            </Col>
           </Row>
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        “I’ve been working with Katherine Perez for over a year. She has taken
-        my online presence to a new level. She is great at navigating social
-        media and the apps needed to create eye-catching flyers and
-        announcements. Katherine is a pleasure to work with, positive,
-        supportive and timely, always able to accommodate my projects as they
-        arise. She also has a fresh creative flair to her work. Already
-        recommended her to many in my circle.”
+        <div className="tst">
+          <Row>
+            <Col md={12} style={{textAlign: "center"}}>
+              <p>
+                “I’ve been working with Katherine Perez for over a year. She has
+                taken my online presence to a new level. She is great at
+                navigating social media and the apps needed to create
+                eye-catching flyers and announcements. Katherine is a pleasure
+                to work with, positive, supportive and timely, always able to
+                accommodate my projects as they arise. Already recommended her to many in
+                my circle.”
+              </p>
+            </Col>
+          </Row>
+        </div>
+        <div className="tst-author-info" style={{ textAlign: "center" }}>
+          <Row>
+            <Col md={{ span: 4, offset: 2 }}>
+              <Image
+                style={{ paddingBottom: "20px" }}
+                src="/images/RC_Logo100x100.png"
+              />
+            </Col>
+            <Col
+              md={4}
+              style={{
+                paddingTop: "20px"
+              }}
+            >
+              <p>Regina Stafford, Rewards Coaching</p>
+            </Col>
+          </Row>
+        </div>
       </SwiperSlide>
       <SwiperSlide>
         “Katherine Perez is an excellent writer who is not only precise when it

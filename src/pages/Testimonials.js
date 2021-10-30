@@ -12,7 +12,7 @@ const Testimonials = () => {
             <h5 style={{ textAlign: "center" }}>what people say</h5>
           </Col>
         </Row>
-        <Row style={{paddingTop: "50px"}}>
+        <Row style={{paddingTop: "25px"}}>
           <Col md={{ span: 6, offset: 3 }}>
             <Carousel />
           </Col>
