@@ -126,22 +126,8 @@ const Carousel = () => {
             </Col>
           </Row>
         </div>
-
-
-         
-         
-       
       </SwiperSlide>
 
-      <SwiperSlide>
-        "After reaching out to Katherine our team felt like she was a perfect
-        fit for what we needed. Several of our clients needed blogs written
-        bi-weekly, weekly, or monthly. We gave Katherine all the deadlines,
-        topics, and direction and from there she executed what we needed
-        perfectly. She did all her own research, came in within the word count
-        we needed and wrote on many different topic. Katherine never missed one
-        deadline. It was an absolute pleasure working with her."
-      </SwiperSlide>
     </Swiper>
   );
 };
