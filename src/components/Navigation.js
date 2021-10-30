@@ -24,7 +24,7 @@ const Navigation = () => {
       <Container fluid>
         <Navbar.Brand>
           <Image
-            src="/images/KatherineNewLogo3.png"
+            src="/images/logo.png"
             className="nav-brand"
           />
         </Navbar.Brand>

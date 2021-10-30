@@ -23,19 +23,19 @@ const BookEdits = () => {
         </Row>
         <Row style={{ paddingTop: "30px", paddingBottom: "80px" }}>
           <Col xs={6} md={3}>
-            <Image src="/images/DividedGospel211x320.png" fluid></Image>
+            <Image src="/images/DividedGospel211x345.png" fluid></Image>
             <p>2017</p>
           </Col>
           <Col xs={6} md={3}>
-            <Image src="/images/JesusPrinciple.png" fluid></Image>
+            <Image src="/images/JesusPrinciple211x345.png" fluid></Image>
             <p>2018</p>
           </Col>
           <Col xs={6} md={3}>
-            <Image src="/images/PoisonousPower.png" fluid></Image>
+            <Image src="/images/PoisonousPower211x345.png" fluid></Image>
             <p>2020</p>
           </Col>
           <Col xs={6} md={3}>
-            <Image src="/images/DarknesstoDestiny211x320.png" fluid></Image>
+            <Image src="/images/DarknesstoDestiny211x345.png" fluid></Image>
             <p>2020</p>
           </Col>
         </Row>

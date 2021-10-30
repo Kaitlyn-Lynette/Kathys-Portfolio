@@ -30,7 +30,7 @@ const PersonalWriting = () => {
               style={{ border: "none" }}
               onMouseEnter={() => setIsShown(!isShown)}
             >
-              <Image src="/images/blog_home.png" alt="homeblogfeature" fluid />
+              <Image src="/images/blog_1.png" alt="homeblogfeature" fluid />
               <Card.ImgOverlay>
                 <Card.Title className="blogHeader">Home</Card.Title>
               </Card.ImgOverlay>

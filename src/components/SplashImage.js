@@ -6,7 +6,7 @@ import Image from "react-bootstrap/Image";
 const SplashImage = () => {
   return (
     <div>
-      <Image src="../images/2.jpg" width="100%"/>
+      <Image src="../images/splash.jpg" width="100%"/>
     </div>
   );
 };
