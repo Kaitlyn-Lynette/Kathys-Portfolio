@@ -98,7 +98,7 @@ const PersonalWriting = () => {
        
             <Col xs={12}  md={6} >
               <Card style={{ width: "30rem", textAlign:"center"}}>
-                <Card.Img variant="top" src="/images/InspireSeries.png" />
+                <Card.Img variant="top" src="/images/pw_inspire_feat.png" />
                 <Card.Body>
                   <Card.Title>
                     To My Understanding: Inspire Women Series
