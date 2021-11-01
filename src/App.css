@@ -20,6 +20,15 @@
     height: 300px;
 }
 
+
+/* General Styling for Cards */
+.card {
+  border: none;
+  height: 100%;
+  border: none;
+  border-radius: 0%;
+}
+
 h1{
   margin: 0;
   font-family: 'Karla', sans-serif;
@@ -104,6 +113,20 @@ body {
 .blog-list {
   padding-top: 20px;
 }
+
+
+/* Professional Services */
+.svs {
+  background-color: #d3d3d3;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  vertical-align: "center"
+}
+x
+
+
 
 /* CopyWriting CSS */
 

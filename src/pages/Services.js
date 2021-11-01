@@ -2,6 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
+import Card from "react-bootstrap/Card";
 
 const Services = () => {
   return (
@@ -16,22 +17,48 @@ const Services = () => {
           >
             Professional Services
           </h5>
-          <h4 style={{ fontSize: "18px", lineHeight: "25px", paddingBottom: "20px" }}>
+          <h4
+            style={{
+              fontSize: "18px",
+              lineHeight: "25px",
+              paddingBottom: "20px",
+            }}
+          >
             Contact me if you're looking for a writer to ...{" "}
           </h4>
-          </Row>
-          <Row style={{paddingTop: "20px", textAlign: "center"}}>
+        </Row>
+        <Row style={{ paddingTop: "20px", textAlign: "center" }}>
           <Col md={4}>
-            <h3>Write</h3>
-            <p>website copy, social media, business plan</p>
+            <Card className="svs">
+              <Card.Title>
+                <h3>Write</h3>
+              </Card.Title>
+              <Card.Text>
+                <p>website copy, social media, business plan</p>
+              </Card.Text>
+            </Card>
           </Col>
           <Col md={4}>
-            <h3>Edit</h3>
-            <p>book, thesis paper, passionate project, blog, social media</p>
+            <Card className="svs">
+              <Card.Title>
+                <h3>Edit</h3>
+              </Card.Title>
+              <Card.Text>
+                <p>
+                  book, thesis paper, passionate project, blog, social media
+                </p>
+              </Card.Text>
+            </Card>
           </Col>
           <Col md={4}>
+            <Card className="svs">
+            <Card.Title>
             <h3>Speak</h3>
+            </Card.Title>
+            <Card.Text>
             <p>about topics related to x, y, z </p>
+            </Card.Text>
+            </Card>
           </Col>
         </Row>
       </Container>

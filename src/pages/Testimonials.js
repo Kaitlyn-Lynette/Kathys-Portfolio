@@ -9,7 +9,7 @@ const Testimonials = () => {
       <Container>
         <Row>
           <Col md={{ span: 6, offset: 3 }}>
-            <h5 style={{ textAlign: "center" }}>what people say</h5>
+            <h5 style={{ textAlign: "center" }}>Testimonials</h5>
           </Col>
         </Row>
         <Row style={{paddingTop: "25px"}}>

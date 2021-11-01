@@ -57,7 +57,7 @@ const Work = () => {
             <Col md={3} sm={6}>
               <Card
                 key={content.id}
-                style={{ marginBottom: "20px", backgroundColor: "#EAC493", height: "100%", border: "none", borderRadius:"0%"}}
+                style={{ marginBottom: "20px", backgroundColor: "#EAC493"}}
               >
                 <Card.Body>
                   <Card.Title>{content.title}</Card.Title>
