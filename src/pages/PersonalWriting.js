@@ -98,7 +98,7 @@ const PersonalWriting = () => {
        
             <Col xs={12}  md={6} >
               <Card style={{ width: "30rem", textAlign:"center"}}>
-                <Card.Img variant="top" src="/images/pw_inspire_feat.png" />
+                <Card.Img variant="top" src="/images/pw_inspire_478x353.png" />
                 <Card.Body>
                   <Card.Title>
                     To My Understanding: Inspire Women Series
@@ -115,7 +115,7 @@ const PersonalWriting = () => {
             </Col>
             <Col xs={12} md={6}>
               <Card style={{ width: "30rem", textAlign:"center" }}>
-                <Card.Img variant="top" src="/images/JustBetweenUs.png" />
+                <Card.Img variant="top" src="/images/pw_jbu_478x353.png" />
                 <Card.Body>
                   <Card.Title>Wholeness for the Lonely Heart</Card.Title>
                   <Card.Text>
