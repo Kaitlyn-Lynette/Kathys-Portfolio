@@ -31,7 +31,7 @@ const PersonalWriting = () => {
               onMouseEnter={() => setIsShown(!isShown)}
             >
               <Image src="/images/pw_1.png" alt="homeblogfeature" fluid />
-              <Card.ImgOverlay>
+              <Card.ImgOverlay style={{backgroundColor: "#0000004F"}}>
                 <Card.Title className="blogHeader">Home</Card.Title>
               </Card.ImgOverlay>
             </Card>
@@ -47,12 +47,11 @@ const PersonalWriting = () => {
           <Col xs={12} md={4}>
             <Card className="text-white rounded-0" style={{ border: "none" }}>
               <Image
-                className="img-port"
                 src="/images/pw_2.png"
                 alt="Card image"
                 fluid
               />
-              <Card.ImgOverlay>
+              <Card.ImgOverlay style={{backgroundColor: "#0000004F"}}>
                 <Card.Title className="blogHeader">
                   Creativity & Passion
                 </Card.Title>
@@ -68,7 +67,7 @@ const PersonalWriting = () => {
           <Col xs={12} md={4}>
             <Card className="text-white rounded-0" style={{ border: "none" }}>
               <Image src="/images/pw_3.png" alt="Card image" fluid />
-              <Card.ImgOverlay className="blogImgCards">
+              <Card.ImgOverlay style={{backgroundColor: "#0000004F"}}>
                 <Card.Title className="blogHeader">
                   Wisdom & Womanhood
                 </Card.Title>
@@ -83,18 +82,7 @@ const PersonalWriting = () => {
             </div>
           </Col>
         </Row>
-        <Row style={{ paddingTop: "50px" , paddingLeft: "80px"}}>
-          {/* <Col md={{span: 4, offset: 1}}>
-            <div id="special-feature" style={{paddingBottom: "30px"}}>
-              <h3>TMU: Inspire Women Series</h3>
-            </div>
-          </Col>
-          <Col md={{span: 6, offset: 1}}>
-            <div id="special-feature" style={{ paddingBottom: "30px" }}>
-              <h3>Just Between Us: Article Feature</h3>
-            </div>
-          </Col> */}
-       
+        <Row style={{ paddingTop: "50px" , paddingLeft: "80px"}}>     
             <Col xs={12}  md={6} >
               <Card style={{ width: "30rem", textAlign:"center"}}>
                 <Card.Img variant="top" src="/images/pw_1_478x353.png" />

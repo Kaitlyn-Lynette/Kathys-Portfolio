@@ -96,14 +96,13 @@ body {
 .blogHeader {
   font-size: 30px;
   font-weight: 400px;
-  line-Height: 30px;
   text-align: center;
   color: white;
+  line-Height: 150px;
+  height: 150px;
 }
 
-/* .card-img-overlay {
-  box-shadow: rgba(0, 0, 0, .3) 0 0 0 1000000px inset;
-} */
+
 
 .card:hover {
   /* filter: grayscale(30%) brightness(70%) sepia(30%) hue-rotate(-30deg) saturate(300%) contrast(0.9); */
@@ -138,14 +137,37 @@ body {
 
 /* CopyWriting CSS */
 
-@media (max-width: 600px) {
+/* 800x or more */
+@media (min-width: 800px) {
+  #copy-project {
+    padding-top: 20px;
+  }
+  .blogHeader {
+    line-Height: 150px;
+    height: 70px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .blogHeader {
+    line-Height: 40px;
+    height: 20px;
+    font-size: 12px;
+;
+}}
+/* 400px or less */
+@media (max-width: 400px) {
+  .blogHeader {
+    line-height: 150px;
+    height: 319px
+  }
+}
+
+/* 800px or more */
+@media (min-width: 1000px) {
   #copy-project {
     padding-top: 20px;
   }
 }
 
-@media (min-width: 800px) {
-  #copy-project {
-    padding-top: 20px;
-  }
-}
