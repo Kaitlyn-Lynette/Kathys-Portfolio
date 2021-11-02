@@ -37,9 +37,9 @@ const PersonalWriting = () => {
             </Card>
             <div className="blog-list">
               <ul>
-                <li>People of Intentional Connection, Dec 2019</li>
-                <li>My Cozy Place, Jan 2018</li>
-                <li>Stepping Into Marriage, Jul 2016</li>
+                <li><a  href="http://www.tomyunderstanding.net/2019/12/people-of-intentional-connection.html">People of Intentional Connection, Dec 2019</a></li>
+                <li><a href="http://www.tomyunderstanding.net/2018/01/my-cozy-place.html">My Cozy Place, Jan 2018</a></li>
+                <li><a href="http://www.tomyunderstanding.net/2016/06/stepping-into-marriage.html">Stepping Into Marriage, Jul 2016</a></li>
               </ul>
             </div>
           </Col>
@@ -60,8 +60,8 @@ const PersonalWriting = () => {
             </Card>
             <div className="blog-list">
               <ul>
-                <li>Stalling Our Creativity, July 2019</li>
-                <li>Where to Find Your Passion, July 2018</li>
+                <li><a href="http://www.tomyunderstanding.net/2019/07/stalling-our-creativity.html">Stalling Our Creativity, July 2019</a></li>
+                <li><a href="http://www.tomyunderstanding.net/2018/02/where-to-find-your-passion.html">Where to Find Your Passion, July 2018</a></li>
               </ul>
             </div>
           </Col>
@@ -76,10 +76,9 @@ const PersonalWriting = () => {
             </Card>
             <div className="blog-list">
               <ul>
-                <li>Discomfort and Peace of Being, Dec 2020</li>
-                <li>Inspire Series: Showing the Grace to Dream, Sept 2021</li>
-                <li>When Comparison Leads to Envy, June 2020</li>
-                <li>Before You Follow That Trend, June 2019</li>
+                <li><a href="http://www.tomyunderstanding.net/2020/12/the-discomfort-and-peace-of-being.html">Discomfort and Peace of Being, Dec 2020</a></li>
+                <li><a href="http://www.tomyunderstanding.net/2020/06/when-comparison-leads-to-envy.html">When Comparison Leads to Envy, June 2020</a></li>
+                <li><a href="http://www.tomyunderstanding.net/2019/06/before-you-follow-that-trend.html">Before You Follow That Trend, June 2019</a></li>
               </ul>
             </div>
           </Col>
