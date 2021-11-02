@@ -30,7 +30,7 @@ const PersonalWriting = () => {
               style={{ border: "none" }}
               onMouseEnter={() => setIsShown(!isShown)}
             >
-              <Image src="/images/blog_1.png" alt="homeblogfeature" fluid />
+              <Image src="/images/pw_1.png" alt="homeblogfeature" fluid />
               <Card.ImgOverlay>
                 <Card.Title className="blogHeader">Home</Card.Title>
               </Card.ImgOverlay>
@@ -48,7 +48,7 @@ const PersonalWriting = () => {
             <Card className="text-white rounded-0" style={{ border: "none" }}>
               <Image
                 className="img-port"
-                src="/images/blog_2.png"
+                src="/images/pw_2.png"
                 alt="Card image"
                 fluid
               />
@@ -67,7 +67,7 @@ const PersonalWriting = () => {
           </Col>
           <Col xs={12} md={4}>
             <Card className="text-white rounded-0" style={{ border: "none" }}>
-              <Image src="/images/blog_3.png" alt="Card image" fluid />
+              <Image src="/images/pw_3.png" alt="Card image" fluid />
               <Card.ImgOverlay className="blogImgCards">
                 <Card.Title className="blogHeader">
                   Wisdom & Womanhood
