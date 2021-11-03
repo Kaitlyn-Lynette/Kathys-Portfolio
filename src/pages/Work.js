@@ -58,6 +58,7 @@ const Work = () => {
               <Card
                 key={content.id}
                 style={{ marginBottom: "20px", backgroundColor: "#EAC493"}}
+                className="h-100"
               >
                 <Card.Body>
                   <Card.Title>{content.title}</Card.Title>

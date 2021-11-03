@@ -65,8 +65,7 @@ const Carousel = () => {
           <Row>
             <Col md={12} style={{ textAlign: "center" }}>
               <p>
-                “I’ve been working with Katherine Perez for over a year. She has
-                taken my online presence to a new level. She is great at
+                “She has taken my online presence to a new level. She is great at
                 navigating social media and the apps needed to create
                 eye-catching flyers and announcements. Katherine is a pleasure
                 to work with, positive, supportive and timely, always able to
