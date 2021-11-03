@@ -39,7 +39,7 @@ const CopyWriting = () => {
             <Image src="/images/copy_blend.png" fluid></Image>
           </Col>
           <Col xs={12} md={3} id="copy-project">
-            <h5>Blend: Coffee + CoWork</h5>
+            <h5><a href="https://www.blendbayridge.com/">Blend: Coffee + CoWork</a></h5>
           </Col>
         </Row>
         <Row style={{ paddingTop: "80px" }}>
@@ -47,7 +47,7 @@ const CopyWriting = () => {
           <Image src="/images/copy_alpha.png" fluid></Image>
           </Col>
           <Col md={3} id="copy-project">
-            <h5>Example #2</h5>
+            <h5>site in progress</h5>
           </Col>
         </Row>
       </Container>

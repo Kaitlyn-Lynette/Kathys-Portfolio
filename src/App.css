@@ -85,6 +85,13 @@ body {
   background-color: #e0e0e0
 } */
 
+/* CopyWriting */
+
+#copy-project a {
+  color: inherit;
+
+}
+
 /* PersonalWriting CSS */
 
 #personal {
