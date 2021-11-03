@@ -27,8 +27,8 @@ const PersonalWriting = () => {
         <Row style={{ paddingTop: "40px" }}>
           <Col xs={12} md={4}>
             <Card
-              style={{ border: "none" }}
               onMouseEnter={() => setIsShown(!isShown)}
+              className="blog-card"
             >
               <Image src="/images/pw_1.png" alt="homeblogfeature" fluid />
               <Card.ImgOverlay style={{backgroundColor: "#0000004F"}}>
@@ -46,7 +46,9 @@ const PersonalWriting = () => {
           </Col>
 
           <Col xs={12} md={4}>
-            <Card className="text-white rounded-0" style={{ border: "none" }}>
+            <Card
+            className="blog-card"
+            >
               <Image
                 src="/images/pw_2.png"
                 alt="Card image"
@@ -66,7 +68,7 @@ const PersonalWriting = () => {
             </div>
           </Col>
           <Col xs={12} md={4}>
-            <Card className="text-white rounded-0" style={{ border: "none" }}>
+            <Card className="blog-card">
               <Image src="/images/pw_3.png" alt="Card image" fluid />
               <Card.ImgOverlay style={{backgroundColor: "#0000004F"}}>
                 <Card.Title className="blogHeader">

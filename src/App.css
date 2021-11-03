@@ -119,17 +119,15 @@ body {
   font-size: 14px;
 }
 
+.blog-card {
+  border: none;
+ 
+}
 
-
-.card:hover {
-  /* filter: grayscale(30%) brightness(80%) sepia(30%) hue-rotate(-30deg) saturate(300%) contrast(0.9); */
+.blog-card:hover {
   filter: opacity(90%) sepia(40%) hue-rotate(-30deg) saturate(150%);
   transition:  ease-in-out .20s;
 }
-/* .blogHeader:hover {
-  color: #e4b2b1;
-
-} */
 
 .blog-list {
   padding-top: 20px;
