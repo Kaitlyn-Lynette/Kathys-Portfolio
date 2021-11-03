@@ -32,7 +32,8 @@ const PersonalWriting = () => {
             >
               <Image src="/images/pw_1.png" alt="homeblogfeature" fluid />
               <Card.ImgOverlay style={{backgroundColor: "#0000004F"}}>
-                <Card.Title className="blogHeader">Home</Card.Title>
+                <Card.Title 
+                className="blogHeader">Home</Card.Title>
               </Card.ImgOverlay>
             </Card>
             <div className="blog-list">
