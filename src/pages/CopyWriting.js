@@ -47,7 +47,8 @@ const CopyWriting = () => {
           <Image src="/images/copy_alpha.png" fluid></Image>
           </Col>
           <Col md={3} id="copy-project">
-            <h5>site in progress</h5>
+            <h5><a href="https://www.instagram.com/alphabetcitycandleco/">Alphabet City Candle Co</a></h5>
+            <p>Site In Progress</p>
           </Col>
         </Row>
       </Container>
