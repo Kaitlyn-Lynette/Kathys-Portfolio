@@ -81,9 +81,15 @@ body {
 
 /* Book Edits */
 
-/* #bookedits {
-  background-color: #e0e0e0
-} */
+#motion {
+  position: relative;
+  top: 0; 
+  transition: top ease 0.5s
+}
+
+#motion:hover{
+  top: -10px
+}
 
 /* CopyWriting */
 
