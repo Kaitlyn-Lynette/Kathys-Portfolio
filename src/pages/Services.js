@@ -52,12 +52,12 @@ const Services = () => {
           </Col>
           <Col md={4}>
             <Card className="svs h-100">
-            <Card.Title>
-            <h3>Speak</h3>
-            </Card.Title>
-            <Card.Text>
-            <p>about topics related to x, y, z </p>
-            </Card.Text>
+              <Card.Title>
+                <h3>Speak</h3>
+              </Card.Title>
+              <Card.Text>
+                <p>about topics related to x, y, z </p>
+              </Card.Text>
             </Card>
           </Col>
         </Row>
