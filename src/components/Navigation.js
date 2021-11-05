@@ -4,9 +4,9 @@ import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Image from "react-bootstrap/Image";
 import { Link } from "react-router-dom";
-import {useHistory} from "react-router-dom"
+import { useHistory } from "react-router-dom";
 
-import "../App.css"
+import "../App.css";
 
 const Navigation = () => {
   const navOne = "About";
@@ -14,7 +14,7 @@ const Navigation = () => {
   const navThree = "Services";
   const navFour = "Testimonials";
   const navFive = "Contact";
-  const history = useHistory ()
+  const history = useHistory();
 
   return (
     <Navbar
@@ -29,16 +29,22 @@ const Navigation = () => {
           <Image
             src="/images/logo.png"
             className="nav-brand"
-            onClick={()=> {
-              history.push('/')
+            onClick={() => {
+              history.push("/");
             }}
-        />
-          
+          />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto nav-item">
-            <Nav.Link href="#about">{navOne}</Nav.Link>
+            <Nav.Link
+              href="#about"
+              onClick={() => {
+                history.push("/");
+              }}
+            >
+              {navOne}
+            </Nav.Link>
             <NavDropdown title={navTwo} id="basic-nav-dropdown">
               <NavDropdown.Item>
                 <Nav.Link as={Link} to="/portfolio">
@@ -48,9 +54,30 @@ const Navigation = () => {
               <NavDropdown.Divider />
               <NavDropdown.Item href="#work">Read with Coffee</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#services">{navThree}</Nav.Link>
-            <Nav.Link href="#testimonials">{navFour}</Nav.Link>
-            <Nav.Link href="#contact">{navFive}</Nav.Link>
+            <Nav.Link
+              href="#services"
+              onClick={() => {
+                history.push("/");
+              }}
+            >
+              {navThree}
+            </Nav.Link>
+            <Nav.Link
+              href="#testimonials"
+              onClick={() => {
+                history.push("/");
+              }}
+            >
+              {navFour}
+            </Nav.Link>
+            <Nav.Link
+              href="#contact"
+              onClick={() => {
+                history.push("/");
+              }}
+            >
+              {navFive}
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
