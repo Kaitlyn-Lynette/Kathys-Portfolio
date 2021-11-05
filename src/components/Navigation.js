@@ -9,6 +9,8 @@ import { useHistory } from "react-router-dom";
 import "../App.css";
 
 const Navigation = () => {
+
+  
   const navOne = "About";
   const navTwo = "Work";
   const navThree = "Services";
@@ -64,6 +66,8 @@ const Navigation = () => {
             </Nav.Link>
             <Nav.Link
               href="#testimonials"
+              smooth={true}
+              offset={-100}
               onClick={() => {
                 history.push("/");
               }}
