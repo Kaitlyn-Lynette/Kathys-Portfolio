@@ -4,6 +4,8 @@ import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Image from "react-bootstrap/Image";
 import { Link } from "react-router-dom";
+import {useHistory} from "react-router-dom"
+
 import "../App.css"
 
 const Navigation = () => {
@@ -12,6 +14,7 @@ const Navigation = () => {
   const navThree = "Services";
   const navFour = "Testimonials";
   const navFive = "Contact";
+  const history = useHistory ()
 
   return (
     <Navbar
@@ -26,7 +29,11 @@ const Navigation = () => {
           <Image
             src="/images/logo.png"
             className="nav-brand"
-          />
+            onClick={()=> {
+              history.push('/')
+            }}
+        />
+          
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -34,7 +41,7 @@ const Navigation = () => {
             <Nav.Link href="#about">{navOne}</Nav.Link>
             <NavDropdown title={navTwo} id="basic-nav-dropdown">
               <NavDropdown.Item>
-                <Nav.Link as={Link} to="/featuredwork">
+                <Nav.Link as={Link} to="/portfolio">
                   Portfolio
                 </Nav.Link>
               </NavDropdown.Item>

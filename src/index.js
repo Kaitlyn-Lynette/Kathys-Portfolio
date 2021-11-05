@@ -12,7 +12,7 @@ const Routing = () => {
     <Router>
       <Switch>
         <Route exact path="/" component={App} />
-        <Route path="/featuredwork" component={FeaturedWork} />
+        <Route path="/portfolio" component={FeaturedWork} />
       </Switch>
     </Router>
   )

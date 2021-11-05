@@ -29,7 +29,7 @@ const Services = () => {
         </Row>
         <Row style={{ paddingTop: "20px", textAlign: "center" }}>
           <Col md={4}>
-            <Card className="svs">
+            <Card className="svs h-100">
               <Card.Title>
                 <h3>Write</h3>
               </Card.Title>
@@ -39,7 +39,7 @@ const Services = () => {
             </Card>
           </Col>
           <Col md={4}>
-            <Card className="svs">
+            <Card className="svs h-100">
               <Card.Title>
                 <h3>Edit</h3>
               </Card.Title>
@@ -51,7 +51,7 @@ const Services = () => {
             </Card>
           </Col>
           <Col md={4}>
-            <Card className="svs">
+            <Card className="svs h-100">
             <Card.Title>
             <h3>Speak</h3>
             </Card.Title>
