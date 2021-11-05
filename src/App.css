@@ -125,8 +125,8 @@ body {
 }
 
 .blog-card:hover {
-  filter: opacity(90%) sepia(40%) hue-rotate(-30deg) saturate(150%);
-  transition:  ease-in-out .20s;
+  filter: opacity(90%) brightness(150%) saturate(100%);
+  transition:  ease-in-out .30s;
 }
 
 .blog-list {
