@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Card from "react-bootstrap/Card";
+import Image from "react-bootstrap/Image";
 
 const Services = () => {
   return (
@@ -29,17 +30,19 @@ const Services = () => {
         </Row>
         <Row style={{ paddingTop: "20px", textAlign: "center" }}>
           <Col md={4}>
-            <Card className="svs h-100">
+            <Card.Img src="/images/services_creativity.png"/>
+             <Card.ImgOverlay>
               <Card.Title>
                 <h3>Write</h3>
               </Card.Title>
               <Card.Text>
                 <p>website copy, social media, business plan</p>
               </Card.Text>
-            </Card>
+              </Card.ImgOverlay>
           </Col>
           <Col md={4}>
-            <Card className="svs h-100">
+            <Card.Img src="/images/services_edit.png"/>
+            <Card.ImgOverlay>
               <Card.Title>
                 <h3>Edit</h3>
               </Card.Title>
@@ -48,17 +51,18 @@ const Services = () => {
                   book, thesis paper, passionate project, blog, social media
                 </p>
               </Card.Text>
-            </Card>
+            </Card.ImgOverlay>
           </Col>
           <Col md={4}>
-            <Card className="svs h-100">
+              <Card.Img src="/images/services_speak.png"/>
+              <Card.ImgOverlay>
               <Card.Title>
                 <h3>Speak</h3>
               </Card.Title>
               <Card.Text>
                 <p>about topics related to x, y, z </p>
               </Card.Text>
-            </Card>
+              </Card.ImgOverlay>
           </Col>
         </Row>
       </Container>
