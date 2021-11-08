@@ -12,13 +12,13 @@ const Work = () => {
       id: 1,
       title: "Books Edits",
       text:
-        "I have worked one-on-one with authors copyediting and proofreading their manuscripts in theology, memoir, and poetry. Here are their published works.",
+        "I have worked one-on-one with authors copyediting and proofreading their manuscripts in theology, memoir, and poetry.",
     },
     {
       id: 2,
       title: "Copywriting",
       text:
-        "I have created and followed the brand voice for businesses and helped share their stories on their websites. Here are their websites.",
+        "I have created and followed the brand voice for businesses and helped share their stories on their websites.",
     },
     {
       id: 3,
@@ -57,7 +57,8 @@ const Work = () => {
             <Col md={3} sm={6}>
               <Card
                 key={content.id}
-                style={{ marginBottom: "20px", backgroundColor: "#EAC493"}}
+                bg="warning"
+                style={{ marginBottom: "20px"}}
                 className="h-100"
               >
                 <Card.Body>

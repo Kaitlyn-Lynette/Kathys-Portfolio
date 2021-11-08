@@ -30,8 +30,8 @@ const Services = () => {
         </Row>
         <Row style={{ paddingTop: "20px", textAlign:"center"}}>
           <Col md={4}>
-            <Card border="warning" bg="warning" className="svs_list h-100">
-              <Card.Img src="/images/services_creativity.png" />
+            <Card bg="warning" className="svs_list h-100">
+              <Card.Img src="/images/services_creativity.jpg" />
               <Card.Body>
                 <Card.Title>
                   <h3>Write</h3>
@@ -40,6 +40,7 @@ const Services = () => {
                   <ul>
                     <li>Blog Writing</li>
                     <li>Fiction Writing</li>
+                    <li>Memoir Writing</li>
                     <li>Copy Writing</li>
                   </ul>
                 </Card.Text>
@@ -47,26 +48,26 @@ const Services = () => {
             </Card>
           </Col>
           <Col md={4}>
-            <Card border="warning" bg="warning" className="svs_list h-100">
-              <Card.Img src="/images/services_edit.png" />
+            <Card bg="warning" className="svs_list h-100">
+              <Card.Img src="/images/services_edit.jpg" />
               <Card.Body>
                 <Card.Title>
                   <h3>Proofreading & Editing</h3>
                 </Card.Title>
                 <Card.Text>
                   <ul>
-                    <li>Books</li>
-                    <li>College Essays</li>
+                    <li>Memoirs</li>
+                    <li>Essays</li>
+                    <li>Poetry</li>
                     <li>Wesbite Copy</li>
-                    <li>Article Features</li>
                   </ul>
                 </Card.Text>
               </Card.Body>
             </Card>
           </Col>
           <Col md={4}>
-            <Card border="warning" bg="warning" className="svs_list h-100">
-              <Card.Img src="/images/services_speak.png" />
+            <Card bg="warning" className="svs_list h-100">
+              <Card.Img src="/images/services_speak.jpg" />
               <Card.Body>
                 <Card.Title>
                   <h3>Speak</h3>
