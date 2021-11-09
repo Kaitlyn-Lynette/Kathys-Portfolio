@@ -9,8 +9,6 @@ import { useHistory } from "react-router-dom";
 import "../App.css";
 
 const Navigation = () => {
-
-  
   const navOne = "About";
   const navTwo = "Work";
   const navThree = "Services";
@@ -54,7 +52,11 @@ const Navigation = () => {
                 </Nav.Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#work">Read with Coffee</NavDropdown.Item>
+              <NavDropdown.Item>
+                <Nav.Link as={Link} to="/readwithcoffee">
+                  Read with Coffee
+                </Nav.Link>
+              </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link
               href="#services"
