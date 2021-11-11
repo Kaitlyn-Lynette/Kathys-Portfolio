@@ -170,26 +170,10 @@ body {
 /* CopyWriting CSS */
 
 
-/* Read with Coffee */
+/* Read with Coffee Section*/
 
-.reviews {
-  text-align: center;
-  padding-top: 20px;
-  padding-left: 0px;
-  padding-right: 0px;
-  border: none;
-  border-radius: 0px; 
-}
 
-.reviews ul {
-  list-style-type: none;
-}
-
-.reviews-col {
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
+/* Newsletter Column  */
 .newsletter-col {
   padding-left: 0px;
   padding-right: 0px;
@@ -197,23 +181,38 @@ body {
   font-weight: 200
 }
 
-.newsletters {
+.newsletter-card {
   padding-left: 0px;
   padding-right: 0px;
   background-color: #808080;
   color: white;
   border: none;
   border-radius: 0px; 
+  text-align: center;
+  height: 100%;
+  padding-top: 20px;
+  font-size: 18px
 }
 
-.newsletters ul {
+.newsletter-card ul {
   list-style-type: none;
   padding-top: 20px;
 }
 
-.newsletters ul a{
+.newsletter-card ul a{
   color: inherit;
 }
+
+/* On Writing Books Column */
+
+.card-edit {
+  padding-left: 0px;
+  padding-right: 0px;
+  border: none;
+  border-radius: 0px; 
+}
+
+/* Favorite Books and Authors Column */
 
 .card-favorite {
   border-radius: 0px;
@@ -222,12 +221,36 @@ body {
   border-radius: 0px; 
 }
 
-.card-edit {
+
+/* Books reviews  */
+
+.reviews-col {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.reviews-card {
+  /* text-align: center; */
+  padding-top: 20px;
   padding-left: 0px;
   padding-right: 0px;
   border: none;
   border-radius: 0px; 
+  font-family: 'Karla';
+  font-weight: 400
 }
+
+.reviews-card ul {
+  list-style-type: none;
+  font-size: 18px
+}
+
+.reviews body {
+  font-size: 20px;
+}
+
+
+
 
 /* 800x or more */
 @media (min-width: 800px) {
