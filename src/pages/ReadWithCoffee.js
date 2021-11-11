@@ -9,10 +9,10 @@ const ReadWithCoffee = () => {
     <div id="readwithcoffee">
       <Row>
         <Col>
-          <Image src="/images/1472x595coffee.jpg" width="100%"></Image>
-        </Col>
+        <Image src="/images/RWCSplash1472x595.jpg" width="100%" /> 
+       </Col>
       </Row>
-      <Row
+      {/* <Row
         style={{
           backgroundColor: "#e4b2b1",
           textAlign: "center",
@@ -23,7 +23,7 @@ const ReadWithCoffee = () => {
         <Col>
           <h1>Read with Coffee</h1>
         </Col>
-      </Row>
+      </Row> */}
       <Row style={{ paddingLeft: "0px", paddingRight: "0px" }}>
         <Col md={6} className="newsletter-col" fluid>
           <Card
@@ -83,7 +83,7 @@ const ReadWithCoffee = () => {
           </Card>
         </Col>
         <Col md={6} className="card-edit">
-        <Card className="card-edit text-white">
+          <Card className="card-edit text-white">
             <Card.Img src="/images/2.jpg" />
             <Card.ImgOverlay>
               <Card.Title>On Writing Books</Card.Title>
@@ -94,19 +94,17 @@ const ReadWithCoffee = () => {
       <Row>
         <Col md={6} className="card-favorite">
           <Card className="card-favorite text-white">
-            <Card.Img src="/images/1.jpg"/>
+            <Card.Img src="/images/1.jpg" />
             <Card.ImgOverlay>
               <Card.Title>Favorite Books & Authors</Card.Title>
             </Card.ImgOverlay>
           </Card>
         </Col>
-       
-
 
         <Col md={6} className="reviews-col">
           <Card
             className="reviews"
-            style={{ textAlign: "center", paddingTop: "20px" }}
+            style={{ textAlign: "center", paddingTop: "20px", height: "100%" }}
           >
             <Card.Title>Book Reviews</Card.Title>
             <Card.Body>

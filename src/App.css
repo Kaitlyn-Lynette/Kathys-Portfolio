@@ -177,6 +177,8 @@ body {
   padding-top: 20px;
   padding-left: 0px;
   padding-right: 0px;
+  border: none;
+  border-radius: 0px; 
 }
 
 .reviews ul {
@@ -198,8 +200,10 @@ body {
 .newsletters {
   padding-left: 0px;
   padding-right: 0px;
-  background-color: grey;
+  background-color: #808080;
   color: white;
+  border: none;
+  border-radius: 0px; 
 }
 
 .newsletters ul {
@@ -214,11 +218,15 @@ body {
 .card-favorite {
   border-radius: 0px;
   padding-right: 0px;
+  border: none;
+  border-radius: 0px; 
 }
 
 .card-edit {
   padding-left: 0px;
   padding-right: 0px;
+  border: none;
+  border-radius: 0px; 
 }
 
 /* 800x or more */
