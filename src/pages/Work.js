@@ -57,8 +57,8 @@ const Work = () => {
             <Col md={3} sm={6}>
               <Card
                 key={content.id}
-                bg="warning"
-                style={{ marginBottom: "20px", border: "none"}}
+                // bg="warning"
+                style={{ marginBottom: "20px", border: "none", backgroundColor: "#f6d06a"}}
                 className="h-100"
               >
                 <Card.Body>

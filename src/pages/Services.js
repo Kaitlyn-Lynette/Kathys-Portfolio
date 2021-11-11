@@ -30,7 +30,7 @@ const Services = () => {
         </Row>
         <Row style={{ paddingTop: "20px", textAlign:"center"}}>
           <Col md={4}>
-            <Card bg="warning" className="svs_list h-100">
+            <Card className="svs_list h-100">
               <Card.Img src="/images/services_creativity.jpg" />
               <Card.Body>
                 <Card.Title>
@@ -48,7 +48,7 @@ const Services = () => {
             </Card>
           </Col>
           <Col md={4}>
-            <Card bg="warning" className="svs_list h-100">
+            <Card  className="svs_list h-100">
               <Card.Img src="/images/services_edit.jpg" />
               <Card.Body>
                 <Card.Title>
@@ -66,7 +66,7 @@ const Services = () => {
             </Card>
           </Col>
           <Col md={4}>
-            <Card bg="warning" className="svs_list h-100">
+            <Card className="svs_list h-100">
               <Card.Img src="/images/services_speak.jpg" />
               <Card.Body>
                 <Card.Title>

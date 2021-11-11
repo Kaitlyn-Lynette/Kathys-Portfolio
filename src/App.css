@@ -101,7 +101,7 @@ body {
 /* PersonalWriting CSS */
 
 #personal {
-  background-color: #f3c13a;
+  background-color:  #f6d06a;
   padding-top: "80px";
   padding-bottom: "100px", 
 }
@@ -156,7 +156,8 @@ body {
 
 
 .svs_list {
-  border: none
+  border: none;
+  background-color: #f6d06a;
 }
 
 .svs_list ul {
@@ -167,6 +168,31 @@ body {
 }
 
 /* CopyWriting CSS */
+
+
+/* Read with Coffee */
+
+.reviews {
+  text-align: "center";
+  padding-top: "20px"
+}
+
+.reviews ul {
+  list-style-type: none;
+
+}
+
+
+.newsletters {
+  padding-left: 0px;
+  padding-right: 0px
+}
+
+.newsletters ul {
+  list-style-type: none;
+  padding-top: 20px
+}
+
 
 /* 800x or more */
 @media (min-width: 800px) {
