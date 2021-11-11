@@ -9,8 +9,8 @@ const ReadWithCoffee = () => {
     <div id="readwithcoffee">
       <Row>
         <Col>
-        <Image src="/images/RWCSplash1472x595.jpg" width="100%" /> 
-       </Col>
+          <Image src="/images/RWCSplash1472x595.jpg" width="100%" />
+        </Col>
       </Row>
       {/* <Row
         style={{
@@ -26,12 +26,9 @@ const ReadWithCoffee = () => {
       </Row> */}
       <Row style={{ paddingLeft: "0px", paddingRight: "0px" }}>
         <Col md={6} className="newsletter-col" fluid>
-          <Card
-            className="newsletter-card"
-            // style={{ textAlign: "center", height: "100%", paddingTop: "20px" }}
-          >
+          <Card className="newsletter-card">
             <Card.Title>The Newsletter</Card.Title>
-            <Card.Body style={{ paddingLeft: "30px", paddingRight: "30px" }}>
+            <Card.Body>
               {" "}
               I love newsletters. Whenever a writer has a newsletter sign up
               form on their website I sign up right away. There’s something
@@ -102,29 +99,70 @@ const ReadWithCoffee = () => {
         </Col>
 
         <Col md={6} className="reviews-col">
-          <Card
-            className="reviews-card"
-          >
-            <Card.Title style={{textAlign: "center"}}>Book Reviews</Card.Title>
+          <Card className="reviews-card">
+            <Card.Title style={{ textAlign: "center" }}>
+              Book Reviews
+            </Card.Title>
             <Card.Body>
+              {" "}
+              <p style={{ textAlign: "center" }}>
+                Check out my {" "}
+                <a href="https://www.goodreads.com/user/show/33141645-katherine-perez-tmu">
+                  Goodreads
+                </a>
+                , here are some highlighted reviews:
+              </p>
               <ul>
-                <p>
-                  Check out my{" "}
-                  <a href="https://www.goodreads.com/user/show/33141645-katherine-perez-tmu">
-                    Goodreads
+                <li>
+                  <a href="https://www.goodreads.com/review/show/4250409189">
+                    Les Miserables
                   </a>
-                  , here are some highlighted reviews:
-                </p>
-                <li>Les Mis</li>
-                <li>Almost a Woman</li>
-                <li>Thanks for Waiting</li>
-                <li>Bookishness</li>
-                <li>The Four Winds</li>
-                <li>Like Water for Chocolate</li>
-                <li>Little Women</li>
-                <li>The Guernsey Literary and Potato Peel Pie Society</li>
-                <li>The Undocumented Americans</li>
-                <li>Small Fry</li>
+                </li>
+                <li>
+                  <a href="https://www.goodreads.com/review/show/4251595447">
+                    Almost a Woman
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.goodreads.com/review/show/4153176573">
+                    Thanks for Waiting
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.goodreads.com/review/show/4214911069">
+                    Bookishness
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.goodreads.com/review/show/4153242331">
+                    The Four Winds
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.goodreads.com/review/show/3504780008">
+                    Like Water for Chocolate
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.goodreads.com/review/show/3982757466">
+                    Little Women
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.goodreads.com/review/show/3586990699">
+                    The Guernsey Literary and Potato Peel Pie Society
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.goodreads.com/review/show/3535543299">
+                    The Undocumented Americans
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.goodreads.com/review/show/3146657265">
+                    Small Fry
+                  </a>
+                </li>
               </ul>
             </Card.Body>
           </Card>

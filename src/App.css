@@ -182,8 +182,8 @@ body {
 }
 
 .newsletter-card {
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
   background-color: #808080;
   color: white;
   border: none;
@@ -237,12 +237,17 @@ body {
   border: none;
   border-radius: 0px; 
   font-family: 'Karla';
-  font-weight: 400
+  font-weight: 400;
+  color: #808080;
 }
 
 .reviews-card ul {
   list-style-type: none;
-  font-size: 18px
+  font-size: 18px;
+}
+
+.reviews-card ul a{
+  color: inherit;
 }
 
 .reviews body {
