@@ -25,13 +25,13 @@ const ReadWithCoffee = () => {
         </Col>
       </Row>
       <Row style={{ paddingLeft: "0px", paddingRight: "0px" }}>
-        <Col md={6} fluid>
+        <Col md={6} className="newsletter-col" fluid>
           <Card
             className="newsletters"
             style={{ textAlign: "center", height: "100%", paddingTop: "20px" }}
           >
             <Card.Title>The Newsletter</Card.Title>
-            <Card.Body style={{ paddingLeft: "30px", paddingRight: "30px",}}>
+            <Card.Body style={{ paddingLeft: "30px", paddingRight: "30px" }}>
               {" "}
               I love newsletters. Whenever a writer has a newsletter sign up
               form on their website I sign up right away. There’s something
@@ -82,7 +82,28 @@ const ReadWithCoffee = () => {
             </Card.Body>
           </Card>
         </Col>
-        <Col md={6}>
+        <Col md={6} className="card-edit">
+        <Card className="card-edit text-white">
+            <Card.Img src="/images/2.jpg" />
+            <Card.ImgOverlay>
+              <Card.Title>On Writing Books</Card.Title>
+            </Card.ImgOverlay>
+          </Card>
+        </Col>
+      </Row>
+      <Row>
+        <Col md={6} className="card-favorite">
+          <Card className="card-favorite text-white">
+            <Card.Img src="/images/1.jpg"/>
+            <Card.ImgOverlay>
+              <Card.Title>Favorite Books & Authors</Card.Title>
+            </Card.ImgOverlay>
+          </Card>
+        </Col>
+       
+
+
+        <Col md={6} className="reviews-col">
           <Card
             className="reviews"
             style={{ textAlign: "center", paddingTop: "20px" }}

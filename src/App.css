@@ -173,26 +173,53 @@ body {
 /* Read with Coffee */
 
 .reviews {
-  text-align: "center";
-  padding-top: "20px"
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .reviews ul {
   list-style-type: none;
-
 }
 
+.reviews-col {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.newsletter-col {
+  padding-left: 0px;
+  padding-right: 0px;
+  font-family: 'Karla';
+  font-weight: 200
+}
 
 .newsletters {
   padding-left: 0px;
-  padding-right: 0px
+  padding-right: 0px;
+  background-color: grey;
+  color: white;
 }
 
 .newsletters ul {
   list-style-type: none;
-  padding-top: 20px
+  padding-top: 20px;
 }
 
+.newsletters ul a{
+  color: inherit;
+}
+
+.card-favorite {
+  border-radius: 0px;
+  padding-right: 0px;
+}
+
+.card-edit {
+  padding-left: 0px;
+  padding-right: 0px;
+}
 
 /* 800x or more */
 @media (min-width: 800px) {
