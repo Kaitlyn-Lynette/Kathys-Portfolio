@@ -259,6 +259,18 @@ body {
 }
 
 
+.fab {
+  padding-left: 20px;
+}
+
+.svg-inline--fa {
+  margin: 10px;
+}
+
+.social-icons a {
+  color: inherit;
+}
+
 /* 800x or more */
 @media (min-width: 800px) {
   #copy-project {
