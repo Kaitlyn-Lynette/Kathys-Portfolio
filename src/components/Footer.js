@@ -68,7 +68,7 @@ const Footer = () => {
             md={6}
             style={{
               paddingTop: "30px",
-              paddingLeft: "3%",
+              paddingLeft: "5%",
               paddingBottom: "20px",
             }}
           >
@@ -79,6 +79,18 @@ const Footer = () => {
                 style={{ verticalAlign: "middle" }}
               />{" "}
               2021 Katherine Perez
+            </p>
+          </Col>
+          <Col
+            md={6}
+            style={{
+              paddingTop: "30px",
+              paddingLeft: "5%",
+              paddingBottom: "20px",
+            }}
+          >
+            <p>
+             Designed by Kaitlyn Gilbert
             </p>
           </Col>
         </Row>

@@ -3,6 +3,7 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Image from "react-bootstrap/Image";
 import Card from "react-bootstrap/Card";
+import Footer from "../components/Footer";
 
 const ReadWithCoffee = () => {
   return (
@@ -168,6 +169,7 @@ const ReadWithCoffee = () => {
           </Card>
         </Col>
       </Row>
+      <Footer />
     </div>
   );
 };
