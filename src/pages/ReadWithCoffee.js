@@ -20,41 +20,51 @@ const ReadWithCoffee = () => {
         </Row>
         <Row>
           <Col md={4}>
-            <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src="/images/the_blog.jpg" />
+            <Card  style={{ width: "18rem"}}>
+              <Card.Img variant="top" src="/images/theblog1.png" />
               <Card.Body>
-                {/* <Card.Title>The Blog</Card.Title> */}
+                <Card.ImgOverlay className= "rwc-cards">The Blog</Card.ImgOverlay>
                 <Card.Text>
                   To My Understanding: I started this blog in 2014 and it's my
                   baby.
                 </Card.Text>
-                <Button variant="primary">Check it out</Button>
+                <Button className= "rwc-button">Check it out</Button>
               </Card.Body>
             </Card>
           </Col>
           <Col md={4}>
             <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src="/images/the_bookclub.jpg" />
+              <Card.Img variant="top" src="/images/thebookclub2.png" />
               <Card.Body>
-                {/* <Card.Title>The Book Club</Card.Title> */}
+              <Card.ImgOverlay className= "rwc-cards">The Book Club</Card.ImgOverlay>
                 <Card.Text>
                   As an extension of the blog, I host a book club. 
                 </Card.Text>
-                <Button variant="primary">Learn More</Button>
+                <Button className= "rwc-button">Learn More</Button>
               </Card.Body>
             </Card>
           </Col>
           <Col md={4}>
             <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src="/images/the_newsletter.jpg" />
+              <Card.Img variant="top" src="/images/thenewsletter3.png" />
               <Card.Body>
-                {/* <Card.Title>The Newsletter</Card.Title> */}
+              <Card.ImgOverlay className= "rwc-cards">The Newsletter</Card.ImgOverlay>
                 <Card.Text>
                   Receive a monthly roundup of what's new with TMU!
                 </Card.Text>
-                <Button variant="primary">Sign Up</Button>
+                <Button className= "rwc-button">Sign Up</Button>
               </Card.Body>
             </Card>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+          <p>Book Reviews</p>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+          <p>Favorite Books & Authors</p>
           </Col>
         </Row>
       </Container>

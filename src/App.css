@@ -279,6 +279,23 @@ body {
   text-align: center;
   padding-top: 40px;
   padding-bottom: 40px;
+  font-size: 18px;
+}
+
+.rwc-button {
+  background-color: #808080;
+  border-radius: 0;
+  border: none;
+  font-family: 'Karla';
+  font-weight: 100;
+}
+
+.rwc-cards {
+  font-size: 18px;
+  vertical-align: center;
+  text-align: center;
+  line-height: 200px;
+
 }
 
 /* 800x or more */
