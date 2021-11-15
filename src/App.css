@@ -271,6 +271,16 @@ body {
   color: inherit;
 }
 
+.rwc-container {
+  padding-bottom: 40px;
+}
+
+.rwc-heading {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 /* 800x or more */
 @media (min-width: 800px) {
   #copy-project {
