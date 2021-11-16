@@ -89,7 +89,7 @@ const Footer = () => {
               paddingBottom: "20px",
             }}
           >
-            <p>
+            <p style={{fontSize: "10px"}}>
              Designed by Kaitlyn Gilbert
             </p>
           </Col>

@@ -21,7 +21,7 @@ const ReadWithCoffee = () => {
       <Container className="rwc-container">
         <Row>
           <Col className="rwc-heading" md={12}>
-            <p>To My Understanding: Life in my humble opinon</p>
+            <h3>Read with Coffee</h3>
           </Col>
         </Row>
         <Row>
@@ -38,7 +38,8 @@ const ReadWithCoffee = () => {
                 </Card.Text>
                 <Button
                   className="rwc-button"
-                  href="https://www.instagram.com/p/CVnoEZ4vyxZ/"
+                  target="_blank"
+                  href="http://www.tomyunderstanding.net/"
                 >
                   Check it out
                 </Button>
@@ -57,6 +58,7 @@ const ReadWithCoffee = () => {
                 </Card.Text>
                 <Button
                   className="rwc-button"
+                  target="_blank"
                   href="https://www.instagram.com/p/CVnoEZ4vyxZ/"
                 >
                   Learn More
@@ -76,6 +78,7 @@ const ReadWithCoffee = () => {
                 </Card.Text>
                 <Button 
                 className="rwc-button"
+                target="_blank"
                 href="http://www.tomyunderstanding.net/"
                 >
                   Sign Up
@@ -84,7 +87,7 @@ const ReadWithCoffee = () => {
             </Card>
           </Col>
         </Row>
-        <Row className="rwc-reviews">
+        {/* <Row className="rwc-reviews">
           <Col>
             <p>Goodreads Book Reviews</p>
             <ul>
@@ -140,7 +143,7 @@ const ReadWithCoffee = () => {
               </li>
             </ul>
           </Col>
-        </Row>
+        </Row> */}
         {/* <Row className="rwc-faves">
           <Col>
           <p>Favorite Authors</p>
