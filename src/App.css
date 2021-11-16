@@ -292,11 +292,42 @@ body {
 
 .rwc-cards {
   font-size: 18px;
-  vertical-align: center;
   text-align: center;
+  height: 200px;
   line-height: 200px;
-
+  
 }
+
+
+.rwc-reviews {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+
+.rwc-faves {
+  /* padding-top: 20px; */
+  padding-bottom: 40px;
+  font-size: 18px;
+}
+
+.rwc-reviews ul {
+  list-style-type: none;;
+}
+
+.rwc-reviews a {
+  color: inherit;
+}
+
+.rwc-button-one {
+  background-color: #808080;
+  color: white;
+  width: 125px;
+  height: 24px;
+  padding-left: 20px
+  
+}
+
 
 /* 800x or more */
 @media (min-width: 800px) {
