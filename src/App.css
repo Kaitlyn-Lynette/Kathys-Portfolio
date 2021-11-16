@@ -283,19 +283,30 @@ body {
 }
 
 .rwc-button {
-  background-color: #808080;
+  background-color: #EBECF0;
   border-radius: 0;
   border: none;
-  font-family: 'Karla';
-  font-weight: 100;
 }
 
-.rwc-cards {
+
+.btn {
+  color: grey;
+  font-family: 'Karla';
+  font-weight: 100;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+}
+
+.btn:hover{
+  color: #EBECF0;
+  background-color: #808080;
+}
+
+.rwc-cards-overlay {
   font-size: 18px;
   text-align: center;
   height: 200px;
   line-height: 200px;
-  
 }
 
 

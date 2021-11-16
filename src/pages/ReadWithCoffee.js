@@ -29,7 +29,7 @@ const ReadWithCoffee = () => {
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src="/images/theblog1.png" />
               <Card.Body>
-                <Card.ImgOverlay className="rwc-cards">
+                <Card.ImgOverlay className="rwc-cards-overlay">
                   The Blog
                 </Card.ImgOverlay>
                 <Card.Text>
@@ -49,7 +49,7 @@ const ReadWithCoffee = () => {
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src="/images/thebookclub2.png" />
               <Card.Body>
-                <Card.ImgOverlay className="rwc-cards">
+                <Card.ImgOverlay className="rwc-cards-overlay">
                   The Book Club
                 </Card.ImgOverlay>
                 <Card.Text>
@@ -68,7 +68,7 @@ const ReadWithCoffee = () => {
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src="/images/thenewsletter3.png" />
               <Card.Body>
-                <Card.ImgOverlay className="rwc-cards">
+                <Card.ImgOverlay className="rwc-cards-overlay">
                   The Newsletter
                 </Card.ImgOverlay>
                 <Card.Text>
