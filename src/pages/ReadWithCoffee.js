@@ -59,7 +59,7 @@ const ReadWithCoffee = () => {
                 <Button
                   className="rwc-button"
                   target="_blank"
-                  href="https://www.instagram.com/p/CVnoEZ4vyxZ/"
+                  href="http://www.tomyunderstanding.net/2021/11/tmus-fallwinter-2021-book-club.html"
                 >
                   Learn More
                 </Button>
@@ -79,7 +79,7 @@ const ReadWithCoffee = () => {
                 <Button 
                 className="rwc-button"
                 target="_blank"
-                href="http://www.tomyunderstanding.net/"
+                href="https://us4.campaign-archive.com/home/?u=df2f7f9baf04d4dddfda33670&id=681e843a4b"
                 >
                   Sign Up
                 </Button>
@@ -87,7 +87,7 @@ const ReadWithCoffee = () => {
             </Card>
           </Col>
         </Row>
-        {/* <Row className="rwc-reviews">
+        <Row className="rwc-reviews">
           <Col>
             <p>Goodreads Book Reviews</p>
             <ul>
@@ -143,24 +143,7 @@ const ReadWithCoffee = () => {
               </li>
             </ul>
           </Col>
-        </Row> */}
-        {/* <Row className="rwc-faves">
-          <Col>
-          <p>Favorite Authors</p>
-          <ul>
-            <li>Esmeralda Santiago</li>
-            <li>Doree Shafrir </li>
-            <li>Debbie Macomber </li>
-          </ul>
-          <p>Favorite Books</p>
-          <ul>
-            <li>Small Fry</li>
-            <li>Little Woman</li>
-            <li>An Education</li>
-          </ul>
-
-          </Col>
-        </Row> */}
+        </Row> 
       </Container>
       <Footer />
     </div>
