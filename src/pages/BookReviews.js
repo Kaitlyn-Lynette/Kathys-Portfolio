@@ -79,7 +79,7 @@ const BookReviews = () => {
           to={{pathname: "https://www.goodreads.com/user/show/33141645-katherine-perez-tmu"}}
           target="_blank"
           >
-           <p>See more</p><FontAwesomeIcon icon={["fas", "arrow-right"]} />
+           <p>See more <FontAwesomeIcon icon={["fas", "arrow-right"]} size="xs" style={{verticalAlign: "middle"}} /></p>
           </Link>
         </Col>
         </Row>
