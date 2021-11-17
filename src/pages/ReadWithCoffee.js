@@ -22,7 +22,7 @@ const ReadWithCoffee = () => {
           </Col>
         </Row>
         <Row>
-          <Col md={6}>
+          <Col md={{span: 4, offset: 2}}>
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src="/images/theblog1.png" />
               <Card.Body>
@@ -43,7 +43,7 @@ const ReadWithCoffee = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col md={6}>
+          <Col md={{span: 4, offset: 1}}>
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src="/images/thebookclub2.png" />
               <Card.Body>
@@ -65,8 +65,8 @@ const ReadWithCoffee = () => {
           </Col>
         </Row>
 
-        <Row>
-          <Col md={6}>
+        <Row className="rwc-col-2"> 
+          <Col md={{span: 4, offset: 2}}>
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src="/images/thenewsletter3.png" />
               <Card.Body>
@@ -86,18 +86,20 @@ const ReadWithCoffee = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col md={6}>
+          <Col md={{span: 4, offset: 1}}>
             <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src="/images/thenewsletter3.png" />
+              <Card.Img variant="top" src="/images/the_book_reviews.jpg" />
               <Card.Body>
                 <Card.ImgOverlay className="rwc-cards-overlay">
                   The Book Reviews
                 </Card.ImgOverlay>
                 <Card.Text>
-                  I love books and you can follow my latest reads and reviews on
-                  Goodreads.
+                  Follow my latest reads and reviews on Goodreads.
                 </Card.Text>
-                <Button as={Link} to='/bookreviews'>
+                <Button 
+                className="rwc-button"
+                as={Link} 
+                to='/bookreviews'>
                   See Reviews
                 </Button>
               </Card.Body>
