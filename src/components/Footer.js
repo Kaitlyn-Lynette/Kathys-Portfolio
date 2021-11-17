@@ -60,6 +60,12 @@ const Footer = () => {
               >
                 <FontAwesomeIcon icon={["fab", "linkedin"]} />
               </Link>
+              <Link
+                to={{ pathname: "https://www.goodreads.com/user/show/33141645-katherine-perez-tmu" }}
+                target="_blank"
+              >
+                <FontAwesomeIcon icon={["fab", "goodreads"]} />
+              </Link>
             </div>
           </Col>
         </Row>
