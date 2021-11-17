@@ -6,18 +6,11 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import Footer from "../components/Footer";
 import Header from "../components/Navigation";
-import "../App.css";
 import { Link } from "react-router-dom";
-import { useHistory } from "react-router-dom";
-import { useNavigate } from 'react-router-dom'  
+import "../App.css";
 
 const ReadWithCoffee = () => {
 
-  const history = useHistory;
-
-  // function handleClick() {
-  //   history.push("/bookreviews")
-  // }
 
   return (
     <div id="readwithcoffee">

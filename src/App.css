@@ -271,6 +271,9 @@ body {
   color: inherit;
 }
 
+
+/* Read with Coffee */
+
 .rwc-container {
   padding-bottom: 40px;
 }
@@ -337,6 +340,29 @@ body {
   height: 24px;
   padding-left: 20px
   
+}
+
+/* Book Reviews */
+
+.book-rws {
+  padding-top: 40px;
+}
+
+.book-rws ul {
+  list-style-type: none;
+
+}
+
+.book-rws a {
+  color: inherit;  
+}
+
+.book-rws-list {
+  padding-top: 20px;
+  font-size: 20px;
+  line-height: 40px;
+  font-family: "Karla";
+  font-weight: 200px;
 }
 
 

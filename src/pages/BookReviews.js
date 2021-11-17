@@ -1,22 +1,26 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Container from "react-bootstrap/Container";
 import Header from "../components/Navigation";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
+import { Link } from "react-router-dom";
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+
+
+library.add(fas)
 
 const BookReviews = () => {
   return (
     <div id="bookreviews">
       <Header />
       <Container>
-        <Row>
-            <Col>
+        <Row className="book-rws">
+          <Col md={12}>
             <h3>Book Reviews</h3>
-            </Col>
-            <Col>
-            <Row className="rwc-reviews">
-          <Col>
-            <p>Goodreads Book Reviews</p>
+          </Col>
+          <Col className = "book-rws-list" md={12}>
             <ul>
               <li>
                 <a href="https://www.goodreads.com/review/show/4250409189">
@@ -70,9 +74,14 @@ const BookReviews = () => {
               </li>
             </ul>
           </Col>
-        </Row> 
-            
-            </Col>
+        <Col md={{ span: 3, offset: 9 }} >
+          <Link 
+          to={{pathname: "https://www.goodreads.com/user/show/33141645-katherine-perez-tmu"}}
+          target="_blank"
+          >
+           <p>See more</p><FontAwesomeIcon icon={["fas", "arrow-right"]} />
+          </Link>
+        </Col>
         </Row>
       </Container>
     </div>
