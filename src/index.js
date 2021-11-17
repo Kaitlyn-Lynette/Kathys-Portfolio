@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 // import './index.css';
 import App from './App';
-import About from './pages/About';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import FeaturedWork from './pages/FeaturedWork';
 import ReadWithCoffee from './pages/ReadWithCoffee'
+import BookReviews from './pages/BookReviews';
 // import Navigation from "../src/components/Navigation";
 
 const Routing = () => {
@@ -16,6 +16,7 @@ const Routing = () => {
         <Route exact path="/" component={App} />
         <Route path="/portfolio" component={FeaturedWork} />
         <Route path="/readwithcoffee" component={ReadWithCoffee}/>
+        <Route path="/bookreviews" component={BookReviews}/>
       </Switch>
     </Router>
   )
