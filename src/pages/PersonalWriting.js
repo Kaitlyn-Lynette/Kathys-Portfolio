@@ -110,7 +110,8 @@ const PersonalWriting = () => {
             </div>
           </Col>
         </Row>
-        <Row style={{ paddingTop: "50px", paddingLeft: "80px" }}>
+        <Row style={{ paddingTop: "80px", paddingLeft: "80px" }}>
+        
           <Col xs={12} md={6}>
             <Card style={{ width: "30rem", textAlign: "center" }}>
               <Card.Img variant="top" src="/images/pw_1_478x353.png" />

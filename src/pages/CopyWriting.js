@@ -28,7 +28,7 @@ const CopyWriting = () => {
           </Col>
           <Col md={12} style={{ textAlign: "center", paddingBottom: "40px"}}>
             <p>
-              I have created and followed the brand voice for businesses and
+              I have created and followed the brand voice for local businesses and
               helped share their stories on their websites. Here are their
               websites.
             </p>

@@ -31,7 +31,7 @@ const Services = () => {
         <Row style={{ paddingTop: "20px", textAlign:"center"}}>
           <Col md={4}>
             <Card className="svs_list h-100">
-              <Card.Img src="/images/services_creativity.jpg" />
+              <Card.Img src="/images/services_creativity_resize.jpg" />
               <Card.Body>
                 <Card.Title>
                   <h3>Write</h3>
@@ -49,7 +49,7 @@ const Services = () => {
           </Col>
           <Col md={4}>
             <Card  className="svs_list h-100">
-              <Card.Img src="/images/services_edit.jpg" />
+              <Card.Img src="/images/services_edit_resize.jpg" style={{height: "277px"}}  />
               <Card.Body>
                 <Card.Title>
                   <h3>Proofreading & Editing</h3>
@@ -67,7 +67,7 @@ const Services = () => {
           </Col>
           <Col md={4}>
             <Card className="svs_list h-100">
-              <Card.Img src="/images/services_speak.jpg" />
+              <Card.Img src="/images/services_speak_resize.jpg"/>
               <Card.Body>
                 <Card.Title>
                   <h3>Speak</h3>
