@@ -19,14 +19,14 @@ const FeaturedHeader = () => {
         </Row>
         <Container fluid style={{ paddingTop: "10px" }}>
           <Row>
-            <Col md={4} sm={12}>
+            <Col md={{span:4, offset: 2}} sm={12}>
               <Image
                 src="/images/Note_To_Readers.jpg"
                 width="100%"
-                style={{ paddingLeft: "20px"}}
+                style={{ paddingLeft: "40px", paddingBottom: "40px",}}
               />
             </Col>
-            <Col md={{ span: 6, offset: 1 }} sm={12} id="note">
+            <Col md={4} sm={12} id="note">
               <p>Note to My readers</p> 
               <p>
                 My dear reader, website peruser, or potential partner in work, I
