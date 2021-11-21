@@ -23,7 +23,7 @@ const FeaturedHeader = () => {
               <Image
                 src="/images/Note_To_Readers.jpg"
                 width="100%"
-                style={{ paddingLeft: "20px" }}
+                style={{ paddingLeft: "20px"}}
               />
             </Col>
             <Col md={{ span: 6, offset: 1 }} sm={12} id="note">
