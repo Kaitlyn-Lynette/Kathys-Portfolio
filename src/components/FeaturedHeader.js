@@ -9,24 +9,24 @@ const FeaturedHeader = () => {
     <div id="featuredHeader">
       <div
         id="notetoreader"
-        style={{ padding: "20px", backgroundColor: "#e4b2b1" }}
+        style={{ padding: "20px"}}
       >
         <Row>
             <Col md={12} sm={12} style={{textAlign: "center", paddingBottom: "40px"}}>
-            <h1 style={{fontSize: "50px"}}>Portfolio</h1> 
+            <h1 style={{fontSize: "32px"}}>Portfolio</h1> 
             <h4> Writer | Editor | Novelist </h4>
             </Col>
-        </Row>
-        <Container fluid style={{ paddingTop: "10px" }}>
+        </Row> 
+        {/* <Container fluid style={{ paddingTop: "10px" }}> */}
           <Row>
-            <Col md={{span:4, offset: 2}} sm={12}>
+            {/* <Col md={6}sm={12}>
               <Image
                 src="/images/Note_To_Readers.jpg"
-                width="100%"
+                width="75%"
                 // style={{ paddingLeft: "40px", paddingRight:"40px", paddingBottom: "40px"}}
               />
-            </Col>
-            <Col md={4} sm={12} id="note">
+            </Col> */}
+            <Col md={{span:6, offset:3}} sm={12} style={{textAlign: "center"}}>
               <p>Note to My readers</p> 
               <p>
                 My dear reader, website peruser, or potential partner in work, I
@@ -37,7 +37,7 @@ const FeaturedHeader = () => {
               </p>
             </Col>
           </Row>
-        </Container>
+        {/* </Container> */}
       </div>
     </div>
   );

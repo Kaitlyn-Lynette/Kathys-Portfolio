@@ -92,7 +92,7 @@ const PersonalWriting = () => {
             <div className="blog-list">
               <ul>
                 <li>
-                  <a href="http://www.tomyunderstanding.net/2020/12/the-discomfort-and-peace-of-being.html">
+                  <a href="http://www.to2yunderstanding.net/2020/12/the-discomfort-and-peace-of-being.html">
                   The Discomfort and Peace of Being Vulnerable, Dec. 2020
                   </a>
                 </li>

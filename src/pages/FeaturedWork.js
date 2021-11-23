@@ -10,7 +10,7 @@ const FeaturedWork = () => {
   return (
     <div id="featuredwork">
       {/* <SideBarNav></SideBarNav> */}
-      <Navigation></Navigation>
+      {/* <Navigation></Navigation> */}
       <FeaturedHeader></FeaturedHeader>
       <BookEdits></BookEdits>
       <CopyWriting></CopyWriting>
