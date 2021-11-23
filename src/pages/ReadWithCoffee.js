@@ -18,7 +18,7 @@ const ReadWithCoffee = () => {
       <Container className="rwc-container">
         <Row>
           <Col className="rwc-heading" md={12}>
-            <h3>Read with Coffee</h3>
+            <h3>Read With Coffee</h3>
            
           </Col>
         </Row>
@@ -36,15 +36,14 @@ const ReadWithCoffee = () => {
                   The Blog
                 </Card.ImgOverlay>
                 <Card.Text>
-                  To My Understanding (TMU): I started this blog in 2014 and it's my
-                  baby.
+                  I started To My Understanding in 2014 to write encouraging and inspiring content for women.
                 </Card.Text>
                 <Button
                   className="rwc-button"
                   target="_blank"
                   href="http://www.tomyunderstanding.net/"
                 >
-                  Check it out
+                  Check It Out
                 </Button>
               </Card.Body>
             </Card>

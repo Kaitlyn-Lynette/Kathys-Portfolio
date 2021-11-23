@@ -54,7 +54,7 @@ const Navigation = () => {
               <NavDropdown.Divider />
               <NavDropdown.Item>
                 <Nav.Link as={Link} to="/readwithcoffee">
-                  Read with Coffee
+                  Read With Coffee
                 </Nav.Link>
               </NavDropdown.Item>
             </NavDropdown>
