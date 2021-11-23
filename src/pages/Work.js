@@ -6,11 +6,10 @@ import Card from "react-bootstrap/Card";
 // import {Link, useLocation}  from "react-router-dom";
 
 const Work = () => {
-
   const contents = [
     {
       id: 1,
-      title: "Books Edits",
+      title: "Book Edits",
       text:
         "I have worked one-on-one with authors copyediting and proofreading their manuscripts in theology, memoir, and poetry.",
     },
@@ -18,19 +17,19 @@ const Work = () => {
       id: 2,
       title: "Copywriting",
       text:
-        "I have created and followed the brand voice for businesses and helped share their stories on their websites.",
+        "I have created, as well as followed, the brand voice for businesses and helped them share their stories on their websites.",
     },
     {
       id: 3,
       title: "Personal Pieces",
       text:
-        "From blog posts to featured pieces, links to my personal writing can be found here",
+        "From blog posts to featured writing, I write with my own voice in these pieces.",
     },
     {
       id: 4,
-      title: "Read with Coffee",
+      title: "Read With Coffee",
       text:
-        "Here you can settle in and read about books and drink in my newsletter where I round up monthly updates and discuss culture, life, and art.",
+        "Now settle in a comfy seat and drink in my newsletter, book reviews, and more on culture, life, and art.",
     },
   ];
   return (
@@ -47,8 +46,10 @@ const Work = () => {
               Featured Work
             </h5>
             <h4 style={{ fontSize: "18px", lineHeight: "25px" }}>
-              I design creative stuffs & build online digital products related
-              business passionate about simple user experience and designs.
+              My writing and editing speciality is non-fiction. I am passionate
+              about hearing the stories of others and helping you write it.
+              As an editor I am passionate about making your words concise and
+              strong; to get your point across and to impact your readers.
             </h4>
           </Col>
         </Row>
@@ -58,7 +59,11 @@ const Work = () => {
               <Card
                 key={content.id}
                 // bg="warning"
-                style={{ marginBottom: "20px", border: "none", backgroundColor: "#f3ce88"}}
+                style={{
+                  marginBottom: "20px",
+                  border: "none",
+                  backgroundColor: "#f3ce88",
+                }}
                 className="h-100"
               >
                 <Card.Body>
@@ -71,7 +76,7 @@ const Work = () => {
         </Row>
       </Container>
     </div>
-  )
+  );
 };
 
 export default Work;

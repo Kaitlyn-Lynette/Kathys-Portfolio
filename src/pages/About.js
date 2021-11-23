@@ -27,10 +27,10 @@ const About = () => {
                 lineHeight: "25px",
               }}
             >
-              She launched her blog, To My Understanding, in 2014 after graduating 
+              She launched her blog, To My Understanding (TMU), in 2014 after graduating 
               from Quinnipiac University with a Bachelor in Print Journalism. Since then her writing has
               been published in Just Between Us magazine and Dearly Magazine.
-              Her writing style focuses on coming of age, self-development, and
+              Her writing style focuses on coming-of-age, self-development, and
               lifestyle. She has edited non-fiction books for social leaders and
               overcomers in local communities. When she is not writing or
               editing, Katherine spends her time mentoring young women in

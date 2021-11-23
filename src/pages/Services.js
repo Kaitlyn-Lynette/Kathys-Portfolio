@@ -39,7 +39,6 @@ const Services = () => {
                 <Card.Text>
                   <ul>
                     <li>Blog Writing</li>
-                    <li>Fiction Writing</li>
                     <li>Memoir Writing</li>
                     <li>Copy Writing</li>
                   </ul>
@@ -56,10 +55,9 @@ const Services = () => {
                 </Card.Title>
                 <Card.Text>
                   <ul>
+                    <li>Non-Fiction Manuscripts</li>
                     <li>Memoirs</li>
-                    <li>Essays</li>
                     <li>Poetry</li>
-                    <li>Wesbite Copy</li>
                   </ul>
                 </Card.Text>
               </Card.Body>
