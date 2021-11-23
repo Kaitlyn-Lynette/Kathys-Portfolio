@@ -49,7 +49,7 @@ const Services = () => {
           </Col>
           <Col md={4}>
             <Card  className="svs_list h-100">
-              <Card.Img src="/images/services_edit_resize.jpg" style={{height: "277px"}}  />
+              <Card.Img src="/images/services_edit_resize2.jpg" style={{height: "277px"}}  />
               <Card.Body>
                 <Card.Title>
                   <h3>Proofreading & Editing</h3>

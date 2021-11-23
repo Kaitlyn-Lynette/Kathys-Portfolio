@@ -76,14 +76,14 @@ const Navigation = () => {
             >
               {navFour}
             </Nav.Link>
-            <Nav.Link
+            {/* <Nav.Link
               href="#contact"
               onClick={() => {
                 history.push("/");
               }}
             >
               {navFive}
-            </Nav.Link>
+            </Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

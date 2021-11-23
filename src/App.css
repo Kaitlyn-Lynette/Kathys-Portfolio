@@ -350,6 +350,11 @@ body {
   padding-top: 40px;
 }
 
+.rwc-subtitle {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
 /* Book Reviews */
 
 .book-rws {

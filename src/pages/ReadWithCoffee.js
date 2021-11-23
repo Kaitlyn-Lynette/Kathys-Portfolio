@@ -19,6 +19,12 @@ const ReadWithCoffee = () => {
         <Row>
           <Col className="rwc-heading" md={12}>
             <h3>Read with Coffee</h3>
+           
+          </Col>
+        </Row>
+        <Row>
+          <Col className="rwc-subtitle" md={{span:6, offset: 3}}>
+          <p>Here you can settle in and read about books and drink in my newsletter where I round up monthly updates and discuss culture, life, and art."</p>
           </Col>
         </Row>
         <Row>
@@ -30,7 +36,7 @@ const ReadWithCoffee = () => {
                   The Blog
                 </Card.ImgOverlay>
                 <Card.Text>
-                  To My Understanding: I started this blog in 2014 and it's my
+                  To My Understanding (TMU): I started this blog in 2014 and it's my
                   baby.
                 </Card.Text>
                 <Button
