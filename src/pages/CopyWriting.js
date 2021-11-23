@@ -26,11 +26,10 @@ const CopyWriting = () => {
           <Col md={12} style={{ textAlign: "center", paddingBottom: "40px" }}>
             <h1>Copywriting </h1>
           </Col>
-          <Col md={12} style={{ textAlign: "center", paddingBottom: "40px"}}>
+          <Col md={12} style={{ textAlign: "center", paddingBottom: "40px" }}>
             <p>
-              I have created and followed the brand voice for local businesses and
-              helped share their stories on their websites. Here are their
-              websites.
+              I have created, as well as followed, the brand voice for
+              businesses and helped them share their stories on their websites.
             </p>
           </Col>
         </Row>
@@ -39,15 +38,23 @@ const CopyWriting = () => {
             <Image src="/images/copy_blend.png" fluid></Image>
           </Col>
           <Col xs={12} md={3} id="copy-project">
-            <h5><a href="https://www.blendbayridge.com/">Blend: Coffee + CoWork</a></h5>
+            <h5>
+              <a href="https://www.blendbayridge.com/">
+                Blend: Coffee + CoWork
+              </a>
+            </h5>
           </Col>
         </Row>
         <Row style={{ paddingTop: "80px" }}>
           <Col md={{ span: 4, offset: 3 }}>
-          <Image src="/images/copy_alpha.png" fluid></Image>
+            <Image src="/images/copy_alpha.png" fluid></Image>
           </Col>
           <Col md={3} id="copy-project">
-            <h5><a href="https://www.instagram.com/alphabetcitycandleco/">Alphabet City Candle Co</a></h5>
+            <h5>
+              <a href="https://www.instagram.com/alphabetcitycandleco/">
+                Alphabet City Candle Co
+              </a>
+            </h5>
             <p>Site In Progress</p>
           </Col>
         </Row>

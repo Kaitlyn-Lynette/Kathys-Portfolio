@@ -13,14 +13,14 @@ const PersonalWriting = () => {
       <Container>
         <Row>
           <Col md={12} style={{ paddingBottom: "40px", textAlign: "center" }}>
-            <h1>Personal Writing</h1>
+            <h1>Personal Pieces</h1>
           </Col>
         </Row>
         <Row>
           <Col md={12} style={{ textAlign: "center" }}>
             <p>
-              From my blog, To My Understanding (TMU), to featured pieces, links
-              to my personal writing can be found here.
+              From blog posts to featured writing, I write with my own voice in
+              these pieces.
             </p>
           </Col>
         </Row>
@@ -39,17 +39,17 @@ const PersonalWriting = () => {
               <ul>
                 <li>
                   <a href="http://www.tomyunderstanding.net/2019/12/people-of-intentional-connection.html">
-                    People of Intentional Connection, Dec 2019
+                  People of Intentional Connection, Dec. 2019
                   </a>
                 </li>
                 <li>
                   <a href="http://www.tomyunderstanding.net/2018/01/my-cozy-place.html">
-                    My Cozy Place, Jan 2018
+                  My Cozy Place, Jan. 2018
                   </a>
                 </li>
                 <li>
                   <a href="http://www.tomyunderstanding.net/2016/06/stepping-into-marriage.html">
-                    Stepping Into Marriage, Jul 2016
+                  Stepping into Marriage, June 2016
                   </a>
                 </li>
               </ul>
@@ -74,7 +74,7 @@ const PersonalWriting = () => {
                 </li>
                 <li>
                   <a href="http://www.tomyunderstanding.net/2018/02/where-to-find-your-passion.html">
-                    Where to Find Your Passion, July 2018
+                  Where to Find Your Passion, Feb. 2018
                   </a>
                 </li>
               </ul>
@@ -93,7 +93,7 @@ const PersonalWriting = () => {
               <ul>
                 <li>
                   <a href="http://www.tomyunderstanding.net/2020/12/the-discomfort-and-peace-of-being.html">
-                    Discomfort and Peace of Being, Dec 2020
+                  The Discomfort and Peace of Being Vulnerable, Dec. 2020
                   </a>
                 </li>
                 <li>
@@ -111,7 +111,6 @@ const PersonalWriting = () => {
           </Col>
         </Row>
         <Row style={{ paddingTop: "80px", paddingLeft: "80px" }}>
-        
           <Col xs={12} md={6}>
             <Card style={{ width: "30rem", textAlign: "center" }}>
               <Card.Img variant="top" src="/images/pw_1_478x353.png" />
