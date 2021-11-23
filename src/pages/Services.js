@@ -25,7 +25,7 @@ const Services = () => {
               paddingBottom: "20px",
             }}
           >
-            Contact me if you're looking for a writer to ...{" "}
+             I share your passion for your work. Contact me if you’re looking for a positive person who can…
           </h4>
         </Row>
         <Row style={{ paddingTop: "20px", textAlign:"center"}}>
@@ -51,7 +51,7 @@ const Services = () => {
               <Card.Img src="/images/services_edit_resize2.jpg" style={{height: "277px"}}  />
               <Card.Body>
                 <Card.Title>
-                  <h3>Proofreading & Editing</h3>
+                  <h3>Proofread & Edit</h3>
                 </Card.Title>
                 <Card.Text>
                   <ul>
@@ -68,13 +68,13 @@ const Services = () => {
               <Card.Img src="/images/services_speak_resize.jpg"/>
               <Card.Body>
                 <Card.Title>
-                  <h3>Speak</h3>
+                  <h3>Mentor</h3>
                 </Card.Title>
                 <Card.Text>
                 <ul>
-                    <li>Womenhood</li>
-                    <li>Spirituality</li>
-                    <li>Marriage</li>
+                    <li>Womanhood</li>
+                    <li>Faith</li>
+                    <li>Friendship</li>
                   </ul>
                 </Card.Text>
               </Card.Body>

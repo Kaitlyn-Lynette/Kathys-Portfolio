@@ -26,25 +26,25 @@ const BookEdits = () => {
             <div id="motion">
             <Image src="/images/DividedGospel211x345.png" fluid></Image>
             </div>
-            <p>2017</p>
+            <p>2018</p>
           </Col>
           <Col xs={6} md={3}>
             <div id="motion">
             <Image src="/images/JesusPrinciple211x345.png" fluid></Image>
             </div>
-            <p>2018</p>
+            <p>2019</p>
           </Col>
           <Col xs={6} md={3}>
             <div id="motion">
             <Image src="/images/PoisonousPower211x345.png" fluid></Image>
             </div>
-            <p>2020</p>
+            <p>2019</p>
           </Col>
           <Col xs={6} md={3}>
             <div id="motion">
             <Image src="/images/DarknesstoDestiny211x345.png" fluid></Image>
             </div>
-            <p>2020</p>
+            <p>2021</p>
           </Col>
         </Row>
       </Container>

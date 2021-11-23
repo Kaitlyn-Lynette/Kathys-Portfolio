@@ -26,7 +26,7 @@ const Footer = () => {
           >
             <h4>Contact Me</h4>
             <p>
-              I'm thankful you've visited my site. Please get in touch by sending me a message on my social.
+            I’m thankful you’ve visited my site. Please get in touch through the contact form.
             </p>
           </Col>
           <Col
@@ -37,7 +37,7 @@ const Footer = () => {
               paddingBottom: "20px",
             }}
           >
-            <h4>Follow Social</h4>
+            <h4>Follow Me</h4>
             <div className="social-icons">
               <Link
                 to={{
@@ -94,7 +94,7 @@ const Footer = () => {
               paddingBottom: "20px",
             }}
           >
-            <p style={{fontSize: "10px"}}>
+            <p style={{fontSize: "12px"}}>
              Designed by Kaitlyn Gilbert
             </p>
           </Col>

@@ -24,7 +24,7 @@ const CopyWriting = () => {
       <Container>
         <Row>
           <Col md={12} style={{ textAlign: "center", paddingBottom: "40px" }}>
-            <h1>Copy Writing </h1>
+            <h1>Copywriting </h1>
           </Col>
           <Col md={12} style={{ textAlign: "center", paddingBottom: "40px"}}>
             <p>
