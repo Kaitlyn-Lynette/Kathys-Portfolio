@@ -63,10 +63,45 @@ const Carousel = () => {
       <SwiperSlide>
         <div className="tst">
           <Row>
+            <Col md={12} style={{ textAlign: "center", fontSize: "14.5px"}}>
+              <p>
+                “I​​t was a joy having Kathy serve alongside the team at our
+                creative agency. Many of our clients require flexibility, and
+                Kathy was always willing to step into the gap with both her
+                availability and attention to detail to provide whatever was
+                needed. Throughout her time with us, I knew I could always rely
+                on Kathy to finish her work efficiently, ask questions when
+                challenges came, and be a positive voice in any interactions
+                with the team."
+              </p>
+            </Col>
+          </Row>
+        </div>
+        <div className="tst-author-info" style={{ textAlign: "center" }}>
+        <Row>
+            <Col md={{ span: 3, offset: 2 }}>
+              <Image src="/images/MM_Logo100x100.png" />
+            </Col>
+            <Col
+              md={4}
+              style={{
+                paddingLeft: "0px",
+                paddingRight: "12px",
+                marginTop: "20px"
+              }}
+            >
+              <p>Rob Russell, Account Manager</p>
+            </Col>
+          </Row>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        <div className="tst">
+          <Row>
             <Col md={12} style={{ textAlign: "center" }}>
               <p>
-                “She has taken my online presence to a new level. She is great at
-                navigating social media and the apps needed to create
+                “She has taken my online presence to a new level. She is great
+                at navigating social media and the apps needed to create
                 eye-catching flyers and announcements. Katherine is a pleasure
                 to work with, positive, supportive and timely, always able to
                 accommodate my projects as they arise. Already recommended her
@@ -97,7 +132,7 @@ const Carousel = () => {
       <SwiperSlide>
         <div className="tst">
           <Row>
-            <Col md={12} style={{textAlign: "center"}}>
+            <Col md={12} style={{ textAlign: "center" }}>
               <p>
                 “Katherine Perez is an excellent writer who is not only precise
                 when it comes to the nuances of editing, but is creative,
@@ -121,12 +156,11 @@ const Carousel = () => {
                 paddingTop: "20px",
               }}
             >
-              <p>Bishop Joseph Mattera, Mattera Ministries Internaional</p>
+              <p>Bishop Joseph Mattera, Mattera Ministries International</p>
             </Col>
           </Row>
         </div>
       </SwiperSlide>
-
     </Swiper>
   );
 };
