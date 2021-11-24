@@ -24,14 +24,14 @@ const CopyWriting = () => {
         </Row>
         <Row style={{ paddingTop: "30px", paddingBottom: "80px", textAlign: "center"}}>
           <Col xs={12} md={4}>
-            <Image src="/images/bay-ridge-latte.jpeg" fluid></Image>
+            <Image src="/images/dummy_pic.jpeg" fluid></Image>
           </Col>
           <Col xs={12} md={4}>
-            <Image src="/images/bay-ridge-latte.jpeg" fluid></Image>
+            <Image src="/images/dummy_pic.jpeg" fluid></Image>
           </Col>
           
           <Col xs={12} md={4}>
-            <Image src="/images/alpha_candle_750x723.jpg" fluid></Image>
+            <Image src="/images/dummy_pic.jpeg" fluid></Image>
           </Col>
         </Row>
       </Container>

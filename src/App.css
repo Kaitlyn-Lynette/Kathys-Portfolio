@@ -40,6 +40,14 @@ body {
   color: #808080
 }
 
+/* 
+#featureHeader {
+  background-color: #e4b2b1
+}
+
+#notetoreader {
+  border-color: #f3ce88;
+} */
 
 /* Navigation */
 
@@ -162,7 +170,8 @@ body {
   height: 383px;
   background-color: #e4b2b1;
   border-radius: 0%;
-  border-color: #f3ce88
+  border-color: #f3ce88;
+  border-width: .25em;
 }
 
 

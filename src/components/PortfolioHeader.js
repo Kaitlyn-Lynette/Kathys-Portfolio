@@ -1,13 +1,12 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import Image from "react-bootstrap/Image";
+import "../App.css";
 
 const PortfolioHeader = () => {
   return (
-    <div id="featuredHeader">
-      <div id="notetoreader" style={{ padding: "100px" }}>
+    <div id="featuredHeader" style={{backgroundColor: "#e4b2b1"}}>
+      <div id="notetoreader" style={{ border: "2px solid #f3ce88", padding: "100px"}}>
         {/* <Container> */}
         <Row>
           <Col
