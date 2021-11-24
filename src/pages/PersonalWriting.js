@@ -9,10 +9,10 @@ import "../App.css";
 const PersonalWriting = () => {
   const [isShown, setIsShown] = useState(false);
   return (
-    <div id="personal" style={{ paddingTop: "80px", paddingBottom: "100px" }}>
+    <div id="personal" >
       <Container>
         <Row>
-          <Col md={12} style={{ paddingBottom: "40px", textAlign: "center" }}>
+          <Col md={12} style={{ paddingTop: "80px", paddingBottom: "30px", textAlign: "center"}}>
             <h1>Blog Writing</h1>
           </Col>
         </Row>
@@ -24,7 +24,7 @@ const PersonalWriting = () => {
             </p>
           </Col>
         </Row>
-        <Row style={{ paddingTop: "40px" }}>
+        <Row style={{ paddingTop: "30px", paddingBottom: "80px", textAlign: "center"}}>
           <Col xs={12} md={4}>
             <Card
               onMouseEnter={() => setIsShown(!isShown)}

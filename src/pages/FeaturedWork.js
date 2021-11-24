@@ -1,9 +1,9 @@
 import React from "react";
 import BookEdits from "../pages/BookEdits";
-import FeaturedHeader from "../components/FeaturedHeader";
+import PortfolioHeader from "../components/PortfolioHeader";
 import CopyWriting from "../pages/CopyWriting"
 import PersonalWriting from "../pages/PersonalWriting"
-import PersonalWriting2 from "../pages/PersonalWriting2"
+import SelectWriting from "../pages/SelectWriting"
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 
@@ -12,11 +12,11 @@ const FeaturedWork = () => {
     <div id="featuredwork">
       {/* <SideBarNav></SideBarNav> */}
       {/* <Navigation></Navigation> */}
-      <FeaturedHeader></FeaturedHeader>
+      <PortfolioHeader></PortfolioHeader>
       <BookEdits></BookEdits>
       <CopyWriting></CopyWriting>
       <PersonalWriting></PersonalWriting>
-      <PersonalWriting2></PersonalWriting2>
+      <SelectWriting></SelectWriting>
       <Footer></Footer>
     </div>
   );

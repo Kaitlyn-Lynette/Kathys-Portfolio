@@ -5,12 +5,12 @@ import Row from "react-bootstrap/Row";
 import Image from "react-bootstrap/Image";
 import Card from "react-bootstrap/Card";
 
-const PersonalWriting2 = () => {
+const SelectWriting = () => {
   return (
-    <div id="personal" style={{ paddingTop: "80px", paddingBottom: "180px" }}>
+    <div id="select-writing">
       <Container>
         <Row>
-          <Col md={12} style={{ paddingBottom: "40px", textAlign: "center" }}>
+          <Col md={12} style={{ paddingTop: "80px", paddingBottom: "30px", textAlign: "center"}}>
             <h1>Select Writing Pieces</h1>
           </Col>
         </Row>
@@ -22,10 +22,9 @@ const PersonalWriting2 = () => {
             </p>
           </Col>
         </Row>
-        <Row style={{ paddingTop: "40px" }}>
+        <Row style={{ paddingTop: "30px", paddingBottom: "80px", textAlign: "center"}}>
           <Col xs={12} md={4}>
-            <Card style={{ width: "25rem", height: "300px"}}>
-              {/* <Card.Img variant="top" src="/images/pw_1_478x353.png" /> */}
+            <Card className="select-writing-card">
               <Card.Body style={{textAlign: "center", paddingTop: "55px"}}>
                 <Card.Title>
                   <a
@@ -45,13 +44,7 @@ const PersonalWriting2 = () => {
             </Card>
           </Col>
           <Col xs={12} md={4}>
-            <Card
-              style={{
-                width: "25rem",
-                textAlign: "center",
-                leftMargin: "20px",
-                height: "300px",
-              }}
+            <Card className="select-writing-card"
             >
               {/* <Card.Img variant="top" src="/images/pw_2_478x353.png" /> */}
               <Card.Body style={{textAlign: "center", paddingTop: "55px"}}>
@@ -74,13 +67,7 @@ const PersonalWriting2 = () => {
             </Card>
           </Col>
           <Col xs={12} md={4}>
-            <Card
-              style={{
-                width: "25rem",
-                textAlign: "center",
-                leftMargin: "20px",
-                height: "300px"
-              }}
+            <Card className="select-writing-card"
             >
               {/* <Card.Img variant="top" src="/images/pw_2_478x353.png" /> */}
               <Card.Body style={{textAlign: "center", paddingTop: "55px"}}>
@@ -108,4 +95,4 @@ const PersonalWriting2 = () => {
   );
 };
 
-export default PersonalWriting2;
+export default SelectWriting;

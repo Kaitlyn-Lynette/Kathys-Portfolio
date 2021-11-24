@@ -53,7 +53,7 @@ body {
 }
 
 
-/* Featured Header */
+/* Portfolio Header */
 
 @media (min-width: 800px) {
 
@@ -80,9 +80,9 @@ body {
 
 
 /* Book Edits */
-/* #bookedits {
+#bookedits {
   background-color:  #EBECF0
-} */
+}
 
 #motion {
   position: relative;
@@ -96,17 +96,21 @@ body {
 
 /* CopyWriting */
 
+
+#copywriting {
+  background-color: #b6ccc8;
+}
+
 #copy-project a {
   color: inherit;
-
 }
+
 
 /* PersonalWriting CSS */
 
 #personal {
-  /* background-color:  #f3ce88; */
-  padding-top: "80px";
-  padding-bottom: "100px", 
+  background-color:  #f3ce88
+  ;
 }
 .blogHeader {
   font-size: 30px;
@@ -120,6 +124,7 @@ body {
 .blog-list {
   font-family: 'Cinzel', serif;
   font-size: 14px;
+ 
 }
 
 .blog-card {
@@ -137,14 +142,28 @@ body {
 }
 
 .blog-list ul {
-  list-style-type: none;
+  list-style-type: none
 }
 
 .blog-list a{
   color: inherit;
-  letter-spacing: 0.5px
+  letter-spacing: 0.5px;
+  
 }
 
+/* Select Writing */
+
+#select-writing {
+  background-color: #e4b2b1;
+}
+
+.select-writing-card {
+  width: 383px;
+  height: 383px;
+  background-color: #e4b2b1;
+  border-radius: 0%;
+  border-color: #f3ce88
+}
 
 
 /* Professional Services */
@@ -170,7 +189,7 @@ body {
   
 }
 
-/* CopyWriting CSS */
+
 
 
 /* Read with Coffee Section*/
