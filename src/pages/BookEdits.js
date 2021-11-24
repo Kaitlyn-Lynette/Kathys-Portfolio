@@ -10,10 +10,10 @@ const BookEdits = () => {
     <div id="bookedits">
       <Container>
         <Row>
-          <Col style={{ paddingTop: "80px", paddingBottom: "30px" }} md={3}>
+          <Col style={{ paddingTop: "80px", paddingBottom: "30px", textAlign: "center"}} md={12}>
             <h1>Book Edits</h1>
           </Col>
-          <Col md={12}>
+          <Col style={{textAlign: "center"}}md={12}>
             <p>
               I have worked one-on-one with authors copyediting and proofreading
               their manuscripts in theology, memoir, and poetry. Here are their
@@ -21,7 +21,7 @@ const BookEdits = () => {
             </p>
           </Col>
         </Row>
-        <Row style={{ paddingTop: "30px", paddingBottom: "80px" }}>
+        <Row style={{ paddingTop: "30px", paddingBottom: "80px", textAlign: "center"}}>
           <Col xs={6} md={3}>
             <div id="motion">
             <Image src="/images/DividedGospel211x345.png" fluid></Image>

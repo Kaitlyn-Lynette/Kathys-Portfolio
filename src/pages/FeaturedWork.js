@@ -3,6 +3,7 @@ import BookEdits from "../pages/BookEdits";
 import FeaturedHeader from "../components/FeaturedHeader";
 import CopyWriting from "../pages/CopyWriting"
 import PersonalWriting from "../pages/PersonalWriting"
+import PersonalWriting2 from "../pages/PersonalWriting2"
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 
@@ -15,6 +16,7 @@ const FeaturedWork = () => {
       <BookEdits></BookEdits>
       <CopyWriting></CopyWriting>
       <PersonalWriting></PersonalWriting>
+      <PersonalWriting2></PersonalWriting2>
       <Footer></Footer>
     </div>
   );

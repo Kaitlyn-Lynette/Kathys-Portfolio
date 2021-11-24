@@ -9,7 +9,7 @@ const CopyWriting = () => {
     <div
       id="copywriting"
       style={{
-        backgroundColor: "#b6ccc8",
+        // backgroundColor: "#b6ccc8",
         paddingTop: "80px",
         paddingBottom: "100px",
       }}
@@ -26,7 +26,7 @@ const CopyWriting = () => {
           <Col md={12} style={{ textAlign: "center", paddingBottom: "40px" }}>
             <h1>Copywriting </h1>
           </Col>
-          <Col md={12} style={{ textAlign: "center", paddingBottom: "40px" }}>
+          <Col md={{span: 6, offset: 3}} style={{ textAlign: "center", paddingBottom: "40px" }}>
             <p>
               I have created, as well as followed, the brand voice for
               businesses and helped them share their stories on their websites.
@@ -34,29 +34,35 @@ const CopyWriting = () => {
           </Col>
         </Row>
         <Row>
-          <Col xs={12} md={{ span: 4, offset: 3 }}>
-            <Image src="/images/copy_blend.png" fluid></Image>
+          <Col xs={12} md={4}>
+            <Image src="/images/bay-ridge-latte.jpeg" fluid></Image>
           </Col>
-          <Col xs={12} md={3} id="copy-project">
+          <Col xs={12} md={4}>
+            <Image src="/images/bay-ridge-latte.jpeg" fluid></Image>
+          </Col>
+          
+          <Col xs={12} md={4}>
+            <Image src="/images/alpha_candle_750x723.jpg" fluid></Image>
+          </Col>
+          {/* <Col xs={12} md={3} id="copy-project">
             <h5>
               <a href="https://www.blendbayridge.com/">
                 Blend: Coffee + CoWork
               </a>
             </h5>
-          </Col>
-        </Row>
-        <Row style={{ paddingTop: "80px" }}>
-          <Col md={{ span: 4, offset: 3 }}>
+          </Col> */}
+{/*    
+          <Col md={4}>
             <Image src="/images/copy_alpha.png" fluid></Image>
-          </Col>
-          <Col md={3} id="copy-project">
+          </Col> */}
+          {/* <Col md={3} id="copy-project">
             <h5>
               <a href="https://www.instagram.com/alphabetcitycandleco/">
                 Alphabet City Candle Co
               </a>
             </h5>
             <p>Site In Progress</p>
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </div>

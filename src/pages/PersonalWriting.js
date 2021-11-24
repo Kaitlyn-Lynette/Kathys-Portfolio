@@ -13,7 +13,7 @@ const PersonalWriting = () => {
       <Container>
         <Row>
           <Col md={12} style={{ paddingBottom: "40px", textAlign: "center" }}>
-            <h1>Personal Pieces</h1>
+            <h1>Blog Writing</h1>
           </Col>
         </Row>
         <Row>
@@ -80,6 +80,7 @@ const PersonalWriting = () => {
               </ul>
             </div>
           </Col>
+
           <Col xs={12} md={4}>
             <Card className="blog-card">
               <Image src="/images/pw_3.png" alt="Card image" fluid />
@@ -110,58 +111,12 @@ const PersonalWriting = () => {
             </div>
           </Col>
         </Row>
-        <Row style={{ paddingTop: "80px", paddingLeft: "80px" }}>
-          <Col xs={12} md={6}>
-            <Card style={{ width: "30rem", textAlign: "center" }}>
-              <Card.Img variant="top" src="/images/pw_1_478x353.png" />
-              <Card.Body>
-                <Card.Title>
-                  <a
-                    style={{ color: "inherit" }}
-                    href="http://www.tomyunderstanding.net/2021/09/inspire-series-showing-grace-to-dream.html"
-                  >
-                    To My Understanding: Inspire Women Series
-                  </a>
-                </Card.Title>
-                <Card.Text>
-                  Finding and being moved by inspiration is a way of life and is
-                  something I follow every day. To celebrate my blog's, To My
-                  Understanding, 7th birthday, I will be featuring some
-                  inspiring women and have them share what inspires them. I am
-                  proud to share this new series, the Inspire Women Series.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col xs={12} md={6}>
-            <Card style={{ width: "30rem", textAlign: "center" }}>
-              <Card.Img variant="top" src="/images/pw_2_478x353.png" />
-              <Card.Body>
-                <Card.Title>
-                  <a
-                    style={{ color: "inherit" }}
-                    href="http://www.tomyunderstanding.net/2021/09/inspire-series-showing-grace-to-dream.html"
-                  >
-                    Wholeness for the Lonely Heart
-                  </a>
-                </Card.Title>
-                <Card.Text>
-                  Just Between Us is a reader-written ministry. Women from all
-                  over the world, who have a heart to walk alongside women to
-                  encourage, inspire, comfort, help, and bring hope through the
-                  power of God's Word, share their writing gifts with this
-                  ministry. Check out the article I wrote for this ministry.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-        {/*           
-          <Col md={{span: 3, offset: 3}}>
-            <div id="published work" style={{textAlign: "center"}}>
-              <h3>Published Personal Writing</h3>
-            </div>
-          </Col> */}
+
+      
+
+       
+        
+   
       </Container>
     </div>
   );
