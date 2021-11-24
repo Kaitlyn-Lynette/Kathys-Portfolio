@@ -7,11 +7,11 @@ import Card from "react-bootstrap/Card";
 
 const PersonalWriting2 = () => {
   return (
-    <div>
+    <div id="personal" style={{ paddingTop: "80px", paddingBottom: "180px" }}>
       <Container>
         <Row>
           <Col md={12} style={{ paddingBottom: "40px", textAlign: "center" }}>
-            <h1>Special Projects</h1>
+            <h1>Select Writing Pieces</h1>
           </Col>
         </Row>
         <Row>
@@ -24,9 +24,9 @@ const PersonalWriting2 = () => {
         </Row>
         <Row style={{ paddingTop: "40px" }}>
           <Col xs={12} md={4}>
-            <Card style={{ width: "25rem", textAlign: "center" }}>
-              <Card.Img variant="top" src="/images/pw_1_478x353.png" />
-              <Card.Body>
+            <Card style={{ width: "25rem", height: "300px"}}>
+              {/* <Card.Img variant="top" src="/images/pw_1_478x353.png" /> */}
+              <Card.Body style={{textAlign: "center", paddingTop: "55px"}}>
                 <Card.Title>
                   <a
                     style={{ color: "inherit" }}
@@ -38,8 +38,8 @@ const PersonalWriting2 = () => {
                 <Card.Text>
                   Finding and being moved by inspiration is a way of life and is
                   something I follow every day. To celebrate my blog's, To My
-                  Understanding, 7th birthday, I will be featuring some
-                  inspiring women and have them share what inspires them. 
+                  Understanding, 7th birthday, I'm writing about inspiring women
+                  and have them share what inspires them.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -50,10 +50,11 @@ const PersonalWriting2 = () => {
                 width: "25rem",
                 textAlign: "center",
                 leftMargin: "20px",
+                height: "300px",
               }}
             >
-              <Card.Img variant="top" src="/images/pw_2_478x353.png" />
-              <Card.Body>
+              {/* <Card.Img variant="top" src="/images/pw_2_478x353.png" /> */}
+              <Card.Body style={{textAlign: "center", paddingTop: "55px"}}>
                 <Card.Title>
                   <a
                     style={{ color: "inherit" }}
@@ -62,12 +63,12 @@ const PersonalWriting2 = () => {
                     Wholeness for the Lonely Heart
                   </a>
                 </Card.Title>
-                <Card.Text>
+                <Card.Text >
                   Just Between Us is a reader-written ministry. Women from all
                   over the world, who have a heart to walk alongside women to
                   encourage, inspire, comfort, help, and bring hope through the
                   power of God's Word, share their writing gifts with this
-                  ministry. 
+                  ministry.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -78,11 +79,11 @@ const PersonalWriting2 = () => {
                 width: "25rem",
                 textAlign: "center",
                 leftMargin: "20px",
-                height: "500px"
+                height: "300px"
               }}
             >
-              <Card.Img variant="top" src="/images/pw_2_478x353.png" />
-              <Card.Body>
+              {/* <Card.Img variant="top" src="/images/pw_2_478x353.png" /> */}
+              <Card.Body style={{textAlign: "center", paddingTop: "55px"}}>
                 <Card.Title>
                   <a
                     style={{ color: "inherit" }}
@@ -94,8 +95,9 @@ const PersonalWriting2 = () => {
                 <Card.Text>
                   I am writing a novel! It’s a coming-of-age story of a high
                   school senior leaving her comfortable home in North Carolina
-                  and moving to New York City for college. 
-                  Are you an agent looking for a new author? Let’s get in touch!
+                  and moving to NYC for college. 
+                  <p style={{fontSize: "20px"}}> Are you an agent looking for a
+                  new author? Let’s get in touch!</p>
                 </Card.Text>
               </Card.Body>
             </Card>
