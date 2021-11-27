@@ -96,6 +96,10 @@ a.nav-link {
 
 }
 
+.contact-form h4{
+  margin-top: 20px;
+}
+
 /* __________________________________________________________ */
 
 /* Navigation */
@@ -472,6 +476,11 @@ a.nav-link {
   font-weight: 200px;
 }
 
+
+.form-control {
+  border: none;
+  font-size: 20px;
+}
 
 /* 800x or more */
 @media (min-width: 800px) {
