@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Card from "react-bootstrap/Card";
-// import {Link, useLocation}  from "react-router-dom";
+import "../App.css";
 
 const Work = () => {
   const contents = [
@@ -36,20 +36,13 @@ const Work = () => {
     <div id="work">
       <Container>
         <Row style={{ paddingBottom: "22px" }}>
-          <Col xs={6}>
-            <h5
-              style={{
-                fontSize: "14px",
-                letterSpacing: "0.5px",
-              }}
-            >
+          <Col className="featured-work-text" xs={8}>
+            <h5>
               Featured Work
             </h5>
-            <h4 style={{ fontSize: "18px", lineHeight: "25px" }}>
+            <h4>
               My writing and editing speciality is non-fiction. I am passionate
               about hearing the stories of others and helping you write it.
-              As an editor I am passionate about making your words concise and
-              strong; to get your point across and to impact your readers.
             </h4>
           </Col>
         </Row>
@@ -58,13 +51,12 @@ const Work = () => {
             <Col md={3} sm={6}>
               <Card
                 key={content.id}
-                // bg="warning"
+                className="featured-work-card h-100"
                 style={{
                   marginBottom: "20px",
                   border: "none",
                   backgroundColor: "#f3ce88",
                 }}
-                className="h-100"
               >
                 <Card.Body>
                   <Card.Title>{content.title}</Card.Title>

@@ -10,23 +10,16 @@ const Services = () => {
     <div id="services">
       <Container>
         <Row>
-          <h5
-            style={{
-              fontSize: "14px",
-              letterSpacing: "0.5px",
-            }}
-          >
+          <Col xs={8}>
+          <h5>
             Professional Services
           </h5>
           <h4
-            style={{
-              fontSize: "18px",
-              lineHeight: "25px",
-              paddingBottom: "20px",
-            }}
+     s
           >
              I share your passion for your work. Contact me if you’re looking for a positive person who can…
           </h4>
+          </Col>
         </Row>
         <Row style={{ paddingTop: "20px", textAlign:"center"}}>
           <Col md={4}>

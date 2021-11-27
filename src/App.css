@@ -20,15 +20,9 @@
     height: 300px;
 }
 
+/* __________________________________________________________ */
 
-/* General Styling for Cards */
-/* .card {
-  border: none;
-  height: 100%;
-  border: none;
-  border-radius: 0%;
-} */
-
+/* Typography */
 h1{
   margin: 0;
   font-family: 'Karla', sans-serif;
@@ -40,30 +34,29 @@ h2 {
   color: #454545
 }
 
-h5 {
-  font-size: 16px;
+h4 {
+  font-size: 20px;
   font-family: 'Karla', sans-serif;
-  color: #757575;
-  letter-spacing: 0.5px
+}
+
+h5 {
+  font-size: 18px;
+  font-family: 'Karla', sans-serif;
+  color: #505050;
+
 }
 
 p {
   font-size: 18px;
   line-height: 30px;
 }
-/* h5 {
-  font-size: 14px;
-  font-family: 'Karla', sans-serif;
-  color: #808080;
-  letter-spacing: "0.5px",
-} */
 
 body {
   font-family: 'Karla', sans-serif;
   color: #757575;
 }
 
-/* About Text */
+/* About.js Typograghy*/
 
 .about-text p{
   padding-top: 6px
@@ -74,6 +67,22 @@ body {
   margin-top: 10px;
   margin-bottom: 10px
 }
+
+/* FeaturedWork.js Typography */
+
+.featured-work-text h4{
+  letter-spacing: 0.5px;
+  line-height: 30px;
+}
+
+.card-body {
+  color: #454545
+}
+
+
+
+
+/* __________________________________________________________ */
 
 /* Navigation */
 
@@ -96,6 +105,13 @@ body {
   border-width: .25em;
   padding: 50px;
 }
+
+
+
+
+
+
+
 
 @media (min-width: 800px) {
 
