@@ -13,7 +13,7 @@ const BookEdits = () => {
           <Col style={{ paddingTop: "80px", paddingBottom: "30px", textAlign: "center"}} md={12}>
             <h1>Book Edits</h1>
           </Col>
-          <Col style={{textAlign: "center"}}md={12}>
+          <Col md={{span: 8, offset: 2}} style={{textAlign: "center"}}>
             <p>
               I have worked one-on-one with authors copyediting and proofreading
               their manuscripts in theology, memoir, and poetry. Here are their
