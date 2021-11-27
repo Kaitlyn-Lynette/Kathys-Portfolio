@@ -15,7 +15,7 @@ const CopyWriting = () => {
           <Col style={{ paddingTop: "80px", paddingBottom: "30px", textAlign: "center"}} md={12}>
             <h1>Copywriting </h1>
           </Col>
-          <Col md={{span: 6, offset: 3}} style={{ textAlign: "center"}}>
+          <Col md={{span: 8, offset: 2}} style={{ textAlign: "center"}}>
             <p>
               I have created, as well as followed, the brand voice for
               businesses and helped them share their stories on their websites.
