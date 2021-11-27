@@ -82,7 +82,7 @@ const SelectWriting = () => {
                   I am writing a novel! It’s a coming-of-age story of a high
                   school senior leaving her comfortable home in North Carolina
                   and moving to NYC for college. 
-                  <p style={{fontSize: "20px", paddingTop: "40pxpx"}}> Are you an agent looking for a
+                  <p style={{fontSize: "22px", paddingTop: "40px"}}> Are you an agent looking for a
                   new author? Let’s get in touch!</p>
                 </Card.Text>
               </Card.Body>
