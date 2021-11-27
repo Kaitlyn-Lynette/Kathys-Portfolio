@@ -9,33 +9,26 @@ const About = () => {
     <div id="about">
       <Container>
         <Row>
-          <Col md={6}>
-            <h5
-              style={{
-                fontSize: "14px",
-                letterSpacing: "0.5px",
-              }}
-            >
+          <Col md={6} className="about-text">
+            <h5>
               About my story
             </h5>
-            <h2 style={{ fontSize: "25px" }}>
+            <h2>
               Katherine is an editor, writer, and mentor based in Brooklyn, NY
             </h2>
-            <p
-              style={{
-                fontSize: "16px",
-                lineHeight: "25px",
-              }}
-            >
+            <p>
               She launched her blog, To My Understanding (TMU), in 2014 after graduating 
-              from Quinnipiac University with a Bachelor in Print Journalism. Since then her writing has
-              been published in Just Between Us magazine and Dearly Magazine.
+              from Quinnipiac University with a Bachelor in Print Journalism. </p>
+              
+            <p>
+              Since then her writing has been published in Just Between Us magazine and Dearly Magazine.
               Her writing style focuses on coming-of-age, self-development, and
               lifestyle. She has edited non-fiction books for social leaders and
-              overcomers in local communities. When she is not writing or
-              editing, Katherine spends her time mentoring young women in
+              overcomers in local communities. </p>
+            <p>
+              When she is not writing or editing, Katherine spends her time mentoring young women in
               different walks of life on reaching their life goals and
-              self-improvement. 
+              self-improvement.
             </p>
           </Col>
           <Col md={{ span: 4, offset: 2}}>
