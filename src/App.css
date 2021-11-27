@@ -56,6 +56,10 @@ body {
   color: #757575;
 }
 
+a.nav-link {
+  font-size: 18px;
+}
+
 /* About.js Typograghy*/
 
 .about-text p{
@@ -80,7 +84,15 @@ body {
 }
 
 
+/* Portfolio Typography */
 
+#featuredwork h1 {
+  color:#454545
+}
+
+#featuredwork p{
+  color:#454545
+}
 
 /* __________________________________________________________ */
 
@@ -89,6 +101,7 @@ body {
 .navbar-light .navbar-nav .nav-link {
   color: rgba(0,0,0,.80)
 }
+
 
 /* Carousel */
 .tst-author-info img {

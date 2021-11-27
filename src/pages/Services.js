@@ -17,7 +17,7 @@ const Services = () => {
           <h4
      s
           >
-             I share your passion for your work. Contact me if you’re looking for a positive person who can…
+             I will share passion for your work. Contact me if you’re looking for a positive person who can…
           </h4>
           </Col>
         </Row>
@@ -41,7 +41,7 @@ const Services = () => {
           </Col>
           <Col md={4}>
             <Card  className="svs_list h-100">
-              <Card.Img src="/images/services_edit_resize2.jpg" style={{height: "277px"}}  />
+              <Card.Img src="/images/services_edit_resize2.jpg"  />
               <Card.Body>
                 <Card.Title>
                   <h3>Proofread & Edit</h3>
