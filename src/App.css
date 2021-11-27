@@ -83,6 +83,9 @@ a.nav-link {
   color: #454545
 }
 
+.contact-form h4 {
+  line-height: 30px;
+}
 
 /* Portfolio Typography */
 
@@ -477,10 +480,14 @@ a.nav-link {
 }
 
 
+/* Contact Form Styling */
+
 .form-control {
   border: none;
   font-size: 20px;
 }
+
+
 
 /* 800x or more */
 @media (min-width: 800px) {
