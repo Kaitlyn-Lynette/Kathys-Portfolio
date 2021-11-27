@@ -63,6 +63,14 @@ body {
 
 /* Portfolio Header */
 
+.port-header-box {
+  background-color: #e4b2b1;
+  border-radius: 0%;
+  border-color: #f3ce88;
+  border-width: .25em;
+  padding: 50px;
+}
+
 @media (min-width: 800px) {
 
   #featureHeader {
