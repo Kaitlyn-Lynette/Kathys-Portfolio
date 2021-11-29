@@ -19,7 +19,6 @@ const ReadWithCoffee = () => {
         <Row>
           <Col className="rwc-heading" md={12}>
             <h1>Read With Coffee</h1>
-           
           </Col>
         </Row>
         <Row>
