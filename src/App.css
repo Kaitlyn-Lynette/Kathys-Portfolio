@@ -185,6 +185,15 @@ a.nav-link {
   color: inherit;
 }
 
+.copywriting-card {
+  background-color: #b6ccc8;
+  border-radius: 0%;
+  border-color: #f3ce88;
+  border-width: .25em;
+}
+
+
+
 
 /* PersonalWriting CSS */
 
