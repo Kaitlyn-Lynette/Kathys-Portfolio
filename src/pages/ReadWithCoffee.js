@@ -18,7 +18,7 @@ const ReadWithCoffee = () => {
       <Container className="rwc-container">
         <Row>
           <Col className="rwc-heading" md={12}>
-            <h3>Read With Coffee</h3>
+            <h1>Read With Coffee</h1>
            
           </Col>
         </Row>
@@ -49,7 +49,7 @@ const ReadWithCoffee = () => {
             </Card>
           </Col>
           <Col md={{span: 4, offset: 1}}>
-            <Card style={{ width: "18rem" }}>
+            <Card className="h-100" style={{ width: "18rem" }}>
               <Card.Img variant="top" src="/images/thebookclub2.png" />
               <Card.Body>
                 <Card.ImgOverlay className="rwc-cards-overlay">
