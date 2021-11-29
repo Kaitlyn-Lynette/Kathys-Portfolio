@@ -30,7 +30,7 @@ const PersonalWriting = () => {
               onMouseEnter={() => setIsShown(!isShown)}
               className="blog-card"
             >
-              <Image src="/images/bay-ridge-latte.jpeg" alt="homeblogfeature" fluid />
+              <Image src="/images/home750x723.jpg" alt="homeblogfeature" fluid />
               <Card.ImgOverlay style={{ backgroundColor: "#0000004F" }}>
                 <Card.Title className="blogHeader">Home</Card.Title>
               </Card.ImgOverlay>
@@ -58,7 +58,7 @@ const PersonalWriting = () => {
 
           <Col xs={12} md={4}>
             <Card className="blog-card">
-              <Image src="/images/bay-ridge-latte.jpeg"alt="Card image" fluid />
+              <Image src="/images/creativity&passion750x723.jpg"alt="Card image" fluid />
               <Card.ImgOverlay style={{ backgroundColor: "#0000004F" }}>
                 <Card.Title className="blogHeader">
                   Creativity & Passion
@@ -83,7 +83,7 @@ const PersonalWriting = () => {
 
           <Col xs={12} md={4}>
             <Card className="blog-card">
-              <Image src="/images/bay-ridge-latte.jpeg" alt="Card image" fluid />
+              <Image src="/images/wisdom&womanhood750x723.jpg" alt="Card image" fluid />
               <Card.ImgOverlay style={{ backgroundColor: "#0000004F" }}>
                 <Card.Title className="blogHeader">
                   Wisdom & Womanhood
