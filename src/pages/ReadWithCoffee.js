@@ -93,7 +93,7 @@ const ReadWithCoffee = () => {
           </Col>
           <Col md={{span: 4, offset: 1}}>
             <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src="/images/the_book_reviews.jpg" />
+              <Card.Img variant="top" src="/images/thebookreviews4.jpg" />
               <Card.Body>
                 <Card.ImgOverlay className="rwc-cards-overlay">
                   The Book Reviews
