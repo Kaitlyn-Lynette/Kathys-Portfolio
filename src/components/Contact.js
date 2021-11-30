@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import ReactDOM from "react-dom";
 import { useFormspark } from "@formspark/use-formspark";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
@@ -31,7 +30,8 @@ const Contact = () => {
     setFirstName("");
     setLastName("");
     setEmail("");
-    setThankYou(`Your message has been sent successfully.`)
+    setThankYou(`Your message has been sent successfully.`);
+    // setThankYou("");
   };
 
   return (
@@ -47,7 +47,11 @@ const Contact = () => {
           </Col>
           <Col md={6}>
             <Form onSubmit={onSubmit}>
-            {thankYou}
+              <Row>
+                <Col style={{color: "green"}}>
+              {thankYou}
+                </Col>
+              </Row>
               <Row>
                 <Col>
                   <Form.Control
