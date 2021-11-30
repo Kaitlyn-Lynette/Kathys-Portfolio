@@ -103,6 +103,11 @@ a.nav-link {
   margin-top: 20px;
 }
 
+.tst-author-info p {
+  font-size: 12px
+}
+
+
 /* __________________________________________________________ */
 
 /* Navigation */
@@ -192,7 +197,11 @@ a.nav-link {
   border-width: .25em;
 }
 
+/* Testimonial */
 
+.swiper-wrapper {
+  height: 375px;
+}
 
 
 /* PersonalWriting CSS */
