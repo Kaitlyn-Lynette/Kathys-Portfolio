@@ -199,7 +199,7 @@ a.nav-link {
 
 /* Testimonial */
 
-.swiper-wrapper {
+.swiper-container-initialized {
   height: 375px;
 }
 

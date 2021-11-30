@@ -15,11 +15,6 @@ const Contact = () => {
               If you have any questions or want to know more, please don't
               hesitate to get in contact with me
             </h4>
-            <h4>
-              <a href="mailto:contact.kathy.rojas@gmail.com">
-                contact.kathy.rojas@gmail.com
-              </a>
-            </h4>
           </Col>
           <Col md={6}>
             <Form>
