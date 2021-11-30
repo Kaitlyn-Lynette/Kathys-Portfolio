@@ -24,7 +24,11 @@ const Contact = () => {
   const onSubmit = async (e) => {
     e.preventDefault();
     await submit({ firstName, lastName, email, message });
-    alert("Form submitted");
+    console.log("submitted!")
+    setMessage("");
+    setFirstName("");
+    setLastName("");
+    setEmail("");
   };
 
   return (
@@ -74,13 +78,6 @@ const Contact = () => {
               />
             </Col>
           </Row>
-
-          {/* <Row>
-            <Col style={{ paddingTop: "20px" }}>
-              <Form.Control type="text" placeholder="Subject" />
-            </Col>
-          </Row> */}
-
           <Row>
             <Col>
               <Form.Group
@@ -98,7 +95,7 @@ const Contact = () => {
               </Form.Group>
             </Col>
           </Row>
-        <Button type="submit" disabled={submitting}>
+        <Button type="submit" className="rwc-button" disabled={submitting}>
         Contact Me!
         </Button>
         </Form>
