@@ -21,30 +21,36 @@ const BookEdits = () => {
             </p>
           </Col>
         </Row>
-        <Row style={{ paddingTop: "30px", paddingBottom: "80px", textAlign: "center"}}>
-          <Col xs={6} md={3}>
-            <div id="motion">
-            <Image src="/images/DividedGospel211x345.png" fluid></Image>
-            </div>
-            <p>2018</p>
+        <Row style={{ paddingTop: "80px"}}>
+          <Col md={4} >
+            <h3>Contributed Development, Editing, Proofreading, Marketing:</h3>
           </Col>
-          <Col xs={6} md={3}>
-            <div id="motion">
-            <Image src="/images/JesusPrinciple211x345.png" fluid></Image>
-            </div>
-            <p>2019</p>
+          <Col md={4} style={{textAlign: "center"}}>
+            <ul>
+            <h4>The Jesus Principles</h4>
+            <h4>The Poisonous Power</h4>
+            <h4>The Divided Gospel</h4>
+            </ul>
           </Col>
-          <Col xs={6} md={3}>
-            <div id="motion">
-            <Image src="/images/PoisonousPower211x345.png" fluid></Image>
-            </div>
-            <p>2019</p>
+          <Col md={4} style={{paddingTop: "30px", textAlign: "center"}}>
+           <h4>Joseph Mattera</h4>
           </Col>
-          <Col xs={6} md={3}>
-            <div id="motion">
-            <Image src="/images/DarknesstoDestiny211x345.png" fluid></Image>
-            </div>
-            <p>2021</p>
+        </Row>
+        <Row style={{paddingTop: "80px", paddingBottom: "80px"}}>
+          <Col md={4}>
+            <h3>Proofread and Copy Edited:</h3>
+          </Col>
+          <Col md={4} style={{textAlign: "center"}}>
+            <ul>
+            <h4>From Darkness To Destiny</h4>
+            <h4>In the Morning</h4>
+            </ul>
+          </Col>
+          <Col md={4} style={{textAlign: "center"}}>
+            <ul>
+            <h4>Felicia Kirksey</h4>
+            <h4>Jazzmine Bustamante</h4>
+            </ul>
           </Col>
         </Row>
       </Container>

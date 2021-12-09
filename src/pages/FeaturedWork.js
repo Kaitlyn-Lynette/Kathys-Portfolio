@@ -13,7 +13,7 @@ const FeaturedWork = () => {
       {/* <SideBarNav></SideBarNav> */}
       <Navigation></Navigation>
       <PortfolioHeader></PortfolioHeader>
-      {/* <BookEdits></BookEdits> */}
+      <BookEdits></BookEdits>
       <CopyWriting></CopyWriting>
       <PersonalWriting></PersonalWriting>
       <SelectWriting></SelectWriting>
