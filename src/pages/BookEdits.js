@@ -9,9 +9,9 @@ const BookEdits = () => {
   return (
     <div id="bookedits">
       <Container>
-        <Row>
+        {/* <Row>
           <Col style={{ paddingTop: "80px", paddingBottom: "30px", textAlign: "center"}} md={12}>
-            <h1>Book Edits</h1>
+            <h1>Book Edits & CopyWriting</h1>
           </Col>
           <Col md={{span: 8, offset: 2}} style={{textAlign: "center"}}>
             <p>
@@ -20,37 +20,23 @@ const BookEdits = () => {
               published works.
             </p>
           </Col>
-        </Row>
+        </Row> */}
         <Row style={{ paddingTop: "80px"}}>
-          <Col md={4} >
-            <h3>Contributed Development, Editing, Proofreading, Marketing:</h3>
+          <Col md={6} >
+            <h3>Edits & Proofs:</h3>
           </Col>
-          <Col md={4} style={{textAlign: "center"}}>
-            <ul>
-            <h4>The Jesus Principles</h4>
-            <h4>The Poisonous Power</h4>
-            <h4>The Divided Gospel</h4>
-            </ul>
-          </Col>
-          <Col md={4} style={{paddingTop: "30px", textAlign: "center"}}>
-           <h4>Joseph Mattera</h4>
+          <Col md={6}>
+            <p>
+            I’ve been in on some pretty stellar editing and proofreading manuscripts and copy for some of my network’s most ambitious authors. I helped them get their stories and ideas across and made sure they sounded good doing it. You can find those finished works here, here, here….and here.
+            </p>
           </Col>
         </Row>
         <Row style={{paddingTop: "80px", paddingBottom: "80px"}}>
-          <Col md={4}>
-            <h3>Proofread and Copy Edited:</h3>
+          <Col md={6}>
+            <h3>Copywriting</h3>
           </Col>
-          <Col md={4} style={{textAlign: "center"}}>
-            <ul>
-            <h4>From Darkness To Destiny</h4>
-            <h4>In the Morning</h4>
-            </ul>
-          </Col>
-          <Col md={4} style={{textAlign: "center"}}>
-            <ul>
-            <h4>Felicia Kirksey</h4>
-            <h4>Jazzmine Bustamante</h4>
-            </ul>
+          <Col md={6}>
+            <p>It’s one thing to hustle, it’s another to make sure you’re staying consistent with values, voice, and brand identity. Curating copy is a passion of mine and my favorite projects I’ve worked on has been Blend Coffee + Cowork and ABC Candles. All owned and operated by native New Yorkers.</p>
           </Col>
         </Row>
       </Container>

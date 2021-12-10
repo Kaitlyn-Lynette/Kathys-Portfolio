@@ -35,24 +35,18 @@ const CopyWriting = () => {
             textAlign: "center",
           }}
         >
-          <Col xs={12} md={4}>
+          <Col xs={12} md={6}>
             <Card className="copywriting-card h-100">
               <a href="https://www.blendbayridge.com/" target="blank">
                 <Image src="/images/copywrite_blend.jpg" fluid></Image>
               </a>
             </Card>
           </Col>
-          <Col xs={12} md={4}>
+          <Col xs={12} md={6}>
             <Card className="copywriting-card h-100">
               <a href="https://www.blendbayridge.com/">
                 <Image src="/images/copywrite_background.jpg" fluid></Image>
               </a>
-            </Card>
-          </Col>
-
-          <Col xs={12} md={4}>
-            <Card className="copywriting-card h-100">
-              <Image src="/images/copywrite_background.jpg" fluid></Image>
             </Card>
           </Col>
         </Row>

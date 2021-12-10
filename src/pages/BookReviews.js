@@ -5,11 +5,10 @@ import Header from "../components/Navigation";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import { Link } from "react-router-dom";
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { fas } from '@fortawesome/free-solid-svg-icons';
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fas } from "@fortawesome/free-solid-svg-icons";
 
-
-library.add(fas)
+library.add(fas);
 
 const BookReviews = () => {
   return (
@@ -20,7 +19,7 @@ const BookReviews = () => {
           <Col md={12}>
             <h3>Book Reviews</h3>
           </Col>
-          <Col className = "book-rws-list" md={12}>
+          <Col className="book-rws-list" md={12}>
             <ul>
               <li>
                 <a href="https://www.goodreads.com/review/show/4250409189">
@@ -74,14 +73,24 @@ const BookReviews = () => {
               </li>
             </ul>
           </Col>
-        <Col md={{ span: 3, offset: 9 }} >
-          <Link 
-          to={{pathname: "https://www.goodreads.com/user/show/33141645-katherine-perez-tmu"}}
-          target="_blank"
-          >
-           <p>See more <FontAwesomeIcon icon={["fas", "arrow-right"]} size="xs" style={{verticalAlign: "middle"}} /></p>
-          </Link>
-        </Col>
+          <Col md={{ span: 3, offset: 9 }}>
+            <Link
+              to={{
+                pathname:
+                  "https://www.goodreads.com/user/show/33141645-katherine-perez-tmu",
+              }}
+              target="_blank"
+            >
+              <p>
+                See more{" "}
+                <FontAwesomeIcon
+                  icon={["fas", "arrow-right"]}
+                  size="xs"
+                  style={{ verticalAlign: "middle" }}
+                />
+              </p>
+            </Link>
+          </Col>
         </Row>
       </Container>
     </div>

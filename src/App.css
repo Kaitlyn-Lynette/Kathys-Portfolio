@@ -127,9 +127,9 @@ a.nav-link {
 
 .port-header-box {
   background-color: #e4b2b1;
-  border-radius: 0%;
+  /* border-radius: 0%;
   border-color: #f3ce88;
-  border-width: .25em;
+  border-width: .25em; */
   padding: 50px;
 }
 
@@ -255,9 +255,9 @@ a.nav-link {
 }
 
 .select-writing-card {
-  width: 383px;
-  height: 383px;
-  background-color: #e4b2b1;
+  width: 400px;
+  height: 400px;
+  background-color: #d41b18;
   border-radius: 0%;
   border-color: #f3ce88;
   border-width: .25em;
