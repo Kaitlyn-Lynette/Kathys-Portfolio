@@ -2,7 +2,6 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import Card from "react-bootstrap/Card";
 import "../App.css";
 
 const PortfolioHeader = () => {
@@ -20,7 +19,7 @@ const PortfolioHeader = () => {
             >
               <h1>Portfolio</h1>
             </Col>
-            <Col style={{paddingTop: "40", textAlign: "center"}}>
+            <Col style={{paddingTop: "40px", textAlign: "center"}}>
             <p> My dear reader, website peruser, or potential partner in
                     work, I am honored to have you spend your time here to show
                     interest in getting to know me and my work. I hope you find

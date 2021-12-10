@@ -9,18 +9,11 @@ const BookEdits = () => {
   return (
     <div id="bookedits">
       <Container>
-        {/* <Row>
+        <Row>
           <Col style={{ paddingTop: "80px", paddingBottom: "30px", textAlign: "center"}} md={12}>
-            <h1>Book Edits & CopyWriting</h1>
+            <h1>Past Projects</h1>
           </Col>
-          <Col md={{span: 8, offset: 2}} style={{textAlign: "center"}}>
-            <p>
-              I have worked one-on-one with authors copyediting and proofreading
-              their manuscripts in theology, memoir, and poetry. Here are their
-              published works.
-            </p>
-          </Col>
-        </Row> */}
+        </Row>
         <Row style={{ paddingTop: "80px"}}>
           <Col md={6} >
             <h3>Edits & Proofs:</h3>

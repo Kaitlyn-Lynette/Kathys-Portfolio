@@ -3,103 +3,30 @@ import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Image from "react-bootstrap/Image";
-import Card from "react-bootstrap/Card";
+import Button from "react-bootstrap/Button";
+import "../App.css";
 
 const Portfolio = () => {
   return (
     <div id="portfolio">
       <Container>
         <Row>
-          <Col
-            md={6}
-            style={{
-              paddingTop: "80px",
-              paddingBottom: "30px",
-              textAlign: "center",
-            }}
-          >
-            <Card className="select-writing-card">
-              <Card.Body style={{ textAlign: "center", paddingTop: "55px" }}>
-                <Card.Title>
-                  <a
-                    style={{ color: "inherit" }}
-                    href="http://www.tomyunderstanding.net/2021/09/inspire-series-showing-grace-to-dream.html"
-                  >
-                    Blog Writing
-                  </a>
-                </Card.Title>
-                <Card.Text>
-                  Finding and being moved by inspiration is a way of life and is
-                  something I follow every day. To celebrate my blog's, To My
-                  Understanding, 7th birthday, I'm writing about inspiring women
-                  and have them share what inspires them.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
+        <Col style={{ paddingTop: "80px", paddingBottom: "30px", textAlign: "center"}} md={12}>
+            <h1>Guest Writing</h1>
+        </Col>
+        <Col style={{ paddingTop: "80px", paddingBottom: "30px", textAlign: "center" }} md={{span: 8, offset: 2}}>
+            <p> It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference. </p>
+        </Col>
         </Row>
 
-
-        <Row>
-        <Col
-            md={6}
-            style={{
-              paddingTop: "80px",
-              paddingBottom: "30px",
-              textAlign: "center",
-            }}
-          >
-            <Card className="select-writing-card">
-              <Card.Body style={{ textAlign: "center", paddingTop: "55px" }}>
-                <Card.Title>
-                  <a
-                    style={{ color: "inherit" }}
-                    href="http://www.tomyunderstanding.net/2021/09/inspire-series-showing-grace-to-dream.html"
-                  >
-                    Guest Writing
-                  </a>
-                </Card.Title>
-                <Card.Text>
-                  Finding and being moved by inspiration is a way of life and is
-                  something I follow every day. To celebrate my blog's, To My
-                  Understanding, 7th birthday, I'm writing about inspiring women
-                  and have them share what inspires them.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-          </Row>
-
-          
-        <Row>
-             <Col
-            md={6}
-            style={{
-              paddingTop: "80px",
-              paddingBottom: "30px",
-              textAlign: "center",
-            }}
-          >
-            <Card className="select-writing-card">
-              <Card.Body style={{ textAlign: "center", paddingTop: "55px" }}>
-                <Card.Title>
-                  <a
-                    style={{ color: "inherit" }}
-                    href="http://www.tomyunderstanding.net/2021/09/inspire-series-showing-grace-to-dream.html"
-                  >
-                    Novel Writing
-                  </a>
-                </Card.Title>
-                <Card.Text>
-                  Finding and being moved by inspiration is a way of life and is
-                  something I follow every day. To celebrate my blog's, To My
-                  Understanding, 7th birthday, I'm writing about inspiring women
-                  and have them share what inspires them.
-                </Card.Text>
-              </Card.Body>
-            </Card>
+        <Row style={{marginLeft: "19px;"}}>
+          <Col md={{span: 8, offset: 1}}>
+          <Image src="/images/wholeness-for-the-lonely-heart.jpeg" style={{align: "center",width: "1000px", height: "600px"}}></Image>
           </Col>
         </Row>
+          <Col  md={{span: 8, offset: 2}} style={{paddingTop: "60px", paddingBottom: "80px", textAlign: "center"}}>
+          <Button className="rwc-button"> Read It </Button>
+          </Col>
       </Container>
     </div>
   );

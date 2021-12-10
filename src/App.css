@@ -127,9 +127,9 @@ a.nav-link {
 
 .port-header-box {
   background-color: #e4b2b1;
-  /* border-radius: 0%;
+  border-radius: 0%;
   border-color: #f3ce88;
-  border-width: .25em; */
+  border-width: .25em;
   padding: 50px;
 }
 
@@ -163,7 +163,7 @@ a.nav-link {
 
 /* Book Edits */
 #bookedits {
-  background-color:  #EBECF0
+  background-color: #e4b2b1
 }
 
 #motion {
@@ -538,3 +538,8 @@ a.nav-link {
   }
 }
 
+/* New CSS */
+
+#portfolio { 
+  background-color: #f3ce88;
+}
