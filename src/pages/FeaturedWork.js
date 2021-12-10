@@ -5,6 +5,7 @@ import PortfolioHeader from "../components/PortfolioHeader";
 import PersonalWriting from "../pages/PersonalWriting"
 import SelectWriting from "../pages/SelectWriting"
 import Portfolio from "../pages/Portfolio"
+import BlogWriting from "../pages/BlogWriting"
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 
@@ -16,6 +17,7 @@ const FeaturedWork = () => {
       <PortfolioHeader></PortfolioHeader>
       <BookEdits></BookEdits>
       <Portfolio></Portfolio>
+      <BlogWriting></BlogWriting>
       {/* <CopyWriting></CopyWriting> */}
       {/* <PersonalWriting></PersonalWriting> */}
       {/* <SelectWriting></SelectWriting> */}
