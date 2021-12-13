@@ -7,7 +7,7 @@ import Image from "react-bootstrap/Image";
 const BlogWriting = () => {
   return (
     <div id="blogwriting">
-      <Container fluid> 
+      <Container> 
       <Row>
           <Col style={{ paddingTop: "80px", paddingBottom: "30px", textAlign: "center"}} md={12}>
             <h1> Blog Writing</h1>
@@ -17,34 +17,26 @@ const BlogWriting = () => {
           style={{
             paddingTop: "80px",
             paddingBottom: "30px",
-            paddingLeft: "4%"
+            paddingLeft: "10%"
           }}
         >
-          <Col md={4}> 
-            <Image src="/images/services_creativity_resize.jpg" style={{width: "700px", height: "500px"}}></Image>
+          <Col sm={6} md={4}> 
+            <Image src="/images/services_creativity_resize.jpg" style={{width: "500px", height: "400px"}}></Image>
           </Col>
-          <Col md={4}>
-            <Image src="/images/services_creativity_resize.jpg" style={{width: "700px", height: "500px"}}></Image>
+          <Col sm={6} md={4}>
+            <Image src="/images/services_creativity_resize.jpg" style={{width: "500px", height: "400px"}}></Image>
           </Col>
-          <Col md={4}>
-            <Image src="/images/services_creativity_resize.jpg" style={{width: "700px", height: "500px"}}></Image>
+          <Col sm={6} md={4}>
+            <Image src="/images/services_creativity_resize.jpg" style={{width: "500px", height: "400px"}}></Image>
           </Col>
-        </Row>
-        <Row
-          style={{
-            paddingTop: "30px",
-            paddingBottom: "80px",
-            paddingLeft: "4%"
-          }}
-        >
-          <Col md={4} > 
-            <Image src="/images/services_creativity_resize.jpg" style={{width: "700px", height: "500px"}}></Image>
+          <Col sm={6} md={4} > 
+            <Image src="/images/services_creativity_resize.jpg" style={{width: "500px", height: "400px"}}></Image>
           </Col>
-          <Col md={4}>
-            <Image src="/images/services_creativity_resize.jpg" style={{width: "700px", height: "500px"}}></Image>
+          <Col sm={6}  md={4}>
+            <Image src="/images/services_creativity_resize.jpg" style={{width: "500px", height: "400px"}}></Image>
           </Col>
-          <Col md={4}>
-            <Image src="/images/services_creativity_resize.jpg" style={{width: "700px", height: "500px"}}></Image>
+          <Col sm={6}  md={4}>
+            <Image src="/images/services_creativity_resize.jpg" style={{width: "500px", height: "400px"}}></Image>
           </Col>
         </Row>
       </Container>

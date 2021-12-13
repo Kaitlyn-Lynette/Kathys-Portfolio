@@ -552,3 +552,22 @@ a.nav-link {
 #novelwriting {
   background-color: #e4b2b1;
 }
+
+
+@media only screen and (min-width: 951px) {
+  #notetoreader {
+    padding: 80px;
+  }
+}
+
+
+/* Portfolio Mobile Styling*/
+
+@media only screen and (max-width: 640px) {
+  #notetoreader p{
+    font-size: 14px;
+  }
+  #notetoreader {
+    padding: 40px;
+  }
+}

@@ -1,4 +1,9 @@
 import React from "react";
+import Container from "react-bootstrap/Container";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
+
+
 import BookEdits from "../pages/BookEdits";
 import PortfolioHeader from "../components/PortfolioHeader";
 // import CopyWriting from "../pages/CopyWriting"
@@ -24,6 +29,7 @@ const FeaturedWork = () => {
       {/* <PersonalWriting></PersonalWriting> */}
       {/* <SelectWriting></SelectWriting> */}
       <Footer></Footer>
+    
     </div>
   );
 };
