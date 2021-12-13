@@ -25,7 +25,10 @@ const Portfolio = () => {
           </Col>
         </Row>
           <Col  md={{span: 8, offset: 2}} style={{paddingTop: "60px", paddingBottom: "80px", textAlign: "center"}}>
-          <Button className="rwc-button"> Read It </Button>
+          <Button className="rwc-button"
+          target="_blank"
+          href="https://justbetweenus.org/everyday-faith/tell-your-story/wholeness-for-the-lonely-heart/"
+          > Read It </Button>
           </Col>
       </Container>
     </div>
