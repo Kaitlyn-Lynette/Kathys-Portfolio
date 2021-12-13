@@ -607,3 +607,30 @@ a.nav-link {
   }
 
 }
+
+
+@media only screen and (min-width: 951px) {
+  .blog-photo-grid {
+    padding-top: 80px;
+    padding-bottom: 30px;
+    padding-left: 10%
+  }
+
+  .blog-photo {
+    width: 500px; 
+    height: 400px
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .blog-photo {
+    width: 172px;
+    height: 129px;
+    padding: 5px;
+  }
+  
+  .photo-col {
+    padding-left: 0px;
+  }
+
+}

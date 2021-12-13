@@ -7,36 +7,54 @@ import Image from "react-bootstrap/Image";
 const BlogWriting = () => {
   return (
     <div id="blogwriting">
-      <Container> 
-      <Row>
-          <Col style={{ paddingTop: "80px", paddingBottom: "30px", textAlign: "center"}} md={12}>
+      <Container>
+        <Row>
+          <Col className="port-pagetitle" md={12}>
             <h1> Blog Writing</h1>
           </Col>
         </Row>
-        <Row
-          style={{
-            paddingTop: "80px",
-            paddingBottom: "30px",
-            paddingLeft: "10%"
-          }}
-        >
-          <Col sm={6} md={4}> 
-            <Image src="/images/services_creativity_resize.jpg" style={{width: "500px", height: "400px"}}></Image>
+        <Row className="blog-photo-grid">
+          <Col xs={6} md={4}>
+            <Image
+              className="blog-photo"
+              src="/images/services_creativity_resize.jpg"
+            ></Image>
           </Col>
-          <Col sm={6} md={4}>
-            <Image src="/images/services_creativity_resize.jpg" style={{width: "500px", height: "400px"}}></Image>
+          <Col className="photo-col" xs={6} md={4}>
+            <Image
+              className="blog-photo"
+              src="/images/services_creativity_resize.jpg"
+            ></Image>
           </Col>
-          <Col sm={6} md={4}>
-            <Image src="/images/services_creativity_resize.jpg" style={{width: "500px", height: "400px"}}></Image>
+        </Row>
+
+        <Row>
+          <Col xs={6} md={4}>
+            <Image
+              className="blog-photo"
+              src="/images/services_creativity_resize.jpg"
+            ></Image>
           </Col>
-          <Col sm={6} md={4} > 
-            <Image src="/images/services_creativity_resize.jpg" style={{width: "500px", height: "400px"}}></Image>
+          <Col className="photo-col" xs={6} md={4}>
+            <Image
+              className="blog-photo"
+              src="/images/services_creativity_resize.jpg"
+            ></Image>
           </Col>
-          <Col sm={6}  md={4}>
-            <Image src="/images/services_creativity_resize.jpg" style={{width: "500px", height: "400px"}}></Image>
+        </Row>
+
+        <Row style={{paddingBottom: "80px"}}>
+          <Col xs={6} md={4}>
+            <Image
+              className="blog-photo"
+              src="/images/services_creativity_resize.jpg"
+            ></Image>
           </Col>
-          <Col sm={6}  md={4}>
-            <Image src="/images/services_creativity_resize.jpg" style={{width: "500px", height: "400px"}}></Image>
+          <Col className="photo-col" xs={6} md={4}>
+            <Image
+              className="blog-photo"
+              src="/images/services_creativity_resize.jpg"
+            ></Image>
           </Col>
         </Row>
       </Container>
