@@ -554,20 +554,36 @@ a.nav-link {
 }
 
 
+@media only screen and (max-width: 640px) {
+  p {
+    font-size: 14px !important;
+  }
+}
+
+
+/* Portfolio Header Styling*/
+
 @media only screen and (min-width: 951px) {
   #notetoreader {
     padding: 80px;
   }
 }
 
-
-/* Portfolio Mobile Styling*/
-
 @media only screen and (max-width: 640px) {
-  #notetoreader p{
-    font-size: 14px;
-  }
   #notetoreader {
     padding: 40px;
   }
+}
+
+.port-subtitle {
+  padding: 20px
+}
+
+.port-pagetitle {
+  padding: 80px;
+  text-align: center;
+}
+
+#bookedits a {
+  color: #808080
 }

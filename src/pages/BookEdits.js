@@ -2,7 +2,6 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import Image from "react-bootstrap/Image";
 import "../App.css";
 
 const BookEdits = () => {
@@ -10,26 +9,53 @@ const BookEdits = () => {
     <div id="bookedits">
       <Container>
         <Row>
-          <Col style={{ paddingTop: "80px", paddingBottom: "30px", textAlign: "center"}} md={12}>
+          <Col className="port-pagetitle" md={12}>
             <h1>Past Projects</h1>
           </Col>
         </Row>
-        <Row style={{ paddingTop: "80px"}}>
-          <Col md={6} >
+        <Row>
+          <Col className="port-subtitle" md={6}>
             <h3>Edits & Proofs:</h3>
           </Col>
           <Col md={6}>
             <p>
-            I’ve been in on some pretty stellar editing and proofreading manuscripts and copy for some of my network’s most ambitious authors. I helped them get their stories and ideas across and made sure they sounded good doing it. You can find those finished works here, here, here….and here.
+              I’ve been in on some pretty stellar editing and proofreading
+              manuscripts and copy for some of my network’s most ambitious
+              authors. I helped them get their stories and ideas across and made
+              sure they sounded good doing it. I have worked on{" "}
+              <a href="https://josephmattera.org/the-jesus-principles/">
+                The Jesus Principles,
+              </a>{" "}
+              {" "}
+              <a href="https://josephmattera.org/poisonous-power/">
+                Poisonous Power
+              </a>
+              ,{" "}
+              {" "}
+              <a href="https://josephmattera.org/the-divided-gospel/">
+                The Divided Gospel
+              </a>{" "}
+              as well as{" "}
+              <a href="https://feliciakirksey.com/">From Darkness To Destiny</a>{" "}
+              and{" "}
+              <a href="https://www.amazon.com/morning-Jazzmine-Bustamante/dp/1737483815/ref=sr_1_2?keywords=jazzmine+bustamante&qid=1638636055&sr=8-2">
+                In the Morning. 
+              </a>
             </p>
           </Col>
         </Row>
-        <Row style={{paddingTop: "80px", paddingBottom: "80px"}}>
-          <Col md={6}>
+        <Row style={{ paddingTop: "60px", paddingBottom: "80px" }}>
+          <Col className="port-subtitle" md={6}>
             <h3>Copywriting</h3>
           </Col>
           <Col md={6}>
-            <p>It’s one thing to hustle, it’s another to make sure you’re staying consistent with values, voice, and brand identity. Curating copy is a passion of mine and my favorite projects I’ve worked on has been Blend Coffee + Cowork and ABC Candles. All owned and operated by native New Yorkers.</p>
+            <p>
+              It’s one thing to hustle, it’s another to make sure you’re staying
+              consistent with values, voice, and brand identity. Curating copy
+              is a passion of mine and my favorite projects I’ve worked on has
+              been <a href="https://www.blendbayridge.com/">Blend Coffee + Cowork </a>and ABC Candles. All owned and operated
+              by native New Yorkers.
+            </p>
           </Col>
         </Row>
       </Container>
