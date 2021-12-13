@@ -612,13 +612,12 @@ a.nav-link {
 @media only screen and (min-width: 951px) {
   .blog-photo-grid {
     padding-top: 80px;
-    padding-bottom: 30px;
-    padding-left: 10%
+    padding-bottom: 80px;
   }
 
   .blog-photo {
-    width: 500px; 
-    height: 400px
+    width: 440px; 
+    height: 330px;
   }
 }
 

@@ -14,21 +14,7 @@ const BlogWriting = () => {
           </Col>
         </Row>
         <Row className="blog-photo-grid">
-          <Col xs={6} md={4}>
-            <Image
-              className="blog-photo"
-              src="/images/services_creativity_resize.jpg"
-            ></Image>
-          </Col>
-          <Col className="photo-col" xs={6} md={4}>
-            <Image
-              className="blog-photo"
-              src="/images/services_creativity_resize.jpg"
-            ></Image>
-          </Col>
-        </Row>
 
-        <Row>
           <Col xs={6} md={4}>
             <Image
               className="blog-photo"
@@ -41,9 +27,7 @@ const BlogWriting = () => {
               src="/images/services_creativity_resize.jpg"
             ></Image>
           </Col>
-        </Row>
 
-        <Row style={{paddingBottom: "80px"}}>
           <Col xs={6} md={4}>
             <Image
               className="blog-photo"
@@ -56,6 +40,21 @@ const BlogWriting = () => {
               src="/images/services_creativity_resize.jpg"
             ></Image>
           </Col>
+
+
+          <Col xs={6} md={4}>
+            <Image
+              className="blog-photo"
+              src="/images/services_creativity_resize.jpg"
+            ></Image>
+          </Col>
+          <Col className="photo-col" xs={6} md={4}>
+            <Image
+              className="blog-photo"
+              src="/images/services_creativity_resize.jpg"
+            ></Image>
+          </Col>
+
         </Row>
       </Container>
     </div>
