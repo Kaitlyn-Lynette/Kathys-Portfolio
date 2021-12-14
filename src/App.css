@@ -134,6 +134,15 @@ a.nav-link {
 }
 
 
+.new-button {
+  border-radius: 0;
+  background-color: #EBECF0;
+  padding-left: 31.05px;
+  padding-right: 31.05px;
+  padding-top: 18.6px;
+  padding-bottom: 18.6px;
+  border: none;
+}
 
 
 

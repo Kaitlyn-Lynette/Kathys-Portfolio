@@ -2,7 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import Button from "react-bootstrap/Button";
+import NewButton from "../components/NewButton";
 import "../App.css";
 
 const NovelWriting = () => {
@@ -30,7 +30,7 @@ const NovelWriting = () => {
               paddingBottom: "80px",
               textAlign: "center",
             }}
-            md={{span:2, offset: 5}}><Button> Learn More </Button></Col>
+            md={{span:2, offset: 5}}><NewButton name="Contact Me"> </NewButton></Col>
         </Row>
       </Container>
     </div>

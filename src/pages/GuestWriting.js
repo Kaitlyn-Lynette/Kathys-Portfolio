@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Image from "react-bootstrap/Image";
-import Button from "react-bootstrap/Button";
+import NewButton from "../components/NewButton"
 import "../App.css";
 
 const Portfolio = () => {
@@ -45,14 +45,14 @@ const Portfolio = () => {
             textAlign: "center",
           }}
         >
-          <Button
+          <NewButton
             className="rwc-button"
             target="_blank"
             href="https://justbetweenus.org/everyday-faith/tell-your-story/wholeness-for-the-lonely-heart/"
+            name="See Article"
           >
-            {" "}
-            Read It{" "}
-          </Button>
+            
+          </NewButton>
         </Col>
       </Container>
     </div>
