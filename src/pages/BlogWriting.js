@@ -18,37 +18,37 @@ const BlogWriting = () => {
           <Col xs={6} md={4}>
             <Image
               className="blog-photo"
-              src="/images/services_creativity_resize.jpg"
+              src="/images/blog_1.jpg"
             ></Image>
           </Col>
           <Col className="photo-col" xs={6} md={4}>
             <Image
               className="blog-photo"
-              src="/images/services_creativity_resize.jpg"
+              src="/images/blog_2.jpg"
             ></Image>
           </Col>
           <Col xs={6} md={4}>
             <Image
               className="blog-photo"
-              src="/images/services_creativity_resize.jpg"
+              src="/images/blog_3.jpg"
             ></Image>
           </Col>
           <Col className="photo-col" xs={6} md={4}>
             <Image
               className="blog-photo"
-              src="/images/services_creativity_resize.jpg"
+              src="/images/blog_4.jpg"
             ></Image>
           </Col>
           <Col xs={6} md={4}>
             <Image
               className="blog-photo"
-              src="/images/services_creativity_resize.jpg"
+              src="/images/blog_5.jpg"
             ></Image>
           </Col>
           <Col className="photo-col" xs={6} md={4}>
             <Image
               className="blog-photo"
-              src="/images/services_creativity_resize.jpg"
+              src="/images/blog_6.jpg"
             ></Image>
           </Col>
   

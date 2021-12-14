@@ -11,7 +11,7 @@ const Portfolio = () => {
     <div id="portfolio">
       <Container>
         <Row>
-        <Col className = "port-pagetitle" md={12}>
+        <Col className="port-pagetitle" md={12}>
             <h1>Guest Writing</h1>
         </Col>
         <Col style={{ textAlign: "center" }} md={{span: 8, offset: 2}}>
