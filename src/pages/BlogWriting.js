@@ -27,7 +27,6 @@ const BlogWriting = () => {
               src="/images/services_creativity_resize.jpg"
             ></Image>
           </Col>
-
           <Col xs={6} md={4}>
             <Image
               className="blog-photo"
@@ -40,8 +39,6 @@ const BlogWriting = () => {
               src="/images/services_creativity_resize.jpg"
             ></Image>
           </Col>
-
-
           <Col xs={6} md={4}>
             <Image
               className="blog-photo"
@@ -54,6 +51,7 @@ const BlogWriting = () => {
               src="/images/services_creativity_resize.jpg"
             ></Image>
           </Col>
+  
 
         </Row>
       </Container>
