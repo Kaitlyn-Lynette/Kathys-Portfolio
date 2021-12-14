@@ -8,14 +8,9 @@ import "../App.css";
 const NovelWriting = () => {
   return (
     <div id="novelwriting">
-      <Container style={{paddingTop: "80px", paddingBottom: "100px"}}>
+      <Container>
         <Row >
-          <Col
-            style={{
-              paddingTop: "80px",
-              paddingBottom: "30px",
-              textAlign: "center",
-            }}
+          <Col style={{paddingBottom: "80px"}} className="port-pagetitle"
             md={12}
           >
             <h1>Novel Writing</h1>
@@ -23,11 +18,7 @@ const NovelWriting = () => {
         </Row>
         <Row>
           <Col
-            style={{
-              paddingTop: "80px",
-              paddingBottom: "30px",
-              textAlign: "center",
-            }}
+            className="port-subtitle"
             md={{span: 8, offset: 2}}
           >
             <p>It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.</p>

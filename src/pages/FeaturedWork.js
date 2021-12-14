@@ -9,7 +9,7 @@ import PortfolioHeader from "../components/PortfolioHeader";
 // import CopyWriting from "../pages/CopyWriting"
 import PersonalWriting from "../pages/PersonalWriting"
 import SelectWriting from "../pages/SelectWriting"
-import Portfolio from "../pages/Portfolio"
+import GuestWriting from "../pages/GuestWriting"
 import BlogWriting from "../pages/BlogWriting"
 import NovelWriting from "../pages/NovelWriting"
 import Navigation from "../components/Navigation";
@@ -22,7 +22,7 @@ const FeaturedWork = () => {
       <Navigation></Navigation>
       <PortfolioHeader></PortfolioHeader>
       <BookEdits></BookEdits>
-      <Portfolio></Portfolio>
+      <GuestWriting></GuestWriting>
       <BlogWriting></BlogWriting>
       <NovelWriting></NovelWriting>
       {/* <CopyWriting></CopyWriting> */}

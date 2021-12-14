@@ -13,8 +13,8 @@ const BookEdits = () => {
             <h1>Past Projects</h1>
           </Col>
         </Row>
-        <Row>
-          <Col className="port-subtitle" md={6}>
+        <Row style={{paddingTop: "80px"}}>
+          <Col className="port-subtitle"  md={6}>
             <h3>Edits & Proofs:</h3>
           </Col>
           <Col md={6}>

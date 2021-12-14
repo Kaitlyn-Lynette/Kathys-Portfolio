@@ -540,7 +540,7 @@ a.nav-link {
 
 /* New CSS */
 
-#portfolio { 
+#guestwriting { 
   background-color: #f3ce88;
 }
 
@@ -576,7 +576,8 @@ a.nav-link {
 }
 
 .port-subtitle {
-  padding: 20px
+  padding: 20px;
+  text-align: center;
 }
 
 .port-pagetitle {
