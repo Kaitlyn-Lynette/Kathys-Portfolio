@@ -10,7 +10,7 @@ const NovelWriting = () => {
     <div id="novelwriting">
       <Container>
         <Row >
-          <Col style={{paddingBottom: "80px"}} className="port-pagetitle"
+          <Col style={{paddingBottom: "30px"}} className="port-pagetitle"
             md={12}
           >
             <h1>Novel Writing</h1>
