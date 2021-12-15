@@ -12,7 +12,6 @@ const Portfolio = () => {
       <Container>
         <Row>
           <Col
-            style={{ paddingBottom: "80px" }}
             className="port-pagetitle"
             md={12}
           >
@@ -29,8 +28,8 @@ const Portfolio = () => {
           </Col>
         </Row>
 
-        <Row style={{ marginLeft: "19px", paddingTop: "30px" }}>
-          <Col md={{ span: 8, offset: 1 }} sm={12}>
+        <Row style={{paddingLeft: "30px",paddingTop: "30px" }}>
+          <Col md={{ span: 10, offset: 2 }} sm={12}>
             <Image
               className="guest-writing-photo"
               src="/images/wholeness-for-the-lonely-heart.jpeg"
