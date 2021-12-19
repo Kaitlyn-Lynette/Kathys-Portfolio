@@ -20,39 +20,22 @@ const Portfolio = () => {
           <Col className="port-subtitle" md={{ span: 8, offset: 2 }}>
             <p>
               {" "}
-              It all begins with an idea. Maybe you want to launch a business.
-              Maybe you want to turn a hobby into something more. Or maybe you
-              have a creative project to share with the world. Whatever it is,
-              the way you tell your story online can make all the difference.{" "}
+              I love to share my writing. It brings me a lot of joy to reflect on personal experiences
+              and to write about the wisdom I have gained from them. Whatever it is,
+              the way you tell your story online can make a difference to someone out there.{" "}
             </p>
           </Col>
         </Row>
-
-        <Row style={{paddingLeft: "30px",paddingTop: "30px" }}>
-          <Col md={{ span: 10, offset: 2 }} sm={12}>
-            <Image
-              className="guest-writing-photo"
-              src="/images/wholeness-for-the-lonely-heart.jpeg"
-            ></Image>
+        <Row style={{paddingBottom: "60px"}}>
+          <Col 
+          md={12}
+          className="port-subtitle"
+          >
+          <h4><a href="https://justbetweenus.org/everyday-faith/tell-your-story/wholeness-for-the-lonely-heart/"> Wholeness for the Holy Heart{" "}</a>,{"  "}Just Between Us, 2020</h4>
           </Col>
         </Row>
-        <Col
-          md={{ span: 8, offset: 2 }}
-          style={{
-            paddingTop: "60px",
-            paddingBottom: "80px",
-            textAlign: "center",
-          }}
-        >
-          <NewButton
-            className="rwc-button"
-            target="_blank"
-            href="https://justbetweenus.org/everyday-faith/tell-your-story/wholeness-for-the-lonely-heart/"
-            name="See Article"
-          >
-            
-          </NewButton>
-        </Col>
+
+      
       </Container>
     </div>
   );
