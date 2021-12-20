@@ -29,8 +29,8 @@ const BookEdits = () => {
 
         <Row>
           <Col md={{ span: 6, offset: 6 }}>
-            <p>
-              Contributing Editor, Mattera Ministries International:{" "}
+            <p><b>
+              Contributing Editor, Mattera Ministries International:{" "}</b>
               <a href="https://josephmattera.org/the-jesus-principles/">
                 The Jesus Principles,
               </a>{" "}
@@ -47,7 +47,7 @@ const BookEdits = () => {
 
         <Row>
         <Col md={{ span: 6, offset: 6 }}>
-          <p>Editor, C Lenoir Publishing: {" "},
+          <p><b>Editor, C Lenoir Publishing:</b> {" "}
           <a href="https://feliciakirksey.com/">
             From Darkness To Destiny
           </a> and{" "}

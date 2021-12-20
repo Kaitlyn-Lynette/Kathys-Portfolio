@@ -31,7 +31,7 @@ const Portfolio = () => {
           md={12}
           className="port-subtitle"
           >
-          <h4><a href="https://justbetweenus.org/everyday-faith/tell-your-story/wholeness-for-the-lonely-heart/"> Wholeness for the Holy Heart{" "}</a>,{"  "}Just Between Us, 2020</h4>
+          <h4><a href="https://justbetweenus.org/everyday-faith/tell-your-story/wholeness-for-the-lonely-heart/">Wholeness for the Holy Heart{" "}</a>,{"  "}Just Between Us, 2020</h4>
           </Col>
         </Row>
 
