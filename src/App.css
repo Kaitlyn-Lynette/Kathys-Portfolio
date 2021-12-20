@@ -627,9 +627,15 @@ a.nav-link {
 
 /* Blog Photo Grid*/
 
-@media only screen and (min-width: 951px) {
+
+
+
+
+/* Breakpoint for Desktop */
+
+
+@media only screen and (min-width: 1111px) {
   .blog-photo-grid {
-    
     padding-bottom: 80px;
   }
 
@@ -643,13 +649,41 @@ a.nav-link {
   }
 }
 
-@media only screen and (max-width: 640px) {
+/* Breakpoint for Tablet */
+
+@media only screen and (min-width: 641px) and (max-width:1110px) {
   .blog-photo {
     width: 172px;
     height: 129px;
     padding: 5px;
   }
   
+  /* .photo-col {
+    padding-left: 0px;
+  } */
+
+.blog-photo-grid{
+  padding-bottom: 80px;
+  padding-left: 45px;
+}
+
+}
+
+/* Breakpoint for Phone */
+
+@media only screen and (max-width: 640px) {
+  .blog-photo {
+    width: 172px;
+    height: 129px;
+    padding: 5px;
+  }
+
+  
+.blog-photo-grid{
+  padding-bottom: 80px;
+  padding-left: 45px;
+}
+
   .photo-col {
     padding-left: 0px;
   }
