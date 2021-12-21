@@ -17,7 +17,7 @@ const BookEdits = () => {
           <Col className="port-subtitle" md={6}>
             <h3>Edits & Proofs:</h3>
           </Col>
-          <Col md={6} style={{textAlign: "justify"}}>
+          <Col md={6} sm={8} style={{textAlign: "justify"}}>
             <p>
               I’ve been in on some pretty stellar editing and proofreading
               manuscripts and copy for some of my network’s most ambitious
