@@ -8,11 +8,11 @@ const BookEdits = () => {
   return (
     <div id="bookedits">
       <Container>
-        <Row>
+        {/* <Row>
           <Col className="port-pagetitle" md={12}>
             <h1>Past Projects</h1>
           </Col>
-        </Row>
+        </Row> */}
         <Row>
           <Col className="port-subtitle" md={6}>
             <h3>Edits & Proofs:</h3>
