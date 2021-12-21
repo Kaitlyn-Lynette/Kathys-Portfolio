@@ -17,7 +17,7 @@ const BookEdits = () => {
           <Col className="port-subtitle" md={6}>
             <h3>Edits & Proofs:</h3>
           </Col>
-          <Col md={6}>
+          <Col md={6} style={{textAlign: "justify"}}>
             <p>
               I’ve been in on some pretty stellar editing and proofreading
               manuscripts and copy for some of my network’s most ambitious
@@ -28,9 +28,9 @@ const BookEdits = () => {
         </Row>
 
         <Row>
-          <Col md={{ span: 6, offset: 6 }}>
-            <p><b>
-              Contributing Editor, Mattera Ministries International:{" "}</b>
+          <Col md={{ span: 6, offset: 6 }} className="edits-proofs">
+            <p>
+              Contributing Editor, Mattera Ministries International:{" "}
               <a href="https://josephmattera.org/the-jesus-principles/">
                 The Jesus Principles,
               </a>{" "}
@@ -46,8 +46,8 @@ const BookEdits = () => {
         </Row>
 
         <Row>
-        <Col md={{ span: 6, offset: 6 }}>
-          <p><b>Editor, C Lenoir Publishing:</b> {" "}
+        <Col md={{ span: 6, offset: 6 }} className="edits-proofs">
+          <p>Editor, C Lenoir Publishing:{" "}
           <a href="https://feliciakirksey.com/">
             From Darkness To Destiny
           </a> and{" "}
