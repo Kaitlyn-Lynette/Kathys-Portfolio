@@ -60,10 +60,10 @@ const BookEdits = () => {
 
 
         <Row style={{ paddingTop: "60px", paddingBottom: "80px" }}>
-          <Col className="port-subtitle" md={6}>
+          <Col className="port-subtitle" md={6} >
             <h3>Copywriting</h3>
           </Col>
-          <Col md={6}>
+          <Col md={6} style={{textAlign: "justify"}}>
             <p>
               It’s one thing to hustle, it’s another to make sure you’re staying
               consistent with values, voice, and brand identity. Curating copy
