@@ -17,7 +17,7 @@ const Portfolio = () => {
           >
             <h1>Guest Writing</h1>
           </Col>
-          <Col className="port-subtitle" md={{ span: 8, offset: 2 }}>
+          <Col className="port-subtitle" md={{ span: 8, offset: 2 }} style={{textAlign: "justify"}}>
             <p>
               {" "}
               I love to share my writing. It brings me a lot of joy to reflect on personal experiences
@@ -31,7 +31,7 @@ const Portfolio = () => {
           md={12}
           className="port-subtitle"
           >
-          <h4><a href="https://justbetweenus.org/everyday-faith/tell-your-story/wholeness-for-the-lonely-heart/">Wholeness for the Holy Heart{" "}</a>,{"  "}Just Between Us, 2020</h4>
+          <p><a href="https://justbetweenus.org/everyday-faith/tell-your-story/wholeness-for-the-lonely-heart/">Wholeness for the Holy Heart{" "}</a>,{"  "}Just Between Us, 2020</p>
           </Col>
         </Row>
 
