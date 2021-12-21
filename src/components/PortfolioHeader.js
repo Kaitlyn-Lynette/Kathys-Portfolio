@@ -16,7 +16,7 @@ const PortfolioHeader = () => {
           >
             <h1>Portfolio</h1>
           </Col>
-          <Col md={{span: 6, offset: 3}} sm={8} style={{ textAlign: "center" }}>
+          <Col md={{span: 6, offset: 3}} sm={8} style={{ textAlign: "justify" }} >
             <p>
               My dear reader, website peruser, or potential partner in work, I
               am honored to have you spend your time here to show interest in
