@@ -112,6 +112,18 @@ a.nav-link {
   color: black !important;
 }
 
+.edits-proofs ul {
+  list-style-type: none;
+
+}
+
+.edits-proofs li {
+  font-size: 20px;
+}
+
+.edits-proofs a {
+  margin: 6px;
+}
 
 /* __________________________________________________________ */
 
