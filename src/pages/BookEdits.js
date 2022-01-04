@@ -9,13 +9,8 @@ const BookEdits = () => {
   return (
     <div id="bookedits">
       <Container>
-        {/* <Row>
-          <Col className="port-pagetitle" md={12}>
-            <h1>Past Projects</h1>
-          </Col>
-        </Row> */}
         <Row>
-          <Col className="port-subtitle" md={6}>
+          <Col className="port-subtitle" md={4}>
             <h3>Edits & Proofs:</h3>
           </Col>
           <Col md={6} sm={8} className="edits-proofs" style={{ textAlign: "justify" }}>
@@ -45,8 +40,8 @@ const BookEdits = () => {
         </Row>
 
         <Row style={{ paddingTop: "60px", paddingBottom: "80px" }}>
-          <Col className="port-subtitle" md={6}>
-            <h3>Copywriting</h3>
+          <Col className="port-subtitle" md={4}>
+            <h3>Copywriting:</h3>
           </Col>
           <Col md={6} style={{ textAlign: "justify" }}>
             <p>
