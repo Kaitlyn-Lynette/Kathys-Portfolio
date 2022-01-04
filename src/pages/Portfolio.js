@@ -5,7 +5,7 @@ import Row from "react-bootstrap/Row";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../App.css";
 
-const BookEdits = () => {
+const Portfolio = () => {
   return (
     <div id="bookedits">
       <Container>
@@ -61,4 +61,4 @@ const BookEdits = () => {
   );
 };
 
-export default BookEdits;
+export default Portfolio;
