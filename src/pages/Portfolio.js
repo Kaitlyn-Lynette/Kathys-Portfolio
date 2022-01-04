@@ -52,7 +52,7 @@ const Portfolio = () => {
               <a href="https://www.blendbayridge.com/">
                 Blend Coffee + Cowork{" "}
               </a>
-              and in progress is <a href="https://www.instagram.com/alphabetcitycandleco/">ABC Candles.</a> All owned and operated by native New Yorkers.
+              Owned and operated by native Bay Ridge, Brooklynite.
             </p>
           </Col>
         </Row>
