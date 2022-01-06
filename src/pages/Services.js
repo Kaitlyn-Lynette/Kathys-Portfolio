@@ -10,19 +10,19 @@ const Services = () => {
     <div id="services">
       <Container>
         <Row>
-          <Col xs={8}>
+          <Col xs={12}>
           <h5>
             Professional Services
           </h5>
           <h4
-     s
+     
           >
              I will share passion for your work. Contact me if you’re looking for a positive person who can…
           </h4>
           </Col>
         </Row>
         <Row style={{ paddingTop: "20px", textAlign:"center"}}>
-          <Col md={4}>
+          <Col md={4} className="services-block">
             <Card className="svs_list h-100">
               <Card.Img src="/images/services_creativity_resize.jpg" />
               <Card.Body>
@@ -39,8 +39,8 @@ const Services = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col md={4}>
-            <Card  className="svs_list h-100">
+          <Col md={4} className="services-block">
+            <Card className="svs_list h-100">
               <Card.Img src="/images/services_edit_resize2.jpg"  />
               <Card.Body>
                 <Card.Title>
@@ -56,7 +56,7 @@ const Services = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col md={4}>
+          <Col md={4} className="services-block">
             <Card className="svs_list h-100">
               <Card.Img src="/images/services_speak_resize.jpg"/>
               <Card.Body>

@@ -25,9 +25,43 @@
     height: 300px;
 }
 
+
+/* Media Queries for Home Page */
+
 .noSelect:focus {
   outline: none !important;
 }
+
+@media only screen and (max-width: 640px) { 
+ .nav-brand {
+   width: 350px;
+   padding-bottom: 5px;
+ }
+
+ .splash-image {
+   padding-top: 5px;
+ }
+
+ .work-blocks {
+   padding-bottom: 16px;
+ }
+
+ .tst p {
+   text-align: justify;
+ }
+
+ .tst-row {
+   margin-left: 25px;
+ }
+
+ .services-block {
+   padding-bottom: 16px
+ }
+
+}
+
+
+
 /* __________________________________________________________ */
 
 /* Typography */

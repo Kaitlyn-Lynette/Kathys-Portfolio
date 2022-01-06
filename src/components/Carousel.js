@@ -1,5 +1,4 @@
 import React from "react";
-
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
@@ -28,8 +27,8 @@ const Carousel = () => {
     >
       <SwiperSlide>
         <div className="tst">
-          <Row>
-            <Col md={12}>
+          <Row className="tst-row">
+            <Col md={12} xs={8}>
               <p>
                 “Katherine was a pivotal member of the writing team. She
                 dedicated herself to understanding each client's distinct needs,
@@ -62,8 +61,9 @@ const Carousel = () => {
       </SwiperSlide>
       <SwiperSlide>
         <div className="tst">
-          <Row>
-            <Col md={12} style={{ textAlign: "center", fontSize: "14.5px"}}>
+          <Row className="tst-row">
+            <Col md={12} xs={8}></Col>
+            <Col md={12} xs={8} style={{ textAlign: "center", fontSize: "14.5px"}}>
               <p>
                 “I​​t was a joy having Kathy serve alongside the team at our
                 creative agency. Many of our clients require flexibility, and
@@ -97,8 +97,9 @@ const Carousel = () => {
       </SwiperSlide>
       <SwiperSlide>
         <div className="tst">
-          <Row>
-            <Col md={12} style={{ textAlign: "center" }}>
+          <Row className="tst-row">
+            <Col md={12} xs={8}></Col>
+            <Col md={12} xs={8} style={{ textAlign: "center" }}>
               <p>
                 “She has taken my online presence to a new level. She is great
                 at navigating social media and the apps needed to create
@@ -131,8 +132,9 @@ const Carousel = () => {
       </SwiperSlide>
       <SwiperSlide>
         <div className="tst">
-          <Row>
-            <Col md={12} style={{ textAlign: "center" }}>
+          <Row className="tst-row">
+            <Col md={12} xs={8}></Col>
+            <Col md={12} xs={8} style={{ textAlign: "center" }}>
               <p>
                 “Katherine Perez is an excellent writer who is not only precise
                 when it comes to the nuances of editing, but is creative,

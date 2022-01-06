@@ -1,11 +1,8 @@
 import Image from "react-bootstrap/Image";
-// import Container from "react-bootstrap/Container";
-// import Col from "react-bootstrap/Col";
-// import Row from "react-bootstrap/Row";
 
 const SplashImage = () => {
   return (
-    <div>
+    <div className="splash-image">
       <Image src="../images/splash.jpg" width="100%"/>
     </div>
   );
