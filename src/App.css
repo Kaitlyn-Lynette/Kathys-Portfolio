@@ -8,6 +8,7 @@
 }
 
 
+
 .noSelect:hover {
   background-color: #dcdcdc;
 }
@@ -24,7 +25,6 @@
     width: 459px;
     height: 300px;
 }
-
 
 /* Media Queries for Home Page */
 
@@ -60,6 +60,49 @@
 
 }
 
+@media only screen and (min-width: 1111px) { 
+
+  .tst-author-cindy {
+    margin-top:  25px;
+    padding-left: 0px;
+    padding-right: 12px;
+  }
+
+  .tst-author-russell {
+    padding-left: "0px";
+    padding-right: "12px";
+    margin-top: "20px"
+  }
+
+  .tst-author-cindy {
+    padding-top: 20px;
+  }
+
+  .tst-author-mattera {
+    padding-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 640px) { 
+  .swiper-container-initialized {
+    height: 475px;
+  }
+ 
+  .tst-author-mattera {
+    padding-top: 20px;
+  }
+
+  .swiper-pagination {
+    bottom: -6px;
+    left: -70px;
+    width: 104%;
+  }
+
+  .swiper-pagination swiper-pagination-bulletsswiper-pagination-bullets {
+    width: 350px;
+  }
+}
+  
 
 
 /* __________________________________________________________ */
@@ -265,9 +308,6 @@ a.nav-link {
 
 /* Testimonial */
 
-.swiper-container-initialized {
-  height: 375px;
-}
 
 
 /* PersonalWriting CSS */

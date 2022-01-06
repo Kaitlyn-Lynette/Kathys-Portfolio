@@ -22,6 +22,10 @@ const Carousel = () => {
       spaceBetween={50}
       slidesPerView={1}
       centeredSlides
+      breakpoints ={{
+        width: 640, 
+        slidesPerView: 1
+      }}
       onSlideChange={() => console.log("slide change")}
       onSwiper={(swiper) => console.log(swiper)}
     >
@@ -43,16 +47,13 @@ const Carousel = () => {
 
         <div className="tst-author-info" style={{ textAlign: "center" }}>
           <Row>
-            <Col md={{ span: 3, offset: 2 }}>
+            <Col md={{ span: 3, offset: 2 }} xs={4}>
               <Image src="/images/MM_Logo100x100.png" />
             </Col>
             <Col
               md={4}
-              style={{
-                marginTop: "25px",
-                paddingLeft: "0px",
-                paddingRight: "12px",
-              }}
+              xs={4}
+              className="tst-author-cindy"
             >
               <p>Cindy Burgos, Managing Director</p>
             </Col>
@@ -62,7 +63,6 @@ const Carousel = () => {
       <SwiperSlide>
         <div className="tst">
           <Row className="tst-row">
-            <Col md={12} xs={8}></Col>
             <Col md={12} xs={8} style={{ textAlign: "center", fontSize: "14.5px"}}>
               <p>
                 “I​​t was a joy having Kathy serve alongside the team at our
@@ -79,16 +79,13 @@ const Carousel = () => {
         </div>
         <div className="tst-author-info" style={{ textAlign: "center" }}>
         <Row>
-            <Col md={{ span: 3, offset: 2 }}>
+            <Col md={{ span: 3, offset: 2 }} xs={4}>
               <Image src="/images/MM_Logo100x100.png" />
             </Col>
             <Col
               md={4}
-              style={{
-                paddingLeft: "0px",
-                paddingRight: "12px",
-                marginTop: "20px"
-              }}
+              xs={4}
+              className="tst-author-russell"
             >
               <p>Rob Russell, Account Manager</p>
             </Col>
@@ -98,7 +95,6 @@ const Carousel = () => {
       <SwiperSlide>
         <div className="tst">
           <Row className="tst-row">
-            <Col md={12} xs={8}></Col>
             <Col md={12} xs={8} style={{ textAlign: "center" }}>
               <p>
                 “She has taken my online presence to a new level. She is great
@@ -113,7 +109,7 @@ const Carousel = () => {
         </div>
         <div className="tst-author-info" style={{ textAlign: "center" }}>
           <Row>
-            <Col md={{ span: 4, offset: 2 }}>
+            <Col md={{ span: 4, offset: 2 }} xs={4}>
               <Image
                 style={{ paddingBottom: "20px" }}
                 src="/images/RC_Logo100x100.png"
@@ -121,9 +117,8 @@ const Carousel = () => {
             </Col>
             <Col
               md={4}
-              style={{
-                paddingTop: "20px",
-              }}
+              xs={5}
+              className="tst-author-regina"
             >
               <p>Regina Stafford, Rewards Coaching</p>
             </Col>
@@ -133,7 +128,6 @@ const Carousel = () => {
       <SwiperSlide>
         <div className="tst">
           <Row className="tst-row">
-            <Col md={12} xs={8}></Col>
             <Col md={12} xs={8} style={{ textAlign: "center" }}>
               <p>
                 “Katherine Perez is an excellent writer who is not only precise
@@ -146,7 +140,7 @@ const Carousel = () => {
         </div>
         <div className="tst-author-info" style={{ textAlign: "center" }}>
           <Row>
-            <Col md={{ span: 3, offset: 2 }}>
+            <Col md={{ span: 3, offset: 2 }} xs={3}>
               <Image
                 style={{ paddingBottom: "20px" }}
                 src="/images/MMI_Logo_100x100.png"
@@ -154,9 +148,8 @@ const Carousel = () => {
             </Col>
             <Col
               md={6}
-              style={{
-                paddingTop: "20px",
-              }}
+              xs={6}
+              className="tst-author-mattera"
             >
               <p>Bishop Joseph Mattera, Mattera Ministries International</p>
             </Col>

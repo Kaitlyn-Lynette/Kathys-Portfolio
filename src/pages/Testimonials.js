@@ -13,7 +13,7 @@ const Testimonials = () => {
           </Col>
         </Row>
         <Row style={{paddingTop: "25px"}}>
-          <Col md={{ span: 6, offset: 3 }}>
+          <Col md={{ span: 6, offset: 3 }} sm={12}>
             <Carousel />
           </Col>
         </Row>
