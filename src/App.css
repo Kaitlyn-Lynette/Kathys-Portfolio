@@ -8,6 +8,11 @@
 }
 
 
+.noSelect:hover {
+  background-color: #dcdcdc;
+}
+
+
 .swiper-container {
     margin-left: auto;
     margin-right: auto;
@@ -20,6 +25,9 @@
     height: 300px;
 }
 
+.noSelect:focus {
+  outline: none !important;
+}
 /* __________________________________________________________ */
 
 /* Typography */
@@ -132,6 +140,7 @@ a.nav-link {
 .navbar-light .navbar-nav .nav-link {
   color: rgba(0,0,0,.80)
 }
+
 
 
 /* Carousel */

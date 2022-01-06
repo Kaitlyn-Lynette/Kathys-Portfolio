@@ -5,7 +5,6 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import Image from "react-bootstrap/Image";
 import { Link } from "react-router-dom";
 import { useHistory } from "react-router-dom";
-
 import "../App.css";
 
 const Navigation = () => {
@@ -46,14 +45,24 @@ const Navigation = () => {
               {navOne}
             </Nav.Link>
             <NavDropdown title={navTwo} id="basic-nav-dropdown">
-              <NavDropdown.Item>
-                <Nav.Link as={Link} to="/portfolio">
+              <NavDropdown.Item
+              className="noSelect"
+              >
+                <Nav.Link 
+                as={Link} 
+                to="/portfolio"
+               >
                   Portfolio
                 </Nav.Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item>
-                <Nav.Link as={Link} to="/readwithcoffee">
+              <NavDropdown.Item
+              className="noSelect"
+              >
+                <Nav.Link 
+                as={Link} 
+                to="/readwithcoffee"
+               >
                   Read With Coffee
                 </Nav.Link>
               </NavDropdown.Item>
