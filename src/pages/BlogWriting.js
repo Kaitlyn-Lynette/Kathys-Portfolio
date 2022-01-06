@@ -44,7 +44,13 @@ const BlogWriting = () => {
               }}
               target="_blank"
             >
-              <Image className="blog-photo" src="/images/blog_2.jpg"></Image>
+              <AnimatePresence>
+              <motion.img 
+              className="blog-photo" 
+              src="/images/blog_2.jpg"
+              whileHover={{scale: 1.1}}
+              ></motion.img>
+              </AnimatePresence>
             </Link>
           </Col>
 
@@ -58,7 +64,13 @@ const BlogWriting = () => {
               }}
               target="_blank"
             >
-              <Image className="blog-photo" src="/images/blog_3.jpg"></Image>
+              <AnimatePresence>
+              <motion.img 
+              className="blog-photo" 
+              src="/images/blog_3.jpg"
+              whileHover={{scale: 1.1}}
+              ></motion.img>
+              </AnimatePresence>
             </Link>
           </Col>
 
@@ -72,7 +84,13 @@ const BlogWriting = () => {
               }}
               target="_blank"
             >
-              <Image className="blog-photo" src="/images/blog_4.jpg"></Image>
+              <AnimatePresence>
+              <motion.img 
+              className="blog-photo" 
+              src="/images/blog_4.jpg"
+              whileHover={{scale: 1.1}}
+              ></motion.img>
+              </AnimatePresence>
             </Link>
           </Col>
 
@@ -86,7 +104,13 @@ const BlogWriting = () => {
               }}
               target="_blank"
             >
-              <Image className="blog-photo" src="/images/blog_5.jpg"></Image>
+              <AnimatePresence>
+              <motion.img 
+              className="blog-photo" 
+              src="/images/blog_5.jpg"
+              whileHover={{scale: 1.1}}
+              ></motion.img>
+              </AnimatePresence>
             </Link>
           </Col>
 
@@ -100,7 +124,13 @@ const BlogWriting = () => {
               }}
               target="_blank"
             >
-              <Image className="blog-photo" src="/images/blog_6.jpg"></Image>
+              <AnimatePresence>
+              <motion.img 
+              className="blog-photo" 
+              src="/images/blog_6.jpg"
+              whileHover={{scale: 1.1}}
+              ></motion.img>
+              </AnimatePresence>
             </Link>
           </Col>
         </Row>
