@@ -8,6 +8,18 @@
 }
 
 
+@media only screen and (max-width: 640px) {
+  #about,
+  #work,
+  #testimonial,
+  #services,
+  #contact {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  }
+
+
 
 .noSelect:hover {
   background-color: #dcdcdc;
@@ -102,7 +114,7 @@
     width: 104%;
   }
 
-  .swiper-pagination swiper-pagination-bulletsswiper-pagination-bullets {
+  .swiper-pagination-bulletsswiper-pagination-bullets {
     width: 350px;
   }
 }
@@ -126,6 +138,7 @@ h2 {
 h4 {
   font-size: 20px;
   font-family: 'Karla', sans-serif;
+
 }
 
 h5 {
@@ -149,6 +162,8 @@ body {
 a.nav-link {
   font-size: 18px;
 }
+
+
 
 /* About.js Typograghy*/
 
@@ -436,6 +451,8 @@ a.nav-link {
   color: inherit;
 }
 
+
+
 /* On Writing Books Column */
 
 .card-edit {
@@ -584,6 +601,21 @@ a.nav-link {
   padding-bottom: 20px;
 }
 
+
+@media only screen and (max-width: 640px) {
+  .rwc-col-blog {
+    padding-bottom: 20px
+  }
+
+  .rwc-col-newsletter {
+    padding-bottom: 20px
+  }
+
+  .rwc-col-2 {
+    padding-top: 20px;
+  }
+}
+
 /* Book Reviews */
 
 .book-rws {
@@ -675,6 +707,14 @@ a.nav-link {
 @media only screen and (max-width: 640px) {
   p {
     font-size: 14px !important;
+  }
+
+  h4 {
+    letter-spacing: 0.5px
+  }
+
+  .services {
+    font-size: 16px
   }
 }
 

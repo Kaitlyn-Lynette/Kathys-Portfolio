@@ -27,7 +27,7 @@ const ReadWithCoffee = () => {
           </Col>
         </Row>
         <Row>
-          <Col md={{span: 4, offset: 2}}>
+          <Col md={{span: 4, offset: 2}} xs={{span: 10, offset: 1}} className="rwc-col-blog"> 
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src="/images/theblog1.png" />
               <Card.Body>
@@ -47,7 +47,7 @@ const ReadWithCoffee = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col md={{span: 4, offset: 1}}>
+          <Col md={{span: 4, offset: 1}} xs={{span: 10, offset: 1}}>
             <Card className="h-100" style={{ width: "18rem" }}>
               <Card.Img variant="top" src="/images/thebookclub2.png" />
               <Card.Body>
@@ -70,8 +70,8 @@ const ReadWithCoffee = () => {
         </Row>
 
         <Row className="rwc-col-2"> 
-          <Col md={{span: 4, offset: 2}}>
-            <Card style={{ width: "18rem" }}>
+          <Col md={{span: 4, offset: 2}} xs={{span: 10, offset: 1}} className="rwc-col-newsletter">
+            <Card style={{ width: "18rem" }} xs={12}>
               <Card.Img variant="top" src="/images/thenewsletter3.png" />
               <Card.Body>
                 <Card.ImgOverlay className="rwc-cards-overlay">
@@ -90,7 +90,7 @@ const ReadWithCoffee = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col md={{span: 4, offset: 1}}>
+          <Col md={{span: 4, offset: 1}} xs={{span: 10, offset: 1}}>
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src="/images/thebookreviews4.jpg" />
               <Card.Body>
