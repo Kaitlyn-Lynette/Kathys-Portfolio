@@ -19,7 +19,7 @@ const BlogWriting = () => {
             <Link
               to={{
                 pathname:
-                  "https://www.tomyunderstanding.net/2019/07/stalling-our-creativity.html",
+                  "https://www.tomyunderstanding.net/2021/05/loving-on-shy-people-around-us.html",
               }}
               target="_blank"
             >
@@ -56,10 +56,10 @@ const BlogWriting = () => {
           {/* Blog Photo 3 */}
 
           <Col xs={6} md={4}>
-            <Link
+          <Link
               to={{
                 pathname:
-                  "​​https://www.tomyunderstanding.net/2019/06/before-you-follow-that-trend.html",
+                  "https://www.tomyunderstanding.net/2019/06/before-you-follow-that-trend.html",
               }}
               target="_blank"
             >
