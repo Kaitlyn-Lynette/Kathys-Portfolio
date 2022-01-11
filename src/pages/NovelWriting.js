@@ -40,7 +40,8 @@ const NovelWriting = () => {
         </Row>
         <Row>
           <Col
-            md={{ span: 2, offset: 5 }} xs={{span: 8, offset: 3}}
+            md={{ span: 2, offset: 5 }}
+            xs={{ span: 8, offset: 3 }}
             className={disable ? "element-visible" : "element-hidden"}
           >
             <NewButton

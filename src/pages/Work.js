@@ -37,22 +37,16 @@ const Work = () => {
       <Container>
         <Row style={{ paddingBottom: "22px" }}>
           <Col className="featured-work-text" sm={12}>
-            <h5>
-              Featured Work
-            </h5>
+            <h5>Featured Work</h5>
             <h4>
-              My writing and editing speciality is non-fiction. I am passionate
-              about hearing the stories of others and helping you write it.
+              I am passionate about hearing the stories of others and to help
+              you write yours.
             </h4>
           </Col>
         </Row>
         <Row>
           {contents.map((content) => (
-            <Col 
-            md={3} 
-            sm={6}
-            className="work-blocks"
-            >
+            <Col md={3} sm={6} className="work-blocks">
               <Card
                 key={content.id}
                 className="featured-work-card h-100"

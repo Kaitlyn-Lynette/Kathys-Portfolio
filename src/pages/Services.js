@@ -17,7 +17,7 @@ const Services = () => {
           <h4
      
           >
-             I will share passion for your work. Contact me if you’re looking for a positive person who can…
+             I will share my passion for your work. Contact me if you’re looking for a positive person who can…
           </h4>
           </Col>
         </Row>

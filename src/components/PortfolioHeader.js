@@ -16,14 +16,13 @@ const PortfolioHeader = () => {
           >
             <h1>Portfolio</h1>
           </Col>
-          <Col md={{span: 6, offset: 3}} style={{ textAlign: "justify" }} >
+          <Col md={{ span: 6, offset: 3 }} style={{ textAlign: "justify" }}>
             <p>
               My dear reader, website peruser, or potential partner in work, I
-              am honored to have you spend your time here to show interest in
-              getting to know me and my work. I hope you find this website
-              enjoyable and feel free to reach me with any questions or to start
-              a work partnership, or even just to share a book or podcast you
-              discovered.
+              am honored to have you spend your time here. I hope you find this
+              website enjoyable and feel free to reach me with any questions or
+              to start a work partnership, or even just to share a book or
+              podcast you discovered.
             </p>
           </Col>
         </Row>

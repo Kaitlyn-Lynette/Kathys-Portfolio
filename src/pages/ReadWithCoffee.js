@@ -23,7 +23,7 @@ const ReadWithCoffee = () => {
         </Row>
         <Row>
           <Col className="rwc-subtitle" md={{span:6, offset: 3}}>
-          <p>Here you can settle in and read about books and drink in my newsletter where I round up monthly updates and discuss culture, life, and art."</p>
+          <p>Here you can settle in and read about books and drink in my newsletter where I round up monthly updates and discuss culture, life, and art.</p>
           </Col>
         </Row>
         <Row>
