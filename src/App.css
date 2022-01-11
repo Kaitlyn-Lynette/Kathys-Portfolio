@@ -703,6 +703,9 @@ a.nav-link {
   background-color: #e4b2b1;
 }
 
+.element-visible { display: block }
+
+.element-hidden { display: none }
 
 @media only screen and (max-width: 640px) {
   p {
