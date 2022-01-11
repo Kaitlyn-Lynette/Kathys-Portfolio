@@ -5,7 +5,7 @@ import Services from "./pages/Services";
 import Testimonials from "./pages/Testimonials";
 import Work from "./pages/Work";
 import Navigation from "../src/components/Navigation";
-import Contact from "../src/components/Contact";
+import Contact from "./pages/Contact";
 import Footer from "../src/components/Footer";
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';

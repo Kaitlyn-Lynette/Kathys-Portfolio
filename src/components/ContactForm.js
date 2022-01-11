@@ -5,10 +5,11 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
+import "../App.css";
 
 const FORMSPARK_FORM_ID = "3GPDUIaz";
 
-const Contact = () => {
+const ContactForm = () => {
   const [submit, submitting] = useFormspark({
     formId: FORMSPARK_FORM_ID,
   });
@@ -35,22 +36,10 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact">
-      <Container>
-        <Row>
-          <Col md={6} className="contact-form">
-            <h5>say hello</h5>
-            <h4>
-              If you have any questions or want to know more, please don't
-              hesitate to get in contact with me
-            </h4>
-          </Col>
-          <Col md={6}>
+          <Col md={6} className="contact-formspark">
             <Form onSubmit={onSubmit}>
               <Row>
-                <Col style={{color: "green"}}>
-              {thankYou}
-                </Col>
+                <Col style={{ color: "green" }}>{thankYou}</Col>
               </Row>
               <Row>
                 <Col>
@@ -109,13 +98,9 @@ const Contact = () => {
               >
                 Contact Me!
               </Button>
-              
             </Form>
           </Col>
-        </Row>
-      </Container>
-    </div>
   );
 };
 
-export default Contact;
+export default ContactForm;

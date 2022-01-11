@@ -3,24 +3,18 @@ import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import NewButton from "../components/NewButton";
-import Contact from "../components/Contact";
-import Button from "react-bootstrap/Button";
+import ContactForm from "../components/ContactForm";
 import "../App.css";
 
 const NovelWriting = () => {
-  const [isShow, setIsShow]= React.useState(false);
-  const [disable, setDisabled] = React.useState(true);  // visibility state
-
-
+  const [isShow, setIsShow] = React.useState(false);
+  const [disable, setDisabled] = React.useState(true); // visibility state
 
   const handleClick = () => {
-    console.log("what are you doing?!!")
+    console.log("what are you doing?!!");
     setIsShow(true);
     setDisabled(false);
-  
   };
-
-
 
   return (
     <div id="novelwriting">
@@ -46,21 +40,22 @@ const NovelWriting = () => {
         </Row>
         <Row>
           <Col
+            md={{ span: 2, offset: 5 }} xs={{span: 8, offset: 3}}
+            className={disable ? "element-visible" : "element-hidden"}
+          >
+            <NewButton
+              handleClick={handleClick}
+              name="Get in touch!"
+            ></NewButton>
+          </Col>
+          <Col
             style={{
               paddingBottom: "80px",
               textAlign: "center",
             }}
-            md={{ span: 8, offset: 2}}>
-
-            {isShow ?
-               <Contact>
-               </Contact>
-            :
-              <></>
-            }
-            <div className={disable ? 'element-visible' : 'element-hidden'}>
-            <NewButton handleClick={handleClick} name="Get in touch!"></NewButton>
-            </div>
+            md={{ span: 8, offset: 4 }}
+          >
+            {isShow ? <ContactForm></ContactForm> : <></>}
           </Col>
         </Row>
       </Container>
