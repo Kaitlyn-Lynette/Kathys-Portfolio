@@ -67,8 +67,7 @@ const Portfolio = () => {
               <a href="https://www.blendbayridge.com/">
                 Blend Coffee + Cowork
               </a>
-              . Owned and operated by native Bay Ridge, Brooklynite. {""} Owned and
-              operated by native Bay Ridge, Brooklynite.
+              . Owned and operated by native Bay Ridge, Brooklynite.
             </p>
           </Col>
         </Row>

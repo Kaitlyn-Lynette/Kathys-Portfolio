@@ -28,6 +28,7 @@ const Navigation = () => {
           <Image
             src="/images/logo.png"
             className="nav-brand"
+            style={{ width: "85%" }}
             onClick={() => {
               history.push("/");
             }}
