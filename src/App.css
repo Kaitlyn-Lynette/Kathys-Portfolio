@@ -1,3 +1,24 @@
+
+/* Media Queries for Home Page */
+/* Testimonial  */
+/* Responsiveness for Testimonial */
+/* Typography */
+/* About.js Typography*/
+/* FeaturedWork.js Typography */
+/* Portfolio Typography */
+/* Navigation */
+/* Carousel */
+/* Portfolio Header */
+/* Book Edits */
+/* CopyWriting */
+/* Blog Writing CSS */
+/* Newsletter Column  */
+/* Read with Coffee */
+/* Book Reviews */
+/* Contact Form Styling */
+/* Portfolio Header Styling*/
+/* Blog Media Queries */
+
 #about,
 #work,
 #testimonial,
@@ -26,17 +47,7 @@
 }
 
 
-.swiper-container {
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    overflow: hidden;
-    list-style: none;
-    padding: 0;
-    z-index: 1;
-    width: 459px;
-    height: 400px;
-}
+
 
 /* Media Queries for Home Page */
 
@@ -72,6 +83,23 @@
 
 }
 
+/* Testimonial  */
+
+.swiper-container {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+  width: 459px;
+  height: 400px;
+}
+
+
+/* Responsiveness for Testimonial */
+
 @media only screen and (min-width: 1111px) { 
 
   .tst-author-cindy {
@@ -97,8 +125,6 @@
 
 /* Responsiveness for Testimonial */
 
-
-
 @media only screen and (max-width: 640px) { 
   .swiper-container-initialized {
     height: 475px;
@@ -119,7 +145,6 @@
   }
 }
   
-
 
 /* __________________________________________________________ */
 
@@ -165,7 +190,7 @@ a.nav-link {
 
 
 
-/* About.js Typograghy*/
+/* About.js Typography*/
 
 .about-text p{
   padding-top: 6px
@@ -294,7 +319,7 @@ a.nav-link {
   }
 }
 
-
+/* __________________________________________________________ */
 
 /* Book Edits */
 #bookedits {
@@ -310,6 +335,8 @@ a.nav-link {
 #motion:hover{
   top: -10px
 }
+
+/* __________________________________________________________ */
 
 /* CopyWriting */
 
@@ -329,11 +356,10 @@ a.nav-link {
   border-width: .25em;
 }
 
-/* Testimonial */
 
+/* __________________________________________________________ */
 
-
-/* PersonalWriting CSS */
+/* Blog Writing CSS */
 
 #personal {
   background-color:  #f3ce88
@@ -380,51 +406,7 @@ a.nav-link {
   
 }
 
-/* Select Writing */
-
-#select-writing {
-  background-color: #e4b2b1;
-}
-
-.select-writing-card {
-  width: 400px;
-  height: 400px;
-  background-color: #d41b18;
-  border-radius: 0%;
-  border-color: #f3ce88;
-  border-width: .25em;
-}
-
-
-/* Professional Services */
-.svs {
-  background-color: #d3d3d3;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  padding-left: 20px;
-  padding-right: 20px;
-  vertical-align: "center";
-}
-
-
-.svs_list {
-  border: none;
-  background-color: #f3ce88;
-}
-
-.svs_list ul {
-  list-style-type: none;
-  padding-left: 2rem;
-  padding-right: 2rem
-  
-}
-
-
-
-
-/* Read with Coffee Section*/
-
-
+/* __________________________________________________________ */
 /* Newsletter Column  */
 .newsletter-col {
   padding-left: 0px;
@@ -455,6 +437,8 @@ a.nav-link {
   color: inherit;
 }
 
+/* __________________________________________________________ */
+/* Read with Coffee */
 
 
 /* On Writing Books Column */
@@ -508,6 +492,9 @@ a.nav-link {
   font-size: 20px;
 }
 
+/* __________________________________________________________ */
+/* Footer */
+
 #footer {
   background-color: #EBECF0;
 }
@@ -525,7 +512,7 @@ a.nav-link {
   color: inherit;
 }
 
-
+/* __________________________________________________________ */
 /* Read with Coffee */
 
 .rwc-container {
@@ -620,6 +607,7 @@ a.nav-link {
   }
 }
 
+
 /* Book Reviews */
 
 .book-rws {
@@ -650,6 +638,8 @@ a.nav-link {
   border: none;
   font-size: 20px;
 }
+
+
 
 
 
@@ -755,31 +745,8 @@ a.nav-link {
   color: #808080
 }
 
-
-
-@media only screen and (min-width: 951px) {
-  .guest-writing-photo {
-    width: 800px;
-    height: 500px;
-  }
-}
-
-@media only screen and (max-width: 640px) {
-
-  .guest-writing-photo {
-        width:300px;
-        height: 200px
-        
-  }
-
-}
-
-
-/* Blog Photo Grid*/
-
-
-
-
+/* __________________________________________________________ */
+/* Blog Media Queries */
 
 /* Breakpoint for Desktop */
 
@@ -808,9 +775,6 @@ a.nav-link {
     padding: 5px;
   }
   
-  /* .photo-col {
-    padding-left: 0px;
-  } */
 
 .blog-photo-grid{
   padding-bottom: 80px;
