@@ -24,11 +24,11 @@ const Navigation = () => {
       bg="light"
     >
       <Container fluid>
-        <Navbar.Brand>
+        <Navbar.Brand> 
           <Image
             src="/images/logo.png"
             className="nav-brand"
-            style={{ width: "85%" }}
+            style={{ height: '100px', width: '500px'}}
             onClick={() => {
               history.push("/");
             }}
