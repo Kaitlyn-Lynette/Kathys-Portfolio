@@ -22,10 +22,10 @@ const ContactForm = () => {
 
   const onSubmit = async (e) => {
     e.preventDefault();
-    console.log("Submission starting", e);
+    // console.log("Submission starting", e);
 
-    const result = await submit({ firstName, lastName, email, message });
-    console.log("Submitting complete", result);
+    await submit({ firstName, lastName, email, message });
+    // console.log("Submitting complete", result);
     setMessage("");
     setFirstName("");
     setLastName("");
