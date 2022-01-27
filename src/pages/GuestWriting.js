@@ -24,7 +24,7 @@ const Portfolio = () => {
             </p>
           </Col>
         </Row>
-        <Row style={{ paddingBottom: "60px" }}>
+        <Row style={{ paddingBottom: "40px" }}>
           <Col md={12} className="port-subtitle">
             <p>
               <a href="https://justbetweenus.org/everyday-faith/tell-your-story/wholeness-for-the-lonely-heart/">
@@ -32,6 +32,13 @@ const Portfolio = () => {
               </a>{" "}
               {"  "}
               <p>Just Between Us, 2020</p>
+            </p>
+            <p>
+              <a href="https://www.wallflowerjournal.com/opinions-stories/insecurity-lies-at-the-heart-of-loneliness">
+                Insecurity Lies At The Heart of Loneliness{" "}
+              </a>{" "}
+              {"  "}
+              <p>Wall Flower Journal, 2021</p>
             </p>
           </Col>
         </Row>

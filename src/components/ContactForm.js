@@ -18,6 +18,7 @@ const ContactForm = () => {
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
 
+
   const [thankYou, setThankYou] = useState("");
 
   const onSubmit = async (e) => {
@@ -34,6 +35,7 @@ const ContactForm = () => {
     // setThankYou("");
   };
 
+ 
   return (
           <Col md={6} className="contact-formspark">
             <Form onSubmit={onSubmit}>
@@ -97,6 +99,7 @@ const ContactForm = () => {
               >
                 Contact Me!
               </Button>
+           
             </Form>
           </Col>
   );
