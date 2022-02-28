@@ -38,7 +38,14 @@ const Portfolio = () => {
                 Insecurity Lies At The Heart of Loneliness{" "}
               </a>{" "}
               {"  "}
-              <p>Wall Flower Journal, 2021</p>
+              <p>Wall Flower Journal, 2022</p>
+            </p>
+            <p>
+              <a href="https://www.wallflowerjournal.com/relationships/how-to-love-an-introvert-well">
+              How To Love An Introvert Well{" "}
+              </a>{" "}
+              {"  "}
+              <p>Wall Flower Journal, 2022</p>
             </p>
           </Col>
         </Row>
