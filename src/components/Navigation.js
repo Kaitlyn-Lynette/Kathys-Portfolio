@@ -26,7 +26,7 @@ const Navigation = () => {
       <Container fluid>
         <Navbar.Brand> 
           <Image
-            src="/images/logo.png"
+            src="/images/logo_2.png"
             className="nav-brand"
             style={{ height: '100px', width: '500px'}}
             onClick={() => {
