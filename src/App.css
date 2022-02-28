@@ -157,6 +157,8 @@ h2 {
   color: #454545
 }
 
+
+
 h4 {
   font-size: 20px;
   font-family: 'Karla', sans-serif;
@@ -770,6 +772,8 @@ a.nav-link {
 .port-subtitle {
   padding: 20px;
   text-align: center;
+  color: #454545
+
 }
 
 .port-pagetitle {
@@ -788,7 +792,7 @@ a.nav-link {
 /* Breakpoint for Desktop */
 
 
-@media only screen and (min-width: 1111px) {
+@media only screen and (min-width: 1110px) {
   .blog-photo-grid {
     padding-bottom: 80px;
   }
@@ -803,11 +807,27 @@ a.nav-link {
   }
 }
 
+@media only screen and (min-width: 1110px) and (max-width:1170px) {
+
+.blog-photo {
+  width: 180px;
+  height: 129px;
+  padding: 5px;
+}
+  
+.blog-photo-grid{
+  padding-bottom: 80px;
+  padding-left: 45px;
+}
+
+}
+
+
 /* Breakpoint for Tablet */
 
 @media only screen and (min-width: 641px) and (max-width:1110px) {
   .blog-photo {
-    width: 172px;
+    width: 180px;
     height: 129px;
     padding: 5px;
   }
