@@ -50,6 +50,17 @@ const Portfolio = () => {
                   In the Morning
                 </a>
               </li>
+              <li>
+                <FontAwesomeIcon
+                  icon={["fas", "book-open"]}
+                  size="sm"
+                  pull="right"
+                  listItem
+                />
+                <a href="https://beautyforashes8.com/product/beauty-for-ashes/">
+                  Beauty for Ashes
+                </a>
+              </li>
             </ul>
           </Col>
         </Row>

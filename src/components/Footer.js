@@ -26,8 +26,7 @@ const Footer = () => {
           >
             <h4>Contact Me</h4>
             <p>
-            I’m thankful you’ve visited my site. Please get in touch through the contact form.
-            </p>
+            I’m thankful you’ve visited my site. Follow me on social or get in touch by email: tomyunderstanding@gmail.com</p>
           </Col>
           <Col
             md={6}
@@ -83,7 +82,7 @@ const Footer = () => {
                 size="xs"
                 style={{ verticalAlign: "middle" }}
               />{" "}
-              2021 Katherine Perez
+              2023 Katherine Perez
             </p>
           </Col>
           <Col
@@ -95,7 +94,7 @@ const Footer = () => {
             }}
           >
             <p style={{fontSize: "12px"}}>
-             Designed by Kaitlyn Gilbert
+             Designed by DKDesigns
             </p>
           </Col>
         </Row>

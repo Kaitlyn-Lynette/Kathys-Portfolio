@@ -45,7 +45,14 @@ const Portfolio = () => {
               How To Love An Introvert Well{" "}
               </a>{" "}
               {"  "}
-              <p>Wall Flower Journal, 2022</p>
+              <p>Wallflower Journal, 2022</p>
+            </p>
+            <p>
+              <a href="https://www.wallflowerjournal.com/lifestyle/how-to-discover-a-new-hobby">
+              How To Discover a New Hobby{" "}
+              </a>{" "}
+              {"  "}
+              <p>Wallflower Journal, 2022</p>
             </p>
           </Col>
         </Row>
