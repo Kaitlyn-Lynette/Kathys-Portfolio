@@ -39,7 +39,7 @@ const BlogWriting = () => {
             <Link
               to={{
                 pathname:
-                  "https://www.tomyunderstanding.net/2020/12/the-discomfort-and-peace-of-being.html",
+                  "https://www.tomyunderstanding.net/2023/01/my-year-of-reading-2022.html",
               }}
               target="_blank"
             >
@@ -59,7 +59,7 @@ const BlogWriting = () => {
           <Link
               to={{
                 pathname:
-                  "https://www.tomyunderstanding.net/2019/06/before-you-follow-that-trend.html",
+                  "https://www.tomyunderstanding.net/2021/12/inspire-series-witness-inspiration.html",
               }}
               target="_blank"
             >
@@ -99,7 +99,7 @@ const BlogWriting = () => {
             <Link
               to={{
                 pathname:
-                  "https://www.tomyunderstanding.net/2019/07/stalling-our-creativity.html",
+                   "https://www.tomyunderstanding.net/2022/08/plenty-of-opportunities-for-good.html" ,
               }}
               target="_blank"
             >
@@ -119,7 +119,7 @@ const BlogWriting = () => {
             <Link
               to={{
                 pathname:
-                  "https://www.tomyunderstanding.net/2020/06/when-comparison-leads-to-envy.html",
+                  "https://www.tomyunderstanding.net/2022/06/a-holy-patience.html",
               }}
               target="_blank"
             >
