@@ -81,8 +81,7 @@ const Footer = () => {
                 icon={["far", "copyright"]}
                 size="xs"
                 style={{ verticalAlign: "middle" }}
-              />{" "}
-              2023 Katherine Perez
+              />{" "}2023 Katherine Perez
             </p>
           </Col>
           <Col
