@@ -19,7 +19,7 @@ const BlogWriting = () => {
             <Link
               to={{
                 pathname:
-                  "https://www.tomyunderstanding.net/2021/05/loving-on-shy-people-around-us.html",
+                  "https://www.tomyunderstanding.net/2021/12/inspire-series-witness-inspiration.html",
               }}
               target="_blank"
             >
@@ -59,7 +59,7 @@ const BlogWriting = () => {
           <Link
               to={{
                 pathname:
-                  "https://www.tomyunderstanding.net/2021/12/inspire-series-witness-inspiration.html",
+                  "https://www.tomyunderstanding.net/2021/05/loving-on-shy-people-around-us.html",
               }}
               target="_blank"
             >
