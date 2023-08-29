@@ -210,8 +210,12 @@ a.nav-link {
   line-height: 30px;
 }
 
+.featured-work-text a{
+  color:#808080;
+}
+
 .card-body {
-  color: #454545
+  color: #454545;
 }
 
 .contact-form h4 {

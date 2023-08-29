@@ -67,6 +67,7 @@ const Navigation = () => {
                   Read With Coffee
                 </Nav.Link>
               </NavDropdown.Item>
+              <NavDropdown.Divider />
             </NavDropdown>
             <Nav.Link
               href="#services"

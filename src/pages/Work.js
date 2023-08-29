@@ -40,7 +40,7 @@ const Work = () => {
             <h5>Featured Work</h5>
             <h4>
               I am passionate about hearing the stories of others and to help
-              you write yours.
+              you write yours. See <a href="https://www.canva.com/design/DAFq4BSJr3s/6rKjnYppdT8ZG5wt__fgEA/view?utm_content=DAFq4BSJr3s&utm_campaign=designshare&utm_medium=link&utm_source=viewer"> examples</a>.
             </h4>
           </Col>
         </Row>
