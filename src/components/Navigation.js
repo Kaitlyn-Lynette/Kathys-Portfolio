@@ -13,6 +13,8 @@ const Navigation = () => {
   const navThree = "Services";
   const navFour = "Testimonials";
   const navFive = "Contact";
+  const navSix= "Samples of Work";
+  const url = 'https://www.canva.com/design/DAFn6V7jJYM/lFLF-Wvh-HcThaO6HtUgGA/view?utm_content=DAFn6V7jJYM&utm_campaign=designshare&utm_medium=link&utm_source=viewer';
   const history = useHistory();
 
   return (
@@ -58,6 +60,15 @@ const Navigation = () => {
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item
+               className="noSelect">
+              <Nav.Link
+              onClick={() => window.open(url, '_blank')}  
+            >
+              {navSix}
+            </Nav.Link>
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item
               className="noSelect"
               >
                 <Nav.Link 
@@ -67,7 +78,6 @@ const Navigation = () => {
                   Read With Coffee
                 </Nav.Link>
               </NavDropdown.Item>
-              <NavDropdown.Divider />
             </NavDropdown>
             <Nav.Link
               href="#services"
