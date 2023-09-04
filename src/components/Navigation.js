@@ -14,7 +14,7 @@ const Navigation = () => {
   const navFour = "Testimonials";
   const navFive = "Contact";
   const navSix= "Samples of Work";
-  const url = 'https://www.canva.com/design/DAFn6V7jJYM/lFLF-Wvh-HcThaO6HtUgGA/view?utm_content=DAFn6V7jJYM&utm_campaign=designshare&utm_medium=link&utm_source=viewer';
+  const url = 'https://www.canva.com/design/DAFq4BSJr3s/6rKjnYppdT8ZG5wt__fgEA/view?utm_content=DAFq4BSJr3s&utm_campaign=designshare&utm_medium=link&utm_source=viewer';
   const history = useHistory();
 
   return (
